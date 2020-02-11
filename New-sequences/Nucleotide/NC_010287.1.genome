@@ -1,0 +1,46 @@
+LOCUS       NC_010287            1038842 bp    DNA     circular CON 03-AUG-2016
+DEFINITION  Chlamydia trachomatis 434/Bu chromosome, complete genome.
+ACCESSION   NC_010287
+VERSION     NC_010287.1
+DBLINK      BioProject: PRJNA61633
+            Assembly: GCF_000068585.1
+KEYWORDS    RefSeq; complete genome.
+SOURCE      Chlamydia trachomatis 434/Bu
+  ORGANISM  Chlamydia trachomatis 434/Bu
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Thomson,N.R., Holden,M.T., Carder,C., Lennard,N., Lockey,S.J.,
+            Marsh,P., Skipp,P., O'Connor,C.D., Goodhead,I., Norbertzcak,H.,
+            Harris,B., Ormond,D., Rance,R., Quail,M.A., Parkhill,J.,
+            Stephens,R.S. and Clarke,I.N.
+  TITLE     Chlamydia trachomatis: Genome sequence analysis of lymphogranuloma
+            venereum isolates
+  JOURNAL   Genome Res. 18 (1), 161-171 (2008)
+   PUBMED   18032721
+REFERENCE   2  (bases 1 to 1038842)
+  AUTHORS   Thomson,N.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-AUG-2007) Thomson N.R., Pathogen Sequencing Unit, The
+            Wellcome Trust Sanger Institute, Genome Campus, Hinxton, Cambridge,
+            CB10 1SA, UNITED KINGDOM
+REFERENCE   3  (bases 1 to 1038842)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JAN-2003) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AM884176.
+            RefSeq Category: Reference Genome
+                        CLI: Clinical Isolate
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1038842
+                     /organism="Chlamydia trachomatis 434/Bu"
+                     /mol_type="genomic DNA"
+                     /strain="434/Bu"
+                     /serotype="L2"
+                     /db_xref="taxon:471472"
+CONTIG      join(AM884176.1:1..1038842)
+//
+

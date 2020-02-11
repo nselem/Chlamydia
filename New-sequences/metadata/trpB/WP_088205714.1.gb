@@ -1,0 +1,53 @@
+LOCUS       WP_088205714             405 aa            linear   BCT 01-JUN-2019
+DEFINITION  tryptophan synthase subunit beta [Chlamydiales bacterium SCGC
+            AG-110-P3].
+ACCESSION   WP_088205714
+VERSION     WP_088205714.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydiales bacterium SCGC AG-110-P3
+  ORGANISM  Chlamydiales bacterium SCGC AG-110-P3
+            Bacteria; Chlamydiae; Chlamydiales.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00263.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00263
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..405
+                     /organism="Chlamydiales bacterium SCGC AG-110-P3"
+                     /db_xref="taxon:1871323"
+     gene            1..405
+                     /gene="trpB"
+     Protein         1..405
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=42872
+     Region          9..386
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Site            order(89..90,117,193,235..239,353,379)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            90
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+ORIGIN      
+        1 mdsikeqsgr ygdfggryap elliqplldl qgyweqlkvd ssflealqhd lvhyagrptp
+       61 lteaprlaka igaprvflkr edllhtgahk lnnalgqcll akamgktrii aetgagqhgv
+      121 atatacarlg lcctvymgrv dverqapnva rmymlgakvi avesgtgrlk daineamrdw
+      181 ahsydnthyc igsvlgphpy peivatlqri igdeareqml tvtgelpttv vacvgggsna
+      241 igiftafldd asvelvgvea gglgpepgrh aarfsggsrg vfhgcytyll qddngqiqst
+      301 hsvsagmdyp avgpqhaalh atgqctytav tddqaveamh llartegiip alesshaiay
+      361 atqvapqlls naivlinlsg rgdkdlgslq tvstvneggl fdgqn
+//
+

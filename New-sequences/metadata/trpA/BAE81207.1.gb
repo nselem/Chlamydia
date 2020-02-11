@@ -1,0 +1,77 @@
+LOCUS       BAE81207                 257 aa            linear   BCT 07-OCT-2016
+DEFINITION  tryptophan synthase alpha chain [Chlamydia felis Fe/C-56].
+ACCESSION   BAE81207
+VERSION     BAE81207.1
+DBLINK      BioProject: PRJNA370
+            BioSample: SAMD00061108
+DBSOURCE    accession AP006861.1
+KEYWORDS    .
+SOURCE      Chlamydia felis Fe/C-56
+  ORGANISM  Chlamydia felis Fe/C-56
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Azuma,Y., Hirakawa,H., Yamashita,A., Cai,Y., Rahman,M.A.,
+            Suzuki,H., Mitaku,S., Toh,H., Goto,S., Murakami,T., Sugi,K.,
+            Hayashi,H., Fukushi,H., Hattori,M., Kuhara,S. and Shirai,M.
+  TITLE     Genome sequence of the cat pathogen, Chlamydophila felis
+  JOURNAL   DNA Res. 13 (1), 15-23 (2006)
+   PUBMED   16766509
+REFERENCE   2  (residues 1 to 257)
+  AUTHORS   Hattori,M., Yamashita,A., Toh,H., Oshima,K. and Shiba,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-MAY-2004) Contact:Masahira Hattori Graduate School of
+            Frontier Sciences, University of Tokyo; 5-1-5 Kashiwanoha, Kashiwa,
+            Chiba 277-8561, Japan
+COMMENT     This work was done in collaboration with Yoshinao Azuma, M.
+            Akhlakur Rahman, Mutsunori Shirai (Yamaguchi University), Hideki
+            Hirakawa, Satoru Kuhara (Kyushu University), Yan Cai,  Hideto
+            Fukushi (Gifu University), Tomoyuki Murakami, Kazuro Sugi (National
+            Sanyou Hospital) and supported by the Research for the Future
+            Program of the Japan Society for the Promotion of Science.
+FEATURES             Location/Qualifiers
+     source          1..257
+                     /organism="Chlamydia felis Fe/C-56"
+                     /strain="Fe/C-56"
+                     /db_xref="taxon:264202"
+                     /note="synonym: Chlamydophila felis Fe/C-56"
+     Protein         1..257
+                     /product="tryptophan synthase alpha chain"
+     Region          14..253
+                     /region_name="Tryptophan_synthase_alpha"
+                     /note="Ttryptophan synthase (TRPS) alpha subunit (TSA).
+                     TPRS is a bifunctional tetrameric enzyme (2 alpha and 2
+                     beta subunits) that catalyzes the last two steps of
+                     L-tryptophan biosynthesis. Alpha and beta subunit catalyze
+                     two distinct reactions which are both...; cd04724"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,59,172,180..181,209..210,230..231)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96,180)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,98,101,122..123,125,132,152,
+                     154..156,159)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..257
+                     /gene="trpA"
+                     /locus_tag="CF0435"
+                     /coded_by="complement(AP006861.1:510526..511299)"
+                     /note="EC 4.2.1.20"
+                     /transl_table=11
+ORIGIN      
+        1 mnrietafkn tkpfigyltg gdggfdysva cahallrggv dileigfpfs dpvadgpiiq
+       61 kahtralkek tdsttileia kalrqtsdip lvlfsyynpl lqkgpqylhq lkaagfdavl
+      121 tvdlpiprna nesesffqal meaklfpill vtpstqeerl lqisklakgf lyyvshkgtt
+      181 girsklsddf stqiarlrry fqipivagfg ianrasaiaa lehadgfvvg safveklekk
+      241 ispeelttfa qsidprq
+//
+

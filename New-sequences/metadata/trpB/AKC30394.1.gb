@@ -1,0 +1,88 @@
+LOCUS       AKC30394                 392 aa            linear   BCT 13-APR-2015
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis].
+ACCESSION   AKC30394
+VERSION     AKC30394.1
+DBLINK      BioProject: PRJNA266926
+            BioSample: SAMN03195889
+DBSOURCE    accession CP009925.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Borges,V. and Gomes,J.P.
+  TITLE     Deep comparative genomics among Chlamydia trachomatis
+            lymphogranuloma venereum isolates highlights genes potentially
+            involved in pathoadaptation
+  JOURNAL   Infect. Genet. Evol. 32, 74-88 (2015)
+   PUBMED   25745888
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Borges,V., Borrego,M.J. and Gomes,J.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-NOV-2014) Department of Infectious Diseases, National
+            Institute of Health, Av. Padre Cruz, Lisbon 1649-016, Portugal
+COMMENT     Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider          :: NCBI
+            Annotation Date              :: 11/17/2014 10:16:29
+            Annotation Pipeline          :: NCBI Prokaryotic Genome Annotation
+                                            Pipeline
+            Annotation Method            :: Best-placed reference protein set;
+                                            GeneMarkS+
+            Annotation Software revision :: 2.9 (rev. 452132)
+            Features Annotated           :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                            repeat_region
+            Genes                        :: 958
+            CDS                          :: 910
+            Pseudo Genes                 :: 4
+            rRNAs                        :: 6 (5S, 16S, 23S)
+            tRNAs                        :: 37
+            ncRNA                        :: 1
+            Frameshifted Genes           :: 3
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis"
+                     /strain="L2b/CS784/08"
+                     /db_xref="taxon:813"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="L2bCS78408_02240"
+                     /coded_by="CP009925.1:512076..513254"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:SwissProt:O84172.1"
+                     /note="catalyzes the formation of L-tryptophan from
+                     L-serine and 1-(indol-3-yl)glycerol 3-phosphate; Derived
+                     by automated computational analysis using gene prediction
+                     method: Protein Homology."
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

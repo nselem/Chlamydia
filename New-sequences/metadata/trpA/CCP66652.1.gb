@@ -1,0 +1,66 @@
+LOCUS       CCP66652                 253 aa            linear   BCT 27-FEB-2015
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia trachomatis
+            L3/404/LN].
+ACCESSION   CCP66652
+VERSION     CCP66652.1
+DBLINK      BioProject: PRJEA71127
+            BioSample: SAMEA2272107
+            Sequence Read Archive: ERR008583
+DBSOURCE    embl accession HE601955.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis L3/404/LN
+  ORGANISM  Chlamydia trachomatis L3/404/LN
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Harris,S.R., Clarke,I.N., Seth-Smith,H.M., Solomon,A.W.,
+            Cutcliffe,L.T., Marsh,P., Skilton,R.J., Holland,M.J., Mabey,D.,
+            Peeling,R.W., Lewis,D.A., Spratt,B.G., Unemo,M., Persson,K.,
+            Bjartling,C., Brunham,R., de Vries,H.J., Morre,S.A.,
+            Speksnijder,A., Bebear,C.M., Clerc,M., de Barbeyrac,B., Parkhill,J.
+            and Thomson,N.R.
+  TITLE     Whole-genome analysis of diverse Chlamydia trachomatis strains
+            identifies phylogenetic relationships masked by current clinical
+            typing
+  JOURNAL   Nat. Genet. 44 (4), 413-419 (2012)
+   PUBMED   22406642
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Seth-Smith,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-OCT-2011) Wellcome Trust Sanger Institute, Pathogen
+            Genomics, Wellcome Trust Genome Campus, Hinxton, CB10 1SA, UNITED
+            KINGDOM
+COMMENT     Data release policy http://www.sanger.ac.uk/legal/#t_2.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis L3/404/LN"
+                     /strain="L3/404/LN"
+                     /db_xref="taxon:1071783"
+     Protein         1..253
+                     /product="tryptophan synthase subunit alpha"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /locus_tag="L3404_00171"
+                     /coded_by="HE601955.1:191543..192304"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:L3404_00171"
+                     /db_xref="EnsemblGenomes-Tr:CCP66652"
+                     /db_xref="GOA:L0V2A0"
+                     /db_xref="InterPro:IPR002028"
+                     /db_xref="InterPro:IPR011060"
+                     /db_xref="InterPro:IPR013785"
+                     /db_xref="InterPro:IPR018204"
+                     /db_xref="UniProtKB/TrEMBL:L0V2A0"
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyeat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

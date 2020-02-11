@@ -1,0 +1,61 @@
+LOCUS       CCP27957                 253 aa            linear   BCT 27-FEB-2015
+DEFINITION  Tryptophan synthase alpha chain [Chlamydia trachomatis IU824].
+ACCESSION   CCP27957
+VERSION     CCP27957.1
+DBLINK      BioProject: PRJEB223
+            BioSample: SAMEA2272106
+DBSOURCE    embl accession HF562298.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis IU824
+  ORGANISM  Chlamydia trachomatis IU824
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   O'Neill,C.E., Seth-Smith,H.M., Van Der Pol,B., Harris,S.R.,
+            Thomson,N.R., Cutcliffe,L.T. and Clarke,I.N.
+  TITLE     Chlamydia trachomatis clinical isolates identified as tetracycline
+            resistant do not exhibit resistance in vitro: whole-genome
+            sequencing reveals a mutation in porB but no evidence for
+            tetracycline resistance genes
+  JOURNAL   Microbiology (Reading, Engl.) 159 (PT 4), 748-756 (2013)
+   PUBMED   23378575
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   O'Neill,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-NOV-2012) Molecular Microbiology, University of
+            Southampton, Southampton General Hospital, MP814, SO16 6YD, UNITED
+            KINGDOM
+COMMENT     Data release policy http://www.sanger.ac.uk/legal/#t_2.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis IU824"
+                     /strain="IU824"
+                     /db_xref="taxon:1260222"
+     Protein         1..253
+                     /product="Tryptophan synthase alpha chain"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /gene="trpA"
+                     /locus_tag="BN197_1701"
+                     /coded_by="HF562298.1:194828..195589"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:BN197_1701"
+                     /db_xref="EnsemblGenomes-Tr:CCP27957"
+                     /db_xref="GOA:M5DDS6"
+                     /db_xref="InterPro:IPR002028"
+                     /db_xref="InterPro:IPR011060"
+                     /db_xref="InterPro:IPR013785"
+                     /db_xref="InterPro:IPR018204"
+                     /db_xref="UniProtKB/TrEMBL:M5DDS6"
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

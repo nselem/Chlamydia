@@ -1,0 +1,85 @@
+LOCUS       NZ_CP031646          1165692 bp    DNA     circular CON 14-SEP-2019
+DEFINITION  Chlamydia abortus strain 84/2334 chromosome, complete genome.
+ACCESSION   NZ_CP031646
+VERSION     NZ_CP031646.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN09831308
+            Assembly: GCF_008329805.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia abortus
+  ORGANISM  Chlamydia abortus
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (bases 1 to 1165692)
+  AUTHORS   Longbottom,D., Wright,F., Livingstone,M., Beeckman,D., van der
+            Ende,A., Vanrompay,D. and Pannekoek,Y.
+  TITLE     Genomic analysis of an intermediate C. psittaci / C. abortus strain
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1165692)
+  AUTHORS   Beeckman,D. and Vanrompay,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-AUG-2018) Diagnostics, Moredun Research Institute,
+            Bush Loan, Penicuik EH26 0PZ, United Kingdom
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP031646.
+            Bacteria and source DNA available from Prof. Daisy Vanrompay,
+            Department of Animal Science and Aquatic Ecology, Faculty of
+            Bioscience Engineering, University of Ghent, Belgium.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 31-MAY-2010
+            Assembly Method        :: Newbler v. 2.3
+            Assembly Name          :: UoG_Cab84-2334_1.0
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 273.0x
+            Sequencing Technology  :: 454 Pyrosequencing (Roche 454 GS-FLX)
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 09/09/2019 21:08:16
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.9
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 1,038
+            CDSs (total)                      :: 994
+            Genes (coding)                    :: 952
+            CDSs (with protein)               :: 952
+            Genes (RNA)                       :: 44
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 38
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 42
+            CDSs (without protein)            :: 42
+            Pseudo Genes (ambiguous residues) :: 0 of 42
+            Pseudo Genes (frameshifted)       :: 38 of 42
+            Pseudo Genes (incomplete)         :: 3 of 42
+            Pseudo Genes (internal stop)      :: 3 of 42
+            Pseudo Genes (multiple problems)  :: 2 of 42
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1165692
+                     /organism="Chlamydia abortus"
+                     /mol_type="genomic DNA"
+                     /strain="84/2334"
+                     /serovar="C psittaci Serovar A"
+                     /host="Parrot"
+                     /db_xref="taxon:83555"
+                     /lab_host="BGM cells"
+                     /country="Germany"
+                     /collection_date="1984"
+                     /identified_by="Dr J Frost"
+                     /genotype="C. psittaci Genotype F"
+CONTIG      join(CP031646.1:1..1165692)
+//
+

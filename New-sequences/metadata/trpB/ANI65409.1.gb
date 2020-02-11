@@ -1,0 +1,99 @@
+LOCUS       ANI65409                 392 aa            linear   BCT 03-JUN-2016
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis].
+ACCESSION   ANI65409
+VERSION     ANI65409.1
+DBLINK      BioProject: PRJNA316787
+            BioSample: SAMN04590083
+DBSOURCE    accession CP015298.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Eder,T., Stallmann,S., Stepanow,S., Koehrer,K., Hegemann,J. and
+            Rattei,T.
+  TITLE     Genome sequencing of Chlamydia trachomatis serovars E and F reveals
+            hot spots of genetic variation
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Eder,T., Stallmann,S., Stepanow,S., Koehrer,K., Hegemann,J. and
+            Rattei,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-APR-2016) Division of Computational Systems Biology,
+            University of Vienna, Althanstrasse 14, Vienna 1090, Austria
+COMMENT     Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 04/19/2016 15:59:49
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 3.1
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 964
+            CDS (total)                       :: 918
+            Genes (coding)                    :: 912
+            CDS (coding)                      :: 912
+            Genes (RNA)                       :: 46
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 37
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 6
+            Pseudo Genes (ambiguous residues) :: 0 of 6
+            Pseudo Genes (frameshifted)       :: 5 of 6
+            Pseudo Genes (incomplete)         :: 0 of 6
+            Pseudo Genes (internal stop)      :: 2 of 6
+            Pseudo Genes (multiple problems)  :: 1 of 6
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis"
+                     /strain="E-547"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:813"
+                     /country="Germany: Jena"
+                     /lat_lon="50.9296848 N 11.57917950000001 E"
+                     /collection_date="1990"
+                     /collected_by="Juergen Roedel, Eberhard Straube"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="A6E30_00885"
+                     /coded_by="CP015298.1:193027..194205"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:SwissProt:O84172.1"
+                     /note="catalyzes the formation of L-tryptophan from
+                     L-serine and 1-(indol-3-yl)glycerol 3-phosphate; Derived
+                     by automated computational analysis using gene prediction
+                     method: Protein Homology."
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

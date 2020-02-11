@@ -1,0 +1,60 @@
+LOCUS       CBJ14685                 253 aa            linear   BCT 27-FEB-2015
+DEFINITION  Tryptophan synthase alpha chain [Chlamydia trachomatis Sweden2].
+ACCESSION   CBJ14685
+VERSION     CBJ14685.1
+DBLINK      BioProject: PRJEA43167
+            BioSample: SAMEA2271937
+DBSOURCE    embl accession FN652779.2
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis Sweden2
+  ORGANISM  Chlamydia trachomatis Sweden2
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Unemo,M., Seth-Smith,H.M., Cutcliffe,L.T., Skilton,R.J., Barlow,D.,
+            Goulding,D., Persson,K., Harris,S.R., Kelly,A., Bjartling,C.,
+            Fredlund,H., Olcen,P., Thomson,N.R. and Clarke,I.N.
+  TITLE     The Swedish new variant of Chlamydia trachomatis: genome sequence,
+            morphology, cell tropism and phenotypic characterization
+  JOURNAL   Microbiology (Reading, Engl.) 156 (PT 5), 1394-1404 (2010)
+   PUBMED   20093289
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Seth-Smith,H.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-2010) Seth-Smith H.M., Pathogen Genomics,
+            Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus,
+            Hinxton, CB10 1SA, UNITED KINGDOM
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis Sweden2"
+                     /strain="Sweden2"
+                     /serovar="E"
+                     /db_xref="taxon:634464"
+     Protein         1..253
+                     /product="Tryptophan synthase alpha chain"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /gene="trpA"
+                     /locus_tag="SW2_1721"
+                     /coded_by="FN652779.2:194632..195393"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:SW2_1721"
+                     /db_xref="EnsemblGenomes-Tr:CBJ14685"
+                     /db_xref="GOA:D3UTY1"
+                     /db_xref="InterPro:IPR002028"
+                     /db_xref="InterPro:IPR011060"
+                     /db_xref="InterPro:IPR013785"
+                     /db_xref="InterPro:IPR018204"
+                     /db_xref="UniProtKB/TrEMBL:D3UTY1"
+ORIGIN      
+        1 mskltqvfkq tklcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipcqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

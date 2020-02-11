@@ -1,0 +1,70 @@
+LOCUS       CBJ14684                 392 aa            linear   BCT 27-FEB-2015
+DEFINITION  tryptophan synthase beta chain [Chlamydia trachomatis Sweden2].
+ACCESSION   CBJ14684
+VERSION     CBJ14684.1
+DBLINK      BioProject: PRJEA43167
+            BioSample: SAMEA2271937
+DBSOURCE    embl accession FN652779.2
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis Sweden2
+  ORGANISM  Chlamydia trachomatis Sweden2
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Unemo,M., Seth-Smith,H.M., Cutcliffe,L.T., Skilton,R.J., Barlow,D.,
+            Goulding,D., Persson,K., Harris,S.R., Kelly,A., Bjartling,C.,
+            Fredlund,H., Olcen,P., Thomson,N.R. and Clarke,I.N.
+  TITLE     The Swedish new variant of Chlamydia trachomatis: genome sequence,
+            morphology, cell tropism and phenotypic characterization
+  JOURNAL   Microbiology (Reading, Engl.) 156 (PT 5), 1394-1404 (2010)
+   PUBMED   20093289
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Seth-Smith,H.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-2010) Seth-Smith H.M., Pathogen Genomics,
+            Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus,
+            Hinxton, CB10 1SA, UNITED KINGDOM
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis Sweden2"
+                     /strain="Sweden2"
+                     /serovar="E"
+                     /db_xref="taxon:634464"
+     Protein         1..392
+                     /product="tryptophan synthase beta chain"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="SW2_1711"
+                     /coded_by="FN652779.2:193461..194639"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:SW2_1711"
+                     /db_xref="EnsemblGenomes-Tr:CBJ14684"
+                     /db_xref="GOA:D3UTY0"
+                     /db_xref="InterPro:IPR001926"
+                     /db_xref="InterPro:IPR006653"
+                     /db_xref="InterPro:IPR006654"
+                     /db_xref="InterPro:IPR023026"
+                     /db_xref="UniProtKB/TrEMBL:D3UTY0"
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

@@ -1,0 +1,95 @@
+LOCUS       AGJ64525                 392 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis
+            L2/434/Bu(i)].
+ACCESSION   AGJ64525
+VERSION     AGJ64525.1
+DBLINK      BioProject: PRJNA182150
+            BioSample: SAMN02603648
+DBSOURCE    accession CP003963.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis L2/434/Bu(i)
+  ORGANISM  Chlamydia trachomatis L2/434/Bu(i)
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Borges,V., Ferreira,R., Nunes,A., Sousa-Uva,M., Abreu,M.,
+            Borrego,M.J. and Gomes,J.P.
+  TITLE     Effect of long-term laboratory propagation on Chlamydia trachomatis
+            genome dynamics
+  JOURNAL   Infect. Genet. Evol. 17, 23-32 (2013)
+   PUBMED   23542454
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Borges,V., Ferreira,R., Nunes,A., Sousa-Uva,M., Borrego,M.J. and
+            Gomes,J.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-NOV-2012) Department of Infectious Diseases, National
+            Institute of Health, Av. Padre Cruz, Lisbon 1649-016, Portugal
+REFERENCE   3  (residues 1 to 392)
+  AUTHORS   Borges,V., Ferreira,R., Nunes,A., Sousa-Uva,M., Borrego,M.J. and
+            Gomes,J.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUN-2013) Department of Infectious Diseases, National
+            Institute of Health, Av. Padre Cruz, Lisbon 1649-016, Portugal
+  REMARK    Annotation update requested by submitter
+COMMENT     Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider          :: NCBI
+            Annotation Date              :: 06/13/2013 17:06:10
+            Annotation Pipeline          :: NCBI Prokaryotic Genome Annotation
+                                            Pipeline
+            Annotation Method            :: Best-placed reference protein set;
+                                            GeneMarkS+
+            Annotation Software revision :: 2.0 (rev. 402362)
+            Features Annotated           :: Gene; CDS; rRNA; tRNA;
+                                            repeat_region
+            Genes                        :: 968
+            CDS                          :: 910
+            Pseudo Genes                 :: 15
+            rRNAs                        :: 6 (5S, 16S, 23S)
+            tRNAs                        :: 37
+            Frameshifted Genes           :: 14
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis L2/434/Bu(i)"
+                     /strain="L2/434/Bu(i)"
+                     /db_xref="taxon:1263406"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="CTLINITIAL_02230"
+                     /coded_by="CP003963.1:512040..513218"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:YP_005809373.1"
+                     /note="catalyzes the formation of L-tryptophan from
+                     L-serine and 1-(indol-3-yl)glycerol 3-phosphate; Derived
+                     by automated computational analysis using gene prediction
+                     method: Protein Homology."
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

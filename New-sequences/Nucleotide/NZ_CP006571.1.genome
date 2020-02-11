@@ -1,0 +1,85 @@
+LOCUS       NZ_CP006571          1041170 bp    DNA     circular CON 09-APR-2017
+DEFINITION  Chlamydia avium 10DC88, complete genome.
+ACCESSION   NZ_CP006571
+VERSION     NZ_CP006571.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02216823
+            Assembly: GCF_000583875.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia avium 10DC88
+  ORGANISM  Chlamydia avium 10DC88
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (bases 1 to 1041170)
+  AUTHORS   Sachse,K., Laroucau,K., Riege,K., Wehner,S., Dilcher,M.,
+            Creasy,H.H., Weidmann,M., Myers,G., Vorimore,F., Vicari,N.,
+            Magnino,S., Liebler-Tenorio,E., Ruettger,A., Bavoil,P.M.,
+            Hufert,F.T., Rossello-Mora,R. and Marz,M.
+  TITLE     Evidence for the existence of two new members of the family
+            Chlamydiaceae and proposal of Chlamydia avium sp. nov. and
+            Chlamydia gallinacea sp. nov
+  JOURNAL   Syst. Appl. Microbiol. 37 (2), 79-88 (2014)
+   PUBMED   24461712
+REFERENCE   2  (bases 1 to 1041170)
+  AUTHORS   Sachse,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUL-2013) Institute of Molecular Pathogenesis,
+            Friedrich-Loeffler-Institut (Federal Research Institute for Animal
+            Health), Naumburger Str, 96a, Jena 07743, Germany
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP006571.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: GS De Novo Assembler v. 2.6; SeqMan NGen
+                                     v. 4.0.1; SeqMan Pro v. 9.1.0
+            Genome Coverage       :: 33
+            Sequencing Technology :: 454
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 04/09/2017 04:55:18
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.1
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 963
+            CDS (total)                       :: 918
+            Genes (coding)                    :: 847
+            CDS (coding)                      :: 847
+            Genes (RNA)                       :: 45
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 39
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 71
+            Pseudo Genes (ambiguous residues) :: 1 of 71
+            Pseudo Genes (frameshifted)       :: 64 of 71
+            Pseudo Genes (incomplete)         :: 5 of 71
+            Pseudo Genes (internal stop)      :: 1 of 71
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1041170
+                     /organism="Chlamydia avium 10DC88"
+                     /mol_type="genomic DNA"
+                     /strain="10DC88"
+                     /isolate="10DC88"
+                     /isolation_source="spleen tissue from parrot (Polytelis)"
+                     /host="Polytelis"
+                     /culture_collection="DSM:27005"
+                     /type_material="type strain of Chlamydia avium"
+                     /db_xref="taxon:1229831"
+                     /chromosome="Chlamydia_sp_10DC88"
+                     /country="Germany: Arnsberg, North Rhine-Westphalia"
+                     /collection_date="12-Apr-2010"
+                     /collected_by="Dr. Jochen Kilwinski"
+CONTIG      join(CP006571.1:1..1041170)
+//
+

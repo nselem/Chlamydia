@@ -1,0 +1,86 @@
+LOCUS       AGT66938                 253 aa            linear   BCT 21-AUG-2013
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia trachomatis F/11-96].
+ACCESSION   AGT66938
+VERSION     AGT66938.1
+DBLINK      BioProject: PRJNA213111
+            BioSample: SAMN02189832
+DBSOURCE    accession CP006674.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis F/11-96
+  ORGANISM  Chlamydia trachomatis F/11-96
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 253)
+  AUTHORS   Putman,T.E., Rockey,D.D., Ivanovitch,J.D. and Suchland,R.J.
+  TITLE     Culture-independent sequence analysis of Chlamydia trachomatis in
+            urogenital specimens identifies regions of recombination and
+            in-patient sequence mutations
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Putman,T.E., Rockey,D.D., Ivanovitch,J.D. and Suchland,R.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-AUG-2013) Biomedical Science, Oregon State
+            University, Dryden Hall, Corvallis, OR 97331, USA
+COMMENT     Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Source DNA/bacteria available from Rockey Lab 106 Dryden Hall
+            College of Veterinary Medicine Oregon State University Corvallis,
+            OR  97331-4801.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method           :: Maq v. 0.7.1
+            Reference-guided Assembly :: ABYF01000001.1
+            Genome Coverage           :: 99.9X
+            Sequencing Technology     :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider          :: NCBI
+            Annotation Date              :: 08/19/2013 12:27:43
+            Annotation Pipeline          :: NCBI Prokaryotic Genome Annotation
+                                            Pipeline
+            Annotation Method            :: Best-placed reference protein set;
+                                            GeneMarkS+
+            Annotation Software revision :: 2.1 (rev. 410183)
+            Features Annotated           :: Gene; CDS; rRNA; tRNA;
+                                            repeat_region
+            Genes                        :: 976
+            CDS                          :: 928
+            Pseudo Genes                 :: 5
+            rRNAs                        :: 6 (5S, 16S, 23S)
+            tRNAs                        :: 37
+            Frameshifted Genes           :: 4
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis F/11-96"
+                     /strain="F/11-96"
+                     /isolation_source="endo-cervical sample"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1340853"
+                     /country="USA: Seattle"
+                     /collection_date="Mar-1996"
+     Protein         1..253
+                     /product="tryptophan synthase subunit alpha"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /locus_tag="O173_00920"
+                     /coded_by="CP006674.1:194216..194977"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:YP_005809374.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /transl_table=11
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

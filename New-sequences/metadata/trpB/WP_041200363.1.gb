@@ -1,0 +1,57 @@
+LOCUS       WP_041200363             391 aa            linear   BCT 19-JUN-2019
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis].
+ACCESSION   WP_041200363
+VERSION     WP_041200363.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00263.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00263
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..391
+                     /organism="Chlamydia trachomatis"
+                     /db_xref="taxon:813"
+     gene            1..391
+                     /gene="trpB"
+     Protein         1..391
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=42585
+     Region          11..386
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Region          47..373
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(82..83,110,186,228..232,346,372)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            83
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+ORIGIN      
+        1 milwrkdvqt ylpeellapi qnlkaeweil ktqqsflsel dcilknyagr qtpltevknf
+       61 araidgprvf lkredllhtg ahklnnalgq cllakylgkt rvvaetgagq hgvatataca
+      121 ylgldcvvym gakdverqkp nvekmrflga evvsvtkgsc glkdavnqal qdwatthsft
+      181 hyclgsalgp lpypdivrff qsvisaevke qihavagrdp diliaciggg snaigffhhf
+      241 ipnpkvqlig veggglgiss gkhaarfatg rpgvfhgfys yllqdddgqv lqtrsisagl
+      301 dypsvgpdht emhesgrafy tlatdeealr afflltrneg iipalessha lahlvsiaps
+      361 lpkeqivivn lsgrgdkdlp qiirrnrgiy e
+//
+

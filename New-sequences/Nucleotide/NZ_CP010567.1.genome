@@ -1,0 +1,92 @@
+LOCUS       NZ_CP010567          1043034 bp    DNA     circular CON 07-JAN-2020
+DEFINITION  Chlamydia trachomatis strain E/CS1025/11 chromosome, complete
+            genome.
+ACCESSION   NZ_CP010567
+VERSION     NZ_CP010567.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN03290707
+            Assembly: GCF_001183805.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (bases 1 to 1043034)
+  AUTHORS   Borges,V., Pinheiro,M., Antelo,M., Sampaio,D.A., Vieira,L.,
+            Ferreira,R., Nunes,A., Almeida,F., Mota,L.J., Borrego,M.J. and
+            Gomes,J.P.
+  TITLE     Chlamydia trachomatis In Vivo to In Vitro Transition Reveals
+            Mechanisms of Phase Variation and Down-Regulation of Virulence
+            Factors
+  JOURNAL   PLoS ONE 10 (7), e0133420 (2015)
+   PUBMED   26207372
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1043034)
+  AUTHORS   Borges,V., Borrego,M.J. and Gomes,J.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-SEP-2015) Department of Infectious Diseases, National
+            Institute of Health, Av. Padre Cruz, Lisbon 1649-016, Portugal
+  REMARK    Protein update by submitter
+REFERENCE   3  (bases 1 to 1043034)
+  AUTHORS   Borges,V., Borrego,M.J. and Gomes,J.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2015) Department of Infectious Diseases, National
+            Institute of Health, Av. Padre Cruz, Lisbon 1649-016, Portugal
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP010567.
+            Source bacteria/DNA is available from National Institute of Heath,
+            Portugal; Av. Padre Cruz, 1649-016 Lisbon, Portugal; Address
+            correspondence to Joao P. Gomes (j.paulo.gomes@insa.min-saude.pt).
+            
+            Annotation modified by submitter.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method           :: Bowtie2 v. 2.1.0; BWA v. 0.7.5.a
+            Reference-guided Assembly :: HE601870.1
+            Genome Coverage           :: 464x
+            Sequencing Technology     :: Illumina
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 01/07/2020 05:47:47
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 952
+            CDSs (total)                      :: 906
+            Genes (coding)                    :: 894
+            CDSs (with protein)               :: 894
+            Genes (RNA)                       :: 46
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 37
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 12
+            CDSs (without protein)            :: 12
+            Pseudo Genes (ambiguous residues) :: 0 of 12
+            Pseudo Genes (frameshifted)       :: 10 of 12
+            Pseudo Genes (incomplete)         :: 1 of 12
+            Pseudo Genes (internal stop)      :: 1 of 12
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1043034
+                     /organism="Chlamydia trachomatis"
+                     /mol_type="genomic DNA"
+                     /strain="E/CS1025/11"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:813"
+                     /country="Portugal:Lisbon"
+                     /collection_date="2011"
+                     /collected_by="National Institute of Health"
+CONTIG      join(CP010567.1:1..1043034)
+//
+

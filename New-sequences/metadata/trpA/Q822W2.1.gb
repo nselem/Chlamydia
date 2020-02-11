@@ -1,0 +1,116 @@
+LOCUS       TRPA_CHLCV               257 aa            linear   BCT 16-OCT-2019
+DEFINITION  RecName: Full=Tryptophan synthase alpha chain.
+ACCESSION   Q822W2
+VERSION     Q822W2.1
+DBSOURCE    UniProtKB: locus TRPA_CHLCV, accession Q822W2;
+            class: standard.
+            created: Jul 25, 2003.
+            sequence updated: Jun 1, 2003.
+            annotation updated: Oct 16, 2019.
+            xrefs: AE015925.1, AAP05309.1, WP_011006524.1
+            xrefs (non-sequence databases): SMR:Q822W2,
+            STRING:227941.CCA_00567, EnsemblBacteria:AAP05309,
+            EnsemblBacteria:AAP05309, EnsemblBacteria:CCA_00567,
+            KEGG:cca:CCA_00567, eggNOG:ENOG4105F6H, eggNOG:COG0159, KO:K01695,
+            OMA:DYPPEEC, OrthoDB:912786at2,
+            BioCyc:CCAV227941:G1G03-581-MONOMER, UniPathway:UPA00035,
+            Proteomes:UP000002193, GO:0004834, CDD:cd04724, Gene3D:3.20.20.70,
+            HAMAP:MF_00131, InterPro:IPR013785, InterPro:IPR011060,
+            InterPro:IPR018204, InterPro:IPR002028, Pfam:PF00290,
+            SUPFAM:SSF51366, TIGRFAMs:TIGR00262, PROSITE:PS00167
+KEYWORDS    Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Complete
+            proteome; Lyase; Tryptophan biosynthesis.
+SOURCE      Chlamydia caviae GPIC
+  ORGANISM  Chlamydia caviae GPIC
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 257)
+  AUTHORS   Read,T.D., Myers,G.S., Brunham,R.C., Nelson,W.C., Paulsen,I.T.,
+            Heidelberg,J., Holtzapple,E., Khouri,H., Federova,N.B., Carty,H.A.,
+            Umayam,L.A., Haft,D.H., Peterson,J., Beanan,M.J., White,O.,
+            Salzberg,S.L., Hsia,R.C., McClarty,G., Rank,R.G., Bavoil,P.M. and
+            Fraser,C.M.
+  TITLE     Genome sequence of Chlamydophila caviae (Chlamydia psittaci GPIC):
+            examining the role of niche-specific genes in the evolution of the
+            Chlamydiaceae
+  JOURNAL   Nucleic Acids Res. 31 (8), 2134-2147 (2003)
+   PUBMED   12682364
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=ATCC VR-813 / DSM 19441 / GPIC
+COMMENT     [FUNCTION] The alpha subunit is responsible for the aldol cleavage
+            of indoleglycerol phosphate to indole and glyceraldehyde
+            3-phosphate. {ECO:0000255|HAMAP-Rule:MF_00131}.
+            [CATALYTIC ACTIVITY] Reaction=(1S,2R)-1-C-(indol-3-yl)glycerol
+            3-phosphate + L-serine = D-glyceraldehyde 3-phosphate + H2O +
+            L-tryptophan; Xref=Rhea:RHEA:10532, ChEBI:CHEBI:15377,
+            ChEBI:CHEBI:33384, ChEBI:CHEBI:57912, ChEBI:CHEBI:58866,
+            ChEBI:CHEBI:59776; EC=4.2.1.20;
+            Evidence={ECO:0000255|HAMAP-Rule:MF_00131}.
+            [PATHWAY] Amino-acid biosynthesis; L-tryptophan biosynthesis;
+            L-tryptophan from chorismate: step 5/5.
+            {ECO:0000255|HAMAP-Rule:MF_00131}.
+            [SUBUNIT] Tetramer of two alpha and two beta chains.
+            {ECO:0000255|HAMAP-Rule:MF_00131}.
+            [SIMILARITY] Belongs to the TrpA family.
+            {ECO:0000255|HAMAP-Rule:MF_00131}.
+FEATURES             Location/Qualifiers
+     source          1..257
+                     /organism="Chlamydia caviae GPIC"
+                     /db_xref="taxon:227941"
+     gene            1..257
+                     /gene="trpA"
+                     /locus_tag="CCA_00567"
+     Protein         1..257
+                     /product="Tryptophan synthase alpha chain"
+                     /EC_number="4.2.1.20"
+                     /UniProtKB_evidence="Inferred from homology"
+     Region          1..257
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Tryptophan synthase alpha chain.
+                     /FTId=PRO_0000098766."
+     Region          14..253
+                     /region_name="Tryptophan_synthase_alpha"
+                     /note="Ttryptophan synthase (TRPS) alpha subunit (TSA).
+                     TPRS is a bifunctional tetrameric enzyme (2 alpha and 2
+                     beta subunits) that catalyzes the last two steps of
+                     L-tryptophan biosynthesis. Alpha and beta subunit catalyze
+                     two distinct reactions which are both...; cd04724"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,59,172,180..181,209..210,230..231)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96,180)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            44
+                     /site_type="active"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Proton acceptor.
+                     {ECO:0000255|HAMAP-Rule:MF_00131}."
+     Site            order(49..52,54,57,60..61,98,101,122..123,125,132,152,
+                     154..156,159)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     Site            55
+                     /site_type="active"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Proton acceptor.
+                     {ECO:0000255|HAMAP-Rule:MF_00131}."
+ORIGIN      
+        1 mnrietafkn tkpfigyltg gdggfdysva cahalirggv dileigfpfs dpvadgpiiq
+       61 kahtraleek tdsttileia kalretsnip lvlfsyynpl lqkgpqylhq lkaagfdavl
+      121 ivdlpipqha nesepffqal ieaklfpivl atpstreerl lqirklakgf lyyvsqkgtt
+      181 girsklsddf stqiarlrcy fqipivagfg ianrasaaaa lkhadgivvg safveklekk
+      241 ispeelttfa qsidprq
+//
+

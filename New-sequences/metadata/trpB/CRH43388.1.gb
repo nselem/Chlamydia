@@ -1,0 +1,59 @@
+LOCUS       CRH43388                 392 aa            linear   BCT 14-JUN-2015
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis].
+ACCESSION   CRH43388
+VERSION     CRH43388.1
+DBLINK      BioProject: PRJEB2035
+            BioSample: SAMEA1398364
+DBSOURCE    embl accession CVNK01000001.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Informatics,Pathogen.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2015) SC, Wellcome Trust Sanger Institute, CB10
+            1SA, United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis"
+                     /strain="R26833IMS"
+                     /serovar="not known"
+                     /isolation_source="cervical"
+                     /db_xref="taxon:813"
+                     /country="Russia:St Petersburg"
+                     /collection_date="2010-11-12"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="ERS075185_00779"
+                     /coded_by="CVNK01000001.1:864427..865605"
+                     /inference="ab initio prediction:Prodigal:2.60"
+                     /inference="similar to AA sequence:RefSeq:YP_001654499.1"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

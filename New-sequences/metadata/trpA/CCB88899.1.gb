@@ -1,0 +1,77 @@
+LOCUS       CCB88899                 253 aa            linear   BCT 27-FEB-2015
+DEFINITION  tryptophan synthase alpha chain [Simkania negevensis Z].
+ACCESSION   CCB88899
+VERSION     CCB88899.1
+DBLINK      BioProject: PRJEA49035
+            BioSample: SAMEA2272380
+DBSOURCE    embl accession FR872582.1
+KEYWORDS    .
+SOURCE      Simkania negevensis Z
+  ORGANISM  Simkania negevensis Z
+            Bacteria; Chlamydiae; Parachlamydiales; Simkaniaceae; Simkania.
+REFERENCE   1
+  AUTHORS   Collingro,A., Tischler,P., Weinmaier,T., Penz,T., Heinz,E.,
+            Brunham,R.C., Read,T.D., Bavoil,P.M., Sachse,K., Kahane,S.,
+            Friedman,M.G., Rattei,T., Myers,G.S. and Horn,M.
+  TITLE     Unity in variety--the pan-genome of the Chlamydiae
+  JOURNAL   Mol. Biol. Evol. 28 (12), 3253-3270 (2011)
+   PUBMED   21690563
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Rattei,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAY-2011) University of Vienna, Department of
+            Computational Systems Biology, Althanstr. 14, 1090 Vienna, AUSTRIA
+COMMENT     Accession number for plasmid pSn in this genome project: FR872581.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Simkania negevensis Z"
+                     /strain="Z"
+                     /type_material="type strain of Simkania negevensis"
+                     /db_xref="taxon:331113"
+                     /chromosome="gsn.131"
+     Protein         1..253
+                     /product="tryptophan synthase alpha chain"
+                     /EC_number="4.2.1.20"
+     Region          7..247
+                     /region_name="trpA"
+                     /note="tryptophan synthase subunit alpha; Provisional;
+                     PRK13111"
+                     /db_xref="CDD:237285"
+     Site            order(42,53,57,166,174..175,203..204,224..225)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(42,53,94,174)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(42,53,94)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(47..50,52,55,58..59,96,99,120..121,123,126,146,
+                     148..150,153)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..253
+                     /gene="tRPA"
+                     /locus_tag="SNE_A10220"
+                     /coded_by="FR872582.1:1054069..1054830"
+                     /inference="similar to AA sequence:SwissProt:B6J7I2"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:SNE_A10220"
+                     /db_xref="EnsemblGenomes-Tr:CCB88899"
+                     /db_xref="GOA:F8L7Z7"
+                     /db_xref="InterPro:IPR002028"
+                     /db_xref="InterPro:IPR011060"
+                     /db_xref="InterPro:IPR013785"
+                     /db_xref="InterPro:IPR018204"
+                     /db_xref="UniProtKB/TrEMBL:F8L7Z7"
+ORIGIN      
+        1 mirelfekkk ayigyltagd gglehtekma lalveggvdl lelgipfsep iadgpviqda
+       61 veraldagtt phqvielvsr lrkkiavpiv lmtyfnpifv agqeflkeak aagvnglliv
+      121 dlppeeaddy ltwmkeaele tifivapstp eeripticri stgfiyyacr kgttgmkkgv
+      181 pedlpekiaq irrhtdlpia vgfgvssaei areiltyadg fivgsflvqa aheqtnpiel
+      241 trlaasldpr sll
+//
+

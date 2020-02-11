@@ -1,0 +1,54 @@
+LOCUS       AUD11963                 236 aa            linear   ENV 17-DEC-2017
+DEFINITION  tryptophan synthase A, partial [Chlamydia trachomatis].
+ACCESSION   AUD11963
+VERSION     AUD11963.1
+DBSOURCE    accession MG542656.1
+KEYWORDS    ENV.
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 236)
+  AUTHORS   Pineiro,L. and Cilla,G.
+  TITLE     Chlamydia trachomatis genotypes A and B from urogenital specimens
+            of patients in Spain: organotropism related genes and multilocus
+            sequence typing study
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 236)
+  AUTHORS   Pineiro,L. and Cilla,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-NOV-2017) Microbiology, Hospital Donostia, Paseo Dr.
+            Beguiristain s/n, Donostia-San Sebastian, Gipuzkoa 20014, Spain
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..236
+                     /organism="Chlamydia trachomatis"
+                     /isolate="461758"
+                     /isolation_source="cervix"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:813"
+                     /environmental_sample
+                     /country="Spain: San Sebastian"
+                     /collection_date="Sep-2012"
+                     /note="amplified with species-specific primers;
+                     genotype: B"
+     Protein         1..>236
+                     /product="tryptophan synthase A"
+     Region          1..236
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..236
+                     /gene="trpA"
+                     /coded_by="MG542656.1:1..>710"
+                     /transl_table=11
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakalirggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdvgingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttm
+//
+

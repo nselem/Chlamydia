@@ -1,0 +1,85 @@
+LOCUS       NZ_CP019387          1040250 bp    DNA     circular CON 15-JUN-2017
+DEFINITION  Chlamydia trachomatis strain 434Bu isolate 383/384 IGR::Tn serovar
+            LGV2 genome.
+ACCESSION   NZ_CP019387
+VERSION     NZ_CP019387.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN06239971
+            Assembly: GCF_002192635.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (bases 1 to 1040250)
+  AUTHORS   Fischer,A., Harrison,K.S., Ramirez,Y., Auer,D., Chowdhury,S.R.,
+            Prusty,B.K., Sauer,F., Dimond,Z., Kisker,C., Scott Hefty,P. and
+            Rudel,T.
+  TITLE     Chlamydia trachomatis-containing vacuole serves as deubiquitination
+            platform to stabilize Mcl-1 and to interfere with host defense
+  JOURNAL   Elife 6, e21465 (2017)
+   PUBMED   28347402
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1040250)
+  AUTHORS   Dimond,Z.E., Peterson,G. and Hefty,P.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JAN-2017) Molecular Biosciences, University of
+            Kansas, Haworth Hall, Lawrence, KS 66045, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP019387.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date             :: 14-DEC-2016
+            Assembly Method           :: Geneious v. 9.1.7
+            Genome Representation     :: Full
+            Expected Final Version    :: Yes
+            Reference-guided Assembly :: NC_010287
+            Genome Coverage           :: 72.0x
+            Sequencing Technology     :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 06/14/2017 09:56:37
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.2
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 966
+            CDS (total)                       :: 920
+            Genes (coding)                    :: 894
+            CDS (coding)                      :: 894
+            Genes (RNA)                       :: 46
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 37
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 26
+            Pseudo Genes (ambiguous residues) :: 1 of 26
+            Pseudo Genes (frameshifted)       :: 23 of 26
+            Pseudo Genes (incomplete)         :: 3 of 26
+            Pseudo Genes (internal stop)      :: 3 of 26
+            Pseudo Genes (multiple problems)  :: 4 of 26
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1040250
+                     /organism="Chlamydia trachomatis"
+                     /mol_type="genomic DNA"
+                     /strain="434Bu"
+                     /serovar="LGV2"
+                     /isolate="383/384 IGR::Tn"
+                     /isolation_source="Mouse fibroblast, L929"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:813"
+                     /country="USA: Kansas"
+                     /lat_lon="38.95 N 95.25 W"
+                     /collection_date="2016"
+CONTIG      join(CP019387.1:1..1040250)
+//
+

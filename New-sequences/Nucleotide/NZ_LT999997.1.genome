@@ -1,0 +1,63 @@
+LOCUS       NZ_LT999997          1083861 bp    DNA     linear   CON 22-MAY-2018
+DEFINITION  Chlamydia suis isolate 2-26b genome assembly, chromosome: I.
+ACCESSION   NZ_LT999997
+VERSION     NZ_LT999997.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMEA4555927
+            Assembly: GCF_900149535.2
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia suis
+  ORGANISM  Chlamydia suis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Seth-Smith MB,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-FEB-2017) Functional Genomics Genter Zurich,
+            University Hospital Basel, 4056 Basel, Switzerland
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            LT999997.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 05/21/2018 10:48:16
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.5
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 970
+            CDS (total)                       :: 924
+            Genes (coding)                    :: 905
+            CDS (coding)                      :: 905
+            Genes (RNA)                       :: 46
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 37
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 19
+            Pseudo Genes (ambiguous residues) :: 0 of 19
+            Pseudo Genes (frameshifted)       :: 8 of 19
+            Pseudo Genes (incomplete)         :: 10 of 19
+            Pseudo Genes (internal stop)      :: 6 of 19
+            Pseudo Genes (multiple problems)  :: 5 of 19
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1083861
+                     /organism="Chlamydia suis"
+                     /mol_type="genomic DNA"
+                     /isolate="2-26b"
+                     /isolation_source="porcine rectal swab"
+                     /host="Sus"
+                     /db_xref="taxon:83559"
+                     /chromosome="I"
+                     /country="Switzerland"
+                     /collection_date="2013"
+CONTIG      join(LT999997.1:1..1083861)
+//
+

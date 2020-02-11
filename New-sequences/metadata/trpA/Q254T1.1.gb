@@ -1,0 +1,111 @@
+LOCUS       TRPA_CHLFF               257 aa            linear   BCT 16-JAN-2019
+DEFINITION  RecName: Full=Tryptophan synthase alpha chain.
+ACCESSION   Q254T1
+VERSION     Q254T1.1
+DBSOURCE    UniProtKB: locus TRPA_CHLFF, accession Q254T1;
+            class: standard.
+            created: Jan 15, 2008.
+            sequence updated: Apr 18, 2006.
+            annotation updated: Jan 16, 2019.
+            xrefs: AP006861.1, BAE81207.1, WP_011457987.1
+            xrefs (non-sequence databases): ProteinModelPortal:Q254T1,
+            SMR:Q254T1, STRING:264202.CF0435, KEGG:cfe:CF0435,
+            eggNOG:ENOG4105F6H, eggNOG:COG0159, HOGENOM:HOG000223815,
+            KO:K01695, OMA:DYPPEEC, OrthoDB:912786at2,
+            BioCyc:CFEL264202:G1G29-447-MONOMER, UniPathway:UPA00035,
+            Proteomes:UP000001260, GO:0004834, CDD:cd04724, Gene3D:3.20.20.70,
+            HAMAP:MF_00131, InterPro:IPR013785, InterPro:IPR011060,
+            InterPro:IPR018204, InterPro:IPR002028, Pfam:PF00290,
+            SUPFAM:SSF51366, TIGRFAMs:TIGR00262, PROSITE:PS00167
+KEYWORDS    Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Complete
+            proteome; Lyase; Tryptophan biosynthesis.
+SOURCE      Chlamydia felis Fe/C-56
+  ORGANISM  Chlamydia felis Fe/C-56
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 257)
+  AUTHORS   Azuma,Y., Hirakawa,H., Yamashita,A., Cai,Y., Rahman,M.A.,
+            Suzuki,H., Mitaku,S., Toh,H., Goto,S., Murakami,T., Sugi,K.,
+            Hayashi,H., Fukushi,H., Hattori,M., Kuhara,S. and Shirai,M.
+  TITLE     Genome sequence of the cat pathogen, Chlamydophila felis
+  JOURNAL   DNA Res. 13 (1), 15-23 (2006)
+   PUBMED   16766509
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=Fe/C-56
+COMMENT     [FUNCTION] The alpha subunit is responsible for the aldol cleavage
+            of indoleglycerol phosphate to indole and glyceraldehyde
+            3-phosphate. {ECO:0000255|HAMAP-Rule:MF_00131}.
+            [CATALYTIC ACTIVITY] Reaction=(1S,2R)-1-C-(indol-3-yl)glycerol
+            3-phosphate + L-serine = D-glyceraldehyde 3-phosphate + H2O +
+            L-tryptophan; Xref=Rhea:RHEA:10532, ChEBI:CHEBI:15377,
+            ChEBI:CHEBI:33384, ChEBI:CHEBI:57912, ChEBI:CHEBI:58866,
+            ChEBI:CHEBI:59776; EC=4.2.1.20;
+            Evidence={ECO:0000255|HAMAP-Rule:MF_00131}.
+            [PATHWAY] Amino-acid biosynthesis; L-tryptophan biosynthesis;
+            L-tryptophan from chorismate: step 5/5.
+            {ECO:0000255|HAMAP-Rule:MF_00131}.
+            [SUBUNIT] Tetramer of two alpha and two beta chains.
+            {ECO:0000255|HAMAP-Rule:MF_00131}.
+            [SIMILARITY] Belongs to the TrpA family.
+            {ECO:0000255|HAMAP-Rule:MF_00131}.
+FEATURES             Location/Qualifiers
+     source          1..257
+                     /organism="Chlamydia felis Fe/C-56"
+                     /db_xref="taxon:264202"
+     gene            1..257
+                     /gene="trpA"
+                     /locus_tag="CF0435"
+     Protein         1..257
+                     /product="Tryptophan synthase alpha chain"
+                     /EC_number="4.2.1.20"
+                     /UniProtKB_evidence="Inferred from homology"
+     Region          1..257
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Tryptophan synthase alpha chain.
+                     /FTId=PRO_1000018187."
+     Region          14..253
+                     /region_name="Tryptophan_synthase_alpha"
+                     /note="Ttryptophan synthase (TRPS) alpha subunit (TSA).
+                     TPRS is a bifunctional tetrameric enzyme (2 alpha and 2
+                     beta subunits) that catalyzes the last two steps of
+                     L-tryptophan biosynthesis. Alpha and beta subunit catalyze
+                     two distinct reactions which are both...; cd04724"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,59,172,180..181,209..210,230..231)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96,180)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            44
+                     /site_type="active"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Proton acceptor.
+                     {ECO:0000255|HAMAP-Rule:MF_00131}."
+     Site            order(49..52,54,57,60..61,98,101,122..123,125,132,152,
+                     154..156,159)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     Site            55
+                     /site_type="active"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Proton acceptor.
+                     {ECO:0000255|HAMAP-Rule:MF_00131}."
+ORIGIN      
+        1 mnrietafkn tkpfigyltg gdggfdysva cahallrggv dileigfpfs dpvadgpiiq
+       61 kahtralkek tdsttileia kalrqtsdip lvlfsyynpl lqkgpqylhq lkaagfdavl
+      121 tvdlpiprna nesesffqal meaklfpill vtpstqeerl lqisklakgf lyyvshkgtt
+      181 girsklsddf stqiarlrry fqipivagfg ianrasaiaa lehadgfvvg safveklekk
+      241 ispeelttfa qsidprq
+//
+

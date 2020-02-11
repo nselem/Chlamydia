@@ -1,0 +1,49 @@
+LOCUS       CRH84911                 253 aa            linear   BCT 13-JUN-2015
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia trachomatis].
+ACCESSION   CRH84911
+VERSION     CRH84911.1
+DBLINK      BioProject: PRJEB2035
+            BioSample: SAMEA1483370
+DBSOURCE    embl accession CVOD01000095.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Informatics,Pathogen.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2015) SC, Wellcome Trust Sanger Institute, CB10
+            1SA, United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis"
+                     /strain="H29IMS"
+                     /serovar="L2b"
+                     /isolation_source="rectal"
+                     /db_xref="taxon:813"
+                     /country="United Kingdom:Edinburgh"
+                     /collection_date="2004-12-03"
+     Protein         1..253
+                     /product="tryptophan synthase subunit alpha"
+                     /EC_number="4.2.1.20"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /gene="trpA_2"
+                     /locus_tag="ERS133249_01246"
+                     /coded_by="CVOD01000095.1:1260..2021"
+                     /inference="ab initio prediction:Prodigal:2.60"
+                     /inference="similar to AA sequence:RefSeq:YP_005811223.1"
+                     /transl_table=11
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyeat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

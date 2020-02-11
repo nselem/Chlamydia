@@ -1,0 +1,56 @@
+LOCUS       WP_013943366             253 aa            linear   BCT 19-JUN-2019
+DEFINITION  tryptophan synthase subunit alpha [Simkania negevensis].
+ACCESSION   WP_013943366
+VERSION     WP_013943366.1
+KEYWORDS    RefSeq.
+SOURCE      Simkania negevensis
+  ORGANISM  Simkania negevensis
+            Bacteria; Chlamydiae; Parachlamydiales; Simkaniaceae; Simkania.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF009618.0
+            Evidence Source    :: NCBI Protein Cluster (PRK)
+            Source Identifier  :: PRK13111
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Simkania negevensis"
+                     /db_xref="taxon:83561"
+     Protein         1..253
+                     /product="tryptophan synthase subunit alpha"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=27517
+     Region          7..247
+                     /region_name="trpA"
+                     /note="tryptophan synthase subunit alpha; Provisional;
+                     PRK13111"
+                     /db_xref="CDD:237285"
+     Site            order(42,53,57,166,174..175,203..204,224..225)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(42,53,94,174)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(42,53,94)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(47..50,52,55,58..59,96,99,120..121,123,126,146,
+                     148..150,153)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+ORIGIN      
+        1 mirelfekkk ayigyltagd gglehtekma lalveggvdl lelgipfsep iadgpviqda
+       61 veraldagtt phqvielvsr lrkkiavpiv lmtyfnpifv agqeflkeak aagvnglliv
+      121 dlppeeaddy ltwmkeaele tifivapstp eeripticri stgfiyyacr kgttgmkkgv
+      181 pedlpekiaq irrhtdlpia vgfgvssaei areiltyadg fivgsflvqa aheqtnpiel
+      241 trlaasldpr sll
+//
+

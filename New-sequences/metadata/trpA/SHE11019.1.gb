@@ -1,0 +1,49 @@
+LOCUS       SHE11019                 268 aa            linear   BCT 10-MAY-2017
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia abortus].
+ACCESSION   SHE11019
+VERSION     SHE11019.1
+DBLINK      BioProject: PRJEB17758
+            BioSample: SAMEA1903252
+DBSOURCE    embl accession FQTM01000008.1
+KEYWORDS    .
+SOURCE      Chlamydia abortus
+  ORGANISM  Chlamydia abortus
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  CONSRTM   Pathogen Informatics
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-NOV-2016) WTSI, Pathogen Informatics, Wellcome Trust
+            Sanger Institute, CB10 1SA, United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..268
+                     /organism="Chlamydia abortus"
+                     /strain="162STDY5437294"
+                     /serovar="NA"
+                     /isolation_source="NA"
+                     /db_xref="taxon:83555"
+                     /collection_date="1800/2014"
+                     /note="contig: ERS200120SCcontig000008"
+     Protein         1..268
+                     /product="tryptophan synthase subunit alpha"
+                     /EC_number="4.2.1.20"
+     Region          6..268
+                     /region_name="trpA"
+                     /note="tryptophan synthase subunit alpha; Provisional;
+                     PRK13111"
+                     /db_xref="CDD:237285"
+     CDS             1..268
+                     /gene="trpA_1"
+                     /locus_tag="SAMEA1903252_02009"
+                     /coded_by="complement(FQTM01000008.1:91957..92763)"
+                     /inference="ab initio prediction:Prodigal:2.60"
+                     /inference="similar to AA sequence:RefSeq:YP_004377699.1"
+                     /transl_table=11
+ORIGIN      
+        1 mnliderfas lkeqgqtalm pfisvgdpdl atsvdiilel ekagadmvel gvpysdplad
+       61 gpviqrsslr alqhrvtivd ciriarqcrd rgsklpfiif tyynpvlqlg lerffellre
+      121 ndvsgiiipd lpleengqvl elsrqynihl iplvaptsnd riqritsqaa gfiycvsslg
+      181 vtgtrsqffe gidsfldtvk rstevpiaig fgissreqvd nfskkcdgvv vgsaivrkie
+      241 etlpllsqee tksagllqir efvrqlka
+//
+

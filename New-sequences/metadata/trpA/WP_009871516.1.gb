@@ -1,0 +1,43 @@
+LOCUS       WP_009871516             253 aa            linear   BCT 28-SEP-2019
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia trachomatis].
+ACCESSION   WP_009871516
+VERSION     WP_009871516.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00262.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00262
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis"
+                     /db_xref="taxon:813"
+     gene            1..253
+                     /gene="trpA"
+     Protein         1..253
+                     /product="tryptophan synthase subunit alpha"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=28025
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakalirggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdvgingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

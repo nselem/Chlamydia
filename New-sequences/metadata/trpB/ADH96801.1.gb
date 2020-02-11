@@ -1,0 +1,62 @@
+LOCUS       ADH96801                 392 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis G/9301].
+ACCESSION   ADH96801
+VERSION     ADH96801.1
+DBLINK      BioProject: PRJNA45851
+            BioSample: SAMN02603696
+DBSOURCE    accession CP001930.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis G/9301
+  ORGANISM  Chlamydia trachomatis G/9301
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Quinn,K.L., Davidson,J.R., Stamm,W.E.
+            and Rockey,D.D.
+  TITLE     Genome Sequencing of Recent Clinical Chlamydia trachomatis Strains
+            Identifies Loci Associated with Tissue Tropism and Regions of
+            Apparent Recombination
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Quinn,K.L., Davidson,J.R., Stamm,W.E.
+            and Rockey,D.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2010) Biomedical Sciences, Oregon State
+            University, 105 Magruder Hall, Corvallis, OR 97331, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis G/9301"
+                     /strain="G/9301"
+                     /db_xref="taxon:718219"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="CTG9301_00875"
+                     /coded_by="CP001930.1:193407..194585"
+                     /note="COG0133 Tryptophan synthase beta chain"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

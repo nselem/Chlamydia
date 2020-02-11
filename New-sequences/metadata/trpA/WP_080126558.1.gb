@@ -1,0 +1,43 @@
+LOCUS       WP_080126558             250 aa            linear   BCT 28-SEP-2019
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia suis].
+ACCESSION   WP_080126558
+VERSION     WP_080126558.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia suis
+  ORGANISM  Chlamydia suis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00262.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00262
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Chlamydia suis"
+                     /db_xref="taxon:83559"
+     gene            1..250
+                     /gene="trpA"
+     Protein         1..250
+                     /product="tryptophan synthase subunit alpha"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=28211
+     Region          1..245
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+ORIGIN      
+        1 msklsqifqq tkpfigylta gdggidytld caqaliqggv hileigfpfs dpvadnpevq
+       61 lshdralaqn ltsttllkii egirdfnrei plllysyynp llqrgldyly klkdagidgv
+      121 ciidlpvpqt lsekdpffen lldvgldpil litaktsqer rlltqryarg flyycpeena
+      181 kenlaeqfkk areyfdipiv srkdvfdkee awrvldysdg fivktafirq itndssmegl
+      241 vslarsidps
+//
+

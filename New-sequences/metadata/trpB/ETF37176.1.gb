@@ -1,0 +1,77 @@
+LOCUS       ETF37176                 392 aa            linear   BCT 12-DEC-2013
+DEFINITION  tryptophan synthase subunit beta [Chlamydia pecorum MC/MarsBar].
+ACCESSION   ETF37176
+VERSION     ETF37176.1
+DBLINK      BioProject: PRJNA229198
+            BioSample: SAMN02470823
+DBSOURCE    accession AZBC01000014.1
+KEYWORDS    .
+SOURCE      Chlamydia pecorum MC/MarsBar
+  ORGANISM  Chlamydia pecorum MC/MarsBar
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Bachmann,N.L., Fraser,T.A., Bertelli,C., Jelocnik,M., Gillett,A.,
+            Funnell,O., Flanagan,C., Myers,G.S., Timms,P. and Polkinghorne,A.
+  TITLE     Comparative genomics of koala, cattle and sheep strains of
+            Chlamydia pecorum
+  JOURNAL   BMC Genomics 15, 667 (2014)
+   PUBMED   25106440
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Bachmann,N.L., Jelocnik,M., Bertelli,C., Myers,G., Timms,P. and
+            Polkinghorne,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2013) Institute of Health and Biomedical
+            Innovation, Queensland University of Technology, 60 Musk Avenue,
+            Kelvin Grove, Brisbane, Queensland 4059, Australia
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: SOAPdenovo v. 1.6
+            Assembly Name         :: CpecMC/MarsBar1.0
+            Long Assembly Name    :: C pecorum MC/MarsBar 1.0
+            Genome Coverage       :: 200.0x
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia pecorum MC/MarsBar"
+                     /strain="MC/MarsBar"
+                     /host="Phascolarctos cinereus"
+                     /db_xref="taxon:1427369"
+                     /country="Australia: Queensland"
+                     /collection_date="2011"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+     Region          1..387
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Region          47..373
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(82..83,110,186,228..232,346,372)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            83
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="CpecG_0935"
+                     /coded_by="complement(AZBC01000014.1:141657..142835)"
+                     /transl_table=11
+ORIGIN      
+        1 mkhpyafggq fvpeilmapi qelsnswetl kedrgfkeef dsilkhyagr ptpltevknf
+       61 akaidgprvf lkredllhtg ahkinnvigq cllakylgkt rviaetgagq hgvatataca
+      121 yfgleceiym geedikrqrp nvdkmevlga tvisvtqgsa slkeavneal rswaesfest
+      181 hyclgsalgp spypdivqsf qsvisfevka qlqeytersp dvliacvggg snaigffhhf
+      241 ipdervklig veagglgiet gkhaarfakg rpgvfhgfys yllqdeegqi lnthsisagm
+      301 nyssvgpvha efyesgrasy ttatdkeale afsllsrteg iipalessha laclirmapk
+      361 lpkesivivn lsgrgdkdll hvknlmesgy ya
+//
+

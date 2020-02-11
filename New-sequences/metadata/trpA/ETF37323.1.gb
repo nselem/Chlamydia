@@ -1,0 +1,82 @@
+LOCUS       ETF37323                 255 aa            linear   BCT 12-DEC-2013
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia pecorum DBDeUG].
+ACCESSION   ETF37323
+VERSION     ETF37323.1
+DBLINK      BioProject: PRJNA229199
+            BioSample: SAMN02470821
+DBSOURCE    accession AZBB01000008.1
+KEYWORDS    .
+SOURCE      Chlamydia pecorum DBDeUG
+  ORGANISM  Chlamydia pecorum DBDeUG
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 255)
+  AUTHORS   Bachmann,N.L., Fraser,T.A., Bertelli,C., Jelocnik,M., Gillett,A.,
+            Funnell,O., Flanagan,C., Myers,G.S., Timms,P. and Polkinghorne,A.
+  TITLE     Comparative genomics of koala, cattle and sheep strains of
+            Chlamydia pecorum
+  JOURNAL   BMC Genomics 15, 667 (2014)
+   PUBMED   25106440
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 255)
+  AUTHORS   Bachmann,N.L., Jelocnik,M., Bertelli,C., Myers,G., Timms,P. and
+            Polkinghorne,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2013) Institute of Health and Biomedical
+            Innovation, Queensland University of Technology, 60 Musk Avenue,
+            Kelvin Grove, Brisbane, Queensland 4059, Australia
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: SOAPdenovo v. 1.6
+            Assembly Name         :: CpecDBDeUG1.0
+            Long Assembly Name    :: C pecorum DBDeUG 1.0
+            Genome Coverage       :: 200.0x
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..255
+                     /organism="Chlamydia pecorum DBDeUG"
+                     /strain="DBDeUG"
+                     /host="Phascolarctos cinereus"
+                     /db_xref="taxon:1427370"
+                     /country="Australia: Queensland"
+                     /collection_date="2011"
+     Protein         1..255
+                     /product="tryptophan synthase subunit alpha"
+     Region          14..252
+                     /region_name="Tryptophan_synthase_alpha"
+                     /note="Ttryptophan synthase (TRPS) alpha subunit (TSA).
+                     TPRS is a bifunctional tetrameric enzyme (2 alpha and 2
+                     beta subunits) that catalyzes the last two steps of
+                     L-tryptophan biosynthesis. Alpha and beta subunit catalyze
+                     two distinct reactions which are both...; cd04724"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,59,171,179..180,208..209,229..230)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96,179)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,98,101,122..123,125,131,151,
+                     153..155,158)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..255
+                     /gene="trpA"
+                     /locus_tag="CpecF_0932"
+                     /coded_by="complement(AZBB01000008.1:140984..141751)"
+                     /transl_table=11
+ORIGIN      
+        1 mhridetfkn kkpfigyltg gdggldysva caqalirggv dileigfpfs dpvadgpviq
+       61 kaheralenr pnstmileia rriressevp lvlfsyfnpl lqlgkeylqq lktvgydavl
+      121 ivdlpipfhd eidpfllevl niglapilla tpsssdqrls qistyargfl yyvshkgttg
+      181 vranlaedfa tqisrmrqhf sipivsgfgi gdresakeal ecadgfvvgs afvekigekt
+      241 pleeltlfar sidpr
+//
+

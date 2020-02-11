@@ -1,0 +1,46 @@
+LOCUS       NC_000117            1042519 bp    DNA     circular CON 03-AUG-2016
+DEFINITION  Chlamydia trachomatis D/UW-3/CX chromosome, complete genome.
+ACCESSION   NC_000117
+VERSION     NC_000117.1
+DBLINK      BioProject: PRJNA57637
+            Assembly: GCF_000008725.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia trachomatis D/UW-3/CX
+  ORGANISM  Chlamydia trachomatis D/UW-3/CX
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (bases 1 to 1042519)
+  AUTHORS   Stephens,R.S., Kalman,S., Lammel,C.J., Fan,J., Marathe,R.,
+            Aravind,L., Mitchell,W.P., Olinger,L., Tatusov,R.L., Zhao,Q.,
+            Koonin,E.V. and Davis,R.W.
+  TITLE     Genome sequence of an obligate intracellular pathogen of humans:
+            Chlamydia trachomatis
+  JOURNAL   Science 282 (5389), 754-759 (1998)
+   PUBMED   9784136
+REFERENCE   2  (bases 1 to 1042519)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JAN-2014) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1042519)
+  AUTHORS   Stephens,R.S., Kalman,S., Lammel,C.J., Fan,J., Marathe,R.,
+            Aravind,L., Mitchell,W.P., Olinger,L., Tatusov,R.L., Zhao,Q.,
+            Koonin,E.V. and Davis,R.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAY-1998) Program in Infectious Diseases, University
+            of California, 235 Warren Hall, Berkeley, CA 94720-7360, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to AE001273.
+            RefSeq Category: Reference Genome
+                        TYS: Designated Type Strain
+                        UPR: UniProt Genome
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1042519
+                     /organism="Chlamydia trachomatis D/UW-3/CX"
+                     /mol_type="genomic DNA"
+                     /strain="D/UW-3/CX"
+                     /db_xref="taxon:272561"
+CONTIG      join(AE001273.1:1..1042519)
+//
+

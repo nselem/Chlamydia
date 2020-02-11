@@ -1,0 +1,77 @@
+LOCUS       CCP67539                 392 aa            linear   BCT 27-FEB-2015
+DEFINITION  bifunctional phosphoribosylanthranilate isomerase/tryptophan
+            synthase subunit beta [Chlamydia trachomatis L2b/UCH-2].
+ACCESSION   CCP67539
+VERSION     CCP67539.1
+DBLINK      BioProject: PRJEA71109
+            BioSample: SAMEA2272096
+            Sequence Read Archive: ERR008587
+DBSOURCE    embl accession HE601956.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis L2b/UCH-2
+  ORGANISM  Chlamydia trachomatis L2b/UCH-2
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Harris,S.R., Clarke,I.N., Seth-Smith,H.M., Solomon,A.W.,
+            Cutcliffe,L.T., Marsh,P., Skilton,R.J., Holland,M.J., Mabey,D.,
+            Peeling,R.W., Lewis,D.A., Spratt,B.G., Unemo,M., Persson,K.,
+            Bjartling,C., Brunham,R., de Vries,H.J., Morre,S.A.,
+            Speksnijder,A., Bebear,C.M., Clerc,M., de Barbeyrac,B., Parkhill,J.
+            and Thomson,N.R.
+  TITLE     Whole-genome analysis of diverse Chlamydia trachomatis strains
+            identifies phylogenetic relationships masked by current clinical
+            typing
+  JOURNAL   Nat. Genet. 44 (4), 413-419 (2012)
+   PUBMED   22406642
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Seth-Smith,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-OCT-2011) Wellcome Trust Sanger Institute, Pathogen
+            Genomics, Wellcome Trust Genome Campus, Hinxton, CB10 1SA, UNITED
+            KINGDOM
+COMMENT     Data release policy http://www.sanger.ac.uk/legal/#t_2.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis L2b/UCH-2"
+                     /strain="L2b/UCH-2"
+                     /db_xref="taxon:1071774"
+     Protein         1..392
+                     /product="bifunctional phosphoribosylanthranilate
+                     isomerase/tryptophan synthase subunit beta"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="L2BUCH2_00170"
+                     /coded_by="HE601956.1:190398..191576"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:L2BUCH2_00170"
+                     /db_xref="EnsemblGenomes-Tr:CCP67539"
+                     /db_xref="GOA:L0V360"
+                     /db_xref="InterPro:IPR001926"
+                     /db_xref="InterPro:IPR006653"
+                     /db_xref="InterPro:IPR006654"
+                     /db_xref="InterPro:IPR023026"
+                     /db_xref="UniProtKB/TrEMBL:L0V360"
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

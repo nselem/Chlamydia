@@ -1,0 +1,78 @@
+LOCUS       CCP91157                 253 aa            linear   BCT 27-FEB-2015
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia trachomatis L2b/Ams3].
+ACCESSION   CCP91157
+VERSION     CCP91157.1
+DBLINK      BioProject: PRJEA71121
+            BioSample: SAMEA2271925
+            Sequence Read Archive: ERR008594
+DBSOURCE    embl accession HE601962.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis L2b/Ams3
+  ORGANISM  Chlamydia trachomatis L2b/Ams3
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Harris,S.R., Clarke,I.N., Seth-Smith,H.M., Solomon,A.W.,
+            Cutcliffe,L.T., Marsh,P., Skilton,R.J., Holland,M.J., Mabey,D.,
+            Peeling,R.W., Lewis,D.A., Spratt,B.G., Unemo,M., Persson,K.,
+            Bjartling,C., Brunham,R., de Vries,H.J., Morre,S.A.,
+            Speksnijder,A., Bebear,C.M., Clerc,M., de Barbeyrac,B., Parkhill,J.
+            and Thomson,N.R.
+  TITLE     Whole-genome analysis of diverse Chlamydia trachomatis strains
+            identifies phylogenetic relationships masked by current clinical
+            typing
+  JOURNAL   Nat. Genet. 44 (4), 413-419 (2012)
+   PUBMED   22406642
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Seth-Smith,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-OCT-2011) Wellcome Trust Sanger Institute, Pathogen
+            Genomics, Wellcome Trust Genome Campus, Hinxton, CB10 1SA, UNITED
+            KINGDOM
+COMMENT     Data release policy http://www.sanger.ac.uk/legal/#t_2.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis L2b/Ams3"
+                     /strain="L2b/Ams3"
+                     /db_xref="taxon:1071780"
+     Protein         1..253
+                     /product="tryptophan synthase subunit alpha"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     Site            order(44,55,59,173,206..207,227..228)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,97)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,99,102,123..124,126,133,153,
+                     155..157,160)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..253
+                     /locus_tag="L2BAMS3_00171"
+                     /coded_by="HE601962.1:191569..192330"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:L2BAMS3_00171"
+                     /db_xref="EnsemblGenomes-Tr:CCP91157"
+                     /db_xref="GOA:L0VJY0"
+                     /db_xref="InterPro:IPR002028"
+                     /db_xref="InterPro:IPR011060"
+                     /db_xref="InterPro:IPR013785"
+                     /db_xref="InterPro:IPR018204"
+                     /db_xref="UniProtKB/TrEMBL:L0VJY0"
+ORIGIN      
+        1 mskltqvfkx xxxxxgylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyeat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

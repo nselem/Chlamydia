@@ -1,0 +1,43 @@
+LOCUS       WP_088205713             264 aa            linear   BCT 28-SEP-2019
+DEFINITION  tryptophan synthase subunit alpha [Chlamydiales bacterium SCGC
+            AG-110-P3].
+ACCESSION   WP_088205713
+VERSION     WP_088205713.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydiales bacterium SCGC AG-110-P3
+  ORGANISM  Chlamydiales bacterium SCGC AG-110-P3
+            Bacteria; Chlamydiae; Chlamydiales.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00262.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00262
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..264
+                     /organism="Chlamydiales bacterium SCGC AG-110-P3"
+                     /db_xref="taxon:1871323"
+     gene            1..264
+                     /gene="trpA"
+     Protein         1..264
+                     /product="tryptophan synthase subunit alpha"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=27923
+     Region          18..254
+                     /region_name="trpA"
+                     /note="tryptophan synthase subunit alpha; Provisional;
+                     PRK13111"
+                     /db_xref="CDD:237285"
+ORIGIN      
+        1 mkevysmgri kqafssgkif tayvtagdgs leysidvcra miaagvdlle vgipfsdpia
+       61 dgpvieaamk raldagatpa lavelvrrlr teteipiilf gyyntilsgg maflqsakea
+      121 ggdgilvvdl pieegdaltm vmdsldldti qvvspstsde rleaisaqar gflyyacrkg
+      181 ttgvqnnlpg dyaqrvqair ayshlpvlsg fgiadreaag halkeadgfv vgsaivamig
+      241 drrppdeigs fvravdprrg vayv
+//
+

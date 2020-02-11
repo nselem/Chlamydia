@@ -1,0 +1,79 @@
+LOCUS       AEB41996                 255 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase, alpha subunit [Chlamydia pecorum E58].
+ACCESSION   AEB41996
+VERSION     AEB41996.1
+DBLINK      BioProject: PRJNA62893
+            BioSample: SAMN02603383
+DBSOURCE    accession CP002608.1
+KEYWORDS    .
+SOURCE      Chlamydia pecorum E58
+  ORGANISM  Chlamydia pecorum E58
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 255)
+  AUTHORS   Mojica,S., Huot Creasy,H., Daugherty,S., Read,T.D., Kim,T.,
+            Kaltenboeck,B., Bavoil,P. and Myers,G.S.
+  TITLE     Genome Sequence of the Obligate Intracellular Animal Pathogen
+            Chlamydia pecorum E58
+  JOURNAL   J. Bacteriol. 193 (14), 3690 (2011)
+   PUBMED   21571992
+REFERENCE   2  (residues 1 to 255)
+  AUTHORS   Mojical,S., Drabek,E.F., Huot Creasy,H., Daugherty,S., Read,T.D.,
+            Kaltenboeck,B., Bavoil,P. and Myers,G.S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2011) Institute for Genome Sciences, University
+            of Maryland School of Medicine, 801 West Baltimore Street,
+            Baltimore, MD 21201, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: Celera Assembler
+            Genome Coverage       :: 12x
+            Sequencing Technology :: ATI3730
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..255
+                     /organism="Chlamydia pecorum E58"
+                     /strain="E58"
+                     /culture_collection="ATCC:VR-628"
+                     /type_material="type strain of Chlamydia pecorum"
+                     /db_xref="taxon:331635"
+     Protein         1..255
+                     /product="tryptophan synthase, alpha subunit"
+                     /EC_number="4.2.1.20"
+     Region          14..252
+                     /region_name="Tryptophan_synthase_alpha"
+                     /note="Ttryptophan synthase (TRPS) alpha subunit (TSA).
+                     TPRS is a bifunctional tetrameric enzyme (2 alpha and 2
+                     beta subunits) that catalyzes the last two steps of
+                     L-tryptophan biosynthesis. Alpha and beta subunit catalyze
+                     two distinct reactions which are both...; cd04724"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,59,171,179..180,208..209,229..230)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96,179)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,98,101,122..123,125,131,151,
+                     153..155,158)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..255
+                     /gene="trpA"
+                     /locus_tag="G5S_1083"
+                     /coded_by="complement(CP002608.1:1074207..1074974)"
+                     /transl_table=11
+ORIGIN      
+        1 mhridetfkn kkpfigyltg gdggldysva caqalirggv dileigfpfs dpvadgpviq
+       61 kaheralenr anstmileia rriressevp lvlfsyfnpl lqlgkeylqq lktvgydavl
+      121 ivdlpipfhd eidpfllevl niglapilla tpsssdqrls qistyargfl yyvshkgttg
+      181 vranlaedfa tqisrmrqhf sipivsgfgi gdresakeal ecadgfvvgs afvekigekt
+      241 pleeltlfar sidpr
+//
+

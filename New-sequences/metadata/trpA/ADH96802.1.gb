@@ -1,0 +1,51 @@
+LOCUS       ADH96802                 253 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase alpha chain [Chlamydia trachomatis G/9301].
+ACCESSION   ADH96802
+VERSION     ADH96802.1
+DBLINK      BioProject: PRJNA45851
+            BioSample: SAMN02603696
+DBSOURCE    accession CP001930.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis G/9301
+  ORGANISM  Chlamydia trachomatis G/9301
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 253)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Quinn,K.L., Davidson,J.R., Stamm,W.E.
+            and Rockey,D.D.
+  TITLE     Genome Sequencing of Recent Clinical Chlamydia trachomatis Strains
+            Identifies Loci Associated with Tissue Tropism and Regions of
+            Apparent Recombination
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Quinn,K.L., Davidson,J.R., Stamm,W.E.
+            and Rockey,D.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2010) Biomedical Sciences, Oregon State
+            University, 105 Magruder Hall, Corvallis, OR 97331, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis G/9301"
+                     /strain="G/9301"
+                     /db_xref="taxon:718219"
+     Protein         1..253
+                     /product="tryptophan synthase alpha chain"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /locus_tag="CTG9301_00880"
+                     /coded_by="CP001930.1:194578..195339"
+                     /note="COG0159 Tryptophan synthase alpha chain"
+                     /transl_table=11
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

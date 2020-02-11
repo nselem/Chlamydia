@@ -1,0 +1,70 @@
+LOCUS       ADH16935                 392 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis E/150].
+ACCESSION   ADH16935
+VERSION     ADH16935.1
+DBLINK      BioProject: PRJNA43143
+            BioSample: SAMN02603692
+DBSOURCE    accession CP001886.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis E/150
+  ORGANISM  Chlamydia trachomatis E/150
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Quinn,K.L., Davidson,J.R., Stamm,W.E.
+            and Rockey,D.D.
+  TITLE     Genome sequencing of recent clinical Chlamydia trachomatis strains
+            identifies loci associated with tissue tropism and regions of
+            apparent recombination
+  JOURNAL   Infect. Immun. 78 (6), 2544-2553 (2010)
+   PUBMED   20308297
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Quinn,K.L., Davidson,J.R., Stamm,W.E.
+            and Rockey,D.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JAN-2010) Biomedical Sciences, Oregon State
+            University, 105 Magruder Hall, Corvallis, OR 97331, USA
+COMMENT     Annotation was added by the NCBI Prokaryotic Genomes Automatic
+            Annotation Pipeline Group. Information about the Pipeline can be
+            found here:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            Please be aware that the annotation is done automatically with
+            little or no manual curation.
+            Bacteria from the University of Washington Chlamydia Repository.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis E/150"
+                     /strain="E/150"
+                     /db_xref="taxon:707184"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="E150_00895"
+                     /coded_by="CP001886.1:193026..194204"
+                     /note="COG0133 Tryptophan synthase beta chain"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

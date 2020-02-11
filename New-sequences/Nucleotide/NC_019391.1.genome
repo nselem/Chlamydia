@@ -1,0 +1,67 @@
+LOCUS       NC_019391            1171011 bp    DNA     circular CON 28-NOV-2019
+DEFINITION  Chlamydia psittaci 01DC12 complete genome.
+ACCESSION   NC_019391
+VERSION     NC_019391.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMEA2272414
+            Assembly: GCF_000317995.1
+KEYWORDS    RefSeq; complete genome.
+SOURCE      Chlamydia psittaci 01DC12
+  ORGANISM  Chlamydia psittaci 01DC12
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Seth-Smith,H.M.B., Sait,M., Sachse,K., Longbottom,D. and
+            Thomson,N.R.
+  TITLE     Genome sequence of Chlamydia psittaci strain 01DC12 originating
+            from swine
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1171011)
+  AUTHORS   Seth-Smith,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2012) Wellcome Trust Sanger Institute, Pathogen
+            Genomics, Wellcome Trust Genome Campus, Hinxton, CB10 1SA, UNITED
+            KINGDOM
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            HF545614.
+            Data release policy http://www.sanger.ac.uk/legal/#t_2.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 11/28/2019 02:53:47
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 1,028
+            CDSs (total)                      :: 984
+            Genes (coding)                    :: 969
+            CDSs (with protein)               :: 969
+            Genes (RNA)                       :: 44
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 38
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 15
+            CDSs (without protein)            :: 15
+            Pseudo Genes (ambiguous residues) :: 0 of 15
+            Pseudo Genes (frameshifted)       :: 9 of 15
+            Pseudo Genes (incomplete)         :: 1 of 15
+            Pseudo Genes (internal stop)      :: 6 of 15
+            Pseudo Genes (multiple problems)  :: 1 of 15
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1171011
+                     /organism="Chlamydia psittaci 01DC12"
+                     /mol_type="genomic DNA"
+                     /strain="01DC12"
+                     /db_xref="taxon:1221877"
+CONTIG      join(HF545614.1:1..1171011)
+//
+

@@ -1,0 +1,138 @@
+LOCUS       LN847140                3094 bp    DNA     linear   BCT 21-MAY-2015
+DEFINITION  Chlamydia pneumoniae genome assembly H12, chromosome : 1.
+ACCESSION   LN847140
+VERSION     LN847140.1
+DBLINK      BioProject: PRJEB8246
+            BioSample: SAMEA3212825
+KEYWORDS    .
+SOURCE      Chlamydia pneumoniae
+  ORGANISM  Chlamydia pneumoniae
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Rattei,Thomas.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2015) University of Vienna, CUBE, Division of
+            Computational Systems Biology, Althanstr. 14, 1090 Vienna, Austria
+FEATURES             Location/Qualifiers
+     source          1..3094
+                     /organism="Chlamydia pneumoniae"
+                     /mol_type="genomic DNA"
+                     /isolate="H12"
+                     /isolation_source="respiratory tract"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:83558"
+                     /chromosome="1"
+                     /country="Finland"
+     gene            complement(<2..436)
+                     /locus_tag="BN1224_H12_CD_00010"
+     CDS             complement(<2..436)
+                     /locus_tag="BN1224_H12_CD_00010"
+                     /note="Product derived from UniProtKB/Swiss-Prot:Q9Z8T7"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="50S ribosomal protein L13"
+                     /protein_id="CRI43485.1"
+                     /translation="MEKRKDTKTTIVKSSETTKSWYVVDAAGKTLGRLSSEVAKILRG
+                     KHKVTYTPHVAMGDGVIVINAEKVRLTGAKKGQKIYRYYTGYISGMREIPFENMMARK
+                     PNYIIEHAIKGMMPRTRLGKKQLKSLRIVKGDSYETFESQKPI"
+     gene            complement(668..1348)
+                     /locus_tag="BN1224_H12_CD_00020"
+     CDS             complement(668..1348)
+                     /locus_tag="BN1224_H12_CD_00020"
+                     /EC_number="3.6.3.-"
+                     /note="Product derived from UniProtKB/Swiss-Prot:Q6MD10;EC
+                     number derived from UniProtKB/Swiss-Prot:Q6MD10"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Lipoprotein-releasing system ATP-binding protein
+                     LolD"
+                     /protein_id="CRI43486.1"
+                     /translation="MSLLIEAKNLSKTIQQQNQNISILTDVSLSLHAGETISITGASG
+                     NGKTTLLHLLGTLDVPSSGSLRFFDKDLKNQDLANFRNQHIGFVFQNFYLLEDDTVLK
+                     NVLMPALIARKNISKGSPVYTRALELLDLVNLEDKVRTRCSKLSGGEKQRVAIARALI
+                     NEPAILLADEPSGNLDEETSEQIHNLLLEQASALCGILIVTHNKHLASRCSREGVLSN
+                     GKLFFHNS"
+     gene            complement(1351..2862)
+                     /locus_tag="BN1224_H12_CD_00030"
+     CDS             complement(1351..2862)
+                     /locus_tag="BN1224_H12_CD_00030"
+                     /note="Product derived from UniProtKB/Trembl:D1A190"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ABC transporter, permease protein"
+                     /protein_id="CRI43487.1"
+                     /translation="MKFEFSVALKYLIPGRGRLYSAIVSLFSVGIISLVVWLSIVFIS
+                     VIHGLEQRWIEDLSQLHSPITILPSDTYYSSYYYQIDKHSSLSNYTTKTLGEKIASPQ
+                     VDPYDPESDYLLPETFPLKDCDLGGQQKDPVKMTLESLGPYLQSQHGKVIEFEQGVGY
+                     LDIKTSLKLQKPQPRNLTHFLTYPSKLSYEDKVLPYDETDYTSAELNPFNRSPSGWQQ
+                     DFHHLEELYRGASIILPSTYKDSGYKVGDTGVFSTYSIENEKETQYTVHVIGFYNPGL
+                     SPLGGRTVFIDPDLARSIRSQSEGLGMSNGFHLFFPNTKRIVFVKKQIENILTSLGVD
+                     DYWEISSLHDYDYFQPILDQLQSDQVLFLFVCILILIVACSNIVTMSMLLVNNKKKEI
+                     GILKAMGTSSRSLKIIFACCGAFSGACGVVIGTIFAIITLKNLQFIVKALNYLQGRET
+                     FNTAFFGQNLPNSVHPQAIYFLGLGTLLLAAVSGALPARKVAKMHVSEILKAD"
+     gene            2909..3094
+                     /locus_tag="BN1224_H12_CD_00040"
+     CDS             2909..3094
+                     /locus_tag="BN1224_H12_CD_00040"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CRI43488.1"
+                     /translation="MKSFYLASLKITCLRSFLSYFLSSSRPVVFLLFFTVQYISELSE
+                     LFNLIISRFLLAMDESF"
+ORIGIN      
+        1 aaattggctt ttgagattca aaagtttcgt atgaatcccc ttttacaatc cttaaggact
+       61 tcaattgttt ctttcccaag cgagttctgg gcatcattcc cttgatcgca tgctcaataa
+      121 tgtaattagg ttttctcgcc atcatatttt caaaaggaat ttctcgcatt ccagagatat
+      181 atcctgtgta gtagcgatag attttttggc ctttcttagc tccagttagg cgaaccttct
+      241 ctgcattaat aacaataaca ccgtctccca tagccacatg aggagtatag gtgactttat
+      301 gcttgcctct taaaattttt gccacttctg aagaaagcct tcctaaggtt ttcccagcag
+      361 catcaacaac ataccatgac ttcgtagttt cactggactt tactatagtt gtttttgtgt
+      421 cttttctttt ttccataata atgtaactgt cttactagag agggcgatta taagtctgtt
+      481 caaatttttt tccaaacaaa aacagccgaa aataacaagt ctcttagttt aaaaatattt
+      541 ccataaattt cttttcgtac aattagcagt tttttcttaa cggctgctga tataaaagca
+      601 ttcagacacc gtctaaagct agatctcaaa aatatggatt tatcttgaaa tcagagggag
+      661 tgttttctta agagttatga aaaaatagct tgccattgga taagactcct tccctagaac
+      721 acctagaggc gaggtgctta ttatgtgtca caataagaat tccacataat gcggatgctt
+      781 gttctaacag aaggttatga atctgttctg aagtctcttc atcgagattc cccgaaggct
+      841 cgtctgccaa aaggatggcc ggttcgttga ttaacgctct agcaatagcg actcgctgtt
+      901 tttcccctcc tgataattta gagcagcgag tccgtacttt gtcttcaaga ttcactaaat
+      961 ccaagagctc tagagccctg gtatatacag gagatccttt agatatgttt tttcgagcaa
+     1021 ttagagctgg cattaagaca ttttttaata ctgtgtcgtc ttctagcaaa taaaaatttt
+     1081 ggaagacaaa gccgatatgc tggtttctaa aattcgcaag atcctggttt tttagatcct
+     1141 tatcaaaaaa gcgtaagctt ccagaagaag gaacatccaa agttcctaag agatgcaata
+     1201 gcgtggtttt accattacct gaggctcctg taatcgatat agtttctcct gcatgcagtg
+     1261 ataacgatac atcggtcaaa atagaaatat tttggttctg ttgctggata gttttagaaa
+     1321 ggtttttagc ttctataagt aaggacatag ctaatctgct tttaaaattt ctgagacatg
+     1381 catttttgcg acttttcttg caggcagggc tcctgaaact gcggctaaaa gtagcgtacc
+     1441 taaccctaga aaataaatag cctgggggtg aacgctattg ggaagattct ggccaaagaa
+     1501 agcagtatta aatgtttctc ttccctgtaa atagttcagt gcttttacaa tgaattgtaa
+     1561 attttttaat gtaattatag cgaatatcgt tcctataacc actccacaag ctcctgaaaa
+     1621 tgctccacaa caagcaaaga tgatctttaa acttcgtgat gatgtcccca tagctttaag
+     1681 aatgcctatt tcctttttct tattatttac aaggagcatc gacatagtca cgatgttgga
+     1741 gcaagcaaca ataagaataa gtatgcacac aaaaagaaag agaacttgat cactttgaag
+     1801 ttgatctagg ataggctgga aataatcgta atcgtgtagg gaagaaatct cccaatagtc
+     1861 atcgacacct aaggaagtta gaatattttc tatttgtttt tttacaaaga caatgcgttt
+     1921 ggtattgggg aaaaatagat ggaagccgtt actcatcccc aagccctcgg attgagaacg
+     1981 aatggatcta gcaagatctg ggtctataaa tacagttctt ccccctaacg gagagagccc
+     2041 gggattataa aatccgatga catgaactgt atattgagtt tctttttcat tctctatgga
+     2101 gtaggtacta aaaactcctg tatcccctac tttataacca gagtctttat aagtactagg
+     2161 gagtatgatc gaagctcctc ggtagagttc ttctaaatga tggaaatctt gttgccatcc
+     2221 cgaggggctt ctattaaatg gattcaattc cgcagaggta tagtctgttt catcgtaggg
+     2281 taaaacctta tcttcatagg aaagcttaga gggatacgtt aaaaaatgcg tgagatttct
+     2341 aggctgaggt ttttgtaatt ttagagaggt tttgatatcg aggtaaccca ctccctgctc
+     2401 aaattcgatc actttcccgt gttgggattg aaggtagggt cctaaagatt ctagagtcat
+     2461 ctttacagga tctttttgct gccctcctag atcacagtct tttaatggaa atgtttccgg
+     2521 aagaaggtag tctgattcag gatcataagg gtcgacttgt ggagaagcta ttttttctcc
+     2581 taaagttttc gtagtgtagt tagaaagact ggagtgtttg tctatttgat agtagtacga
+     2641 agaataatat gtgtcggagg gaagaatagt aattggagaa tggagttggg aaagatcctc
+     2701 tatccatctt tgttctaaac cgtgaatgac tgaaataaaa actatagaaa gccagacaac
+     2761 aagagaaatg atacccacag aaaataggga gactatagct gaatatagcc ttccccttcc
+     2821 tggaatcaaa tactttaaag ctactgaaaa ttcgaacttc atgacttcta actaagaata
+     2881 cgattttaga agcgagtagt taagtacgat gaaatccttt tacctagctt ctttgaaaat
+     2941 tacgtgccta cgcagttttc tatcatattt tttgagttct agtcgacctg ttgtttttct
+     3001 tttgtttttt acagtccagt acatatcaga actttccgag ctttttaatt taataatctc
+     3061 ccgattcttg cttgccatgg atgagtcctt ttaa
+//
+

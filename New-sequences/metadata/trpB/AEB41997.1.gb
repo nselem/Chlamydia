@@ -1,0 +1,74 @@
+LOCUS       AEB41997                 392 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase, beta subunit [Chlamydia pecorum E58].
+ACCESSION   AEB41997
+VERSION     AEB41997.1
+DBLINK      BioProject: PRJNA62893
+            BioSample: SAMN02603383
+DBSOURCE    accession CP002608.1
+KEYWORDS    .
+SOURCE      Chlamydia pecorum E58
+  ORGANISM  Chlamydia pecorum E58
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Mojica,S., Huot Creasy,H., Daugherty,S., Read,T.D., Kim,T.,
+            Kaltenboeck,B., Bavoil,P. and Myers,G.S.
+  TITLE     Genome Sequence of the Obligate Intracellular Animal Pathogen
+            Chlamydia pecorum E58
+  JOURNAL   J. Bacteriol. 193 (14), 3690 (2011)
+   PUBMED   21571992
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Mojical,S., Drabek,E.F., Huot Creasy,H., Daugherty,S., Read,T.D.,
+            Kaltenboeck,B., Bavoil,P. and Myers,G.S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2011) Institute for Genome Sciences, University
+            of Maryland School of Medicine, 801 West Baltimore Street,
+            Baltimore, MD 21201, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: Celera Assembler
+            Genome Coverage       :: 12x
+            Sequencing Technology :: ATI3730
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia pecorum E58"
+                     /strain="E58"
+                     /culture_collection="ATCC:VR-628"
+                     /type_material="type strain of Chlamydia pecorum"
+                     /db_xref="taxon:331635"
+     Protein         1..392
+                     /product="tryptophan synthase, beta subunit"
+                     /EC_number="4.2.1.20"
+     Region          1..387
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Region          47..373
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(82..83,110,186,228..232,346,372)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            83
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="G5S_1084"
+                     /coded_by="complement(CP002608.1:1074967..1076145)"
+                     /transl_table=11
+ORIGIN      
+        1 mkhpyafggq fvpeilmgpi qelsnswetl kedrgfkeef dsilkhyagr ptpltevknf
+       61 akaidgprvf lkredllhtg ahkinnvigq cllakylgkt rviaetgagq hgvatataca
+      121 yfgleceiym geedikrqrp nvdkmevlga tvisvtqgsa slkeavneal rswaesfest
+      181 hyclgsalgp spypdivqsf qsvisfevka qlqeytersp dvliacvggg snaigffhhf
+      241 ipdervklig veagglgiet gkhaarfakg rpgvfhgfys yllqdeegqi lnthsisagm
+      301 nyssvgpvha efyesgrasy ttatdkeale afsllsraeg iipalessha laclirmapk
+      361 lpkesivivn lsgrgdkdll hvknlmesgy ya
+//
+

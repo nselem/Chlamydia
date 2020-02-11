@@ -1,0 +1,104 @@
+LOCUS       TRPB2_CHLCV              391 aa            linear   BCT 13-NOV-2019
+DEFINITION  RecName: Full=Tryptophan synthase beta chain 2.
+ACCESSION   Q822W3
+VERSION     Q822W3.1
+DBSOURCE    UniProtKB: locus TRPB2_CHLCV, accession Q822W3;
+            class: standard.
+            created: Jul 25, 2003.
+            sequence updated: Jun 1, 2003.
+            annotation updated: Nov 13, 2019.
+            xrefs: AE015925.1, AAP05308.1, WP_011006523.1
+            xrefs (non-sequence databases): SMR:Q822W3,
+            STRING:227941.CCA_00566, PRIDE:Q822W3, EnsemblBacteria:AAP05308,
+            EnsemblBacteria:AAP05308, EnsemblBacteria:CCA_00566,
+            KEGG:cca:CCA_00566, eggNOG:ENOG4105CG0, eggNOG:COG0133, KO:K01696,
+            OMA:PEMLYPN, OrthoDB:912282at2,
+            BioCyc:CCAV227941:G1G03-580-MONOMER, UniPathway:UPA00035,
+            Proteomes:UP000002193, GO:0004834, CDD:cd06446,
+            Gene3D:3.40.50.1100, HAMAP:MF_00133, InterPro:IPR001926,
+            InterPro:IPR006653, InterPro:IPR006654, InterPro:IPR023026,
+            InterPro:IPR036052, PANTHER:PTHR42882, Pfam:PF00291,
+            PIRSF:PIRSF001413, SUPFAM:SSF53686, TIGRFAMs:TIGR00263,
+            PROSITE:PS00168
+KEYWORDS    Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Complete
+            proteome; Lyase; Pyridoxal phosphate; Tryptophan biosynthesis.
+SOURCE      Chlamydia caviae GPIC
+  ORGANISM  Chlamydia caviae GPIC
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 391)
+  AUTHORS   Read,T.D., Myers,G.S., Brunham,R.C., Nelson,W.C., Paulsen,I.T.,
+            Heidelberg,J., Holtzapple,E., Khouri,H., Federova,N.B., Carty,H.A.,
+            Umayam,L.A., Haft,D.H., Peterson,J., Beanan,M.J., White,O.,
+            Salzberg,S.L., Hsia,R.C., McClarty,G., Rank,R.G., Bavoil,P.M. and
+            Fraser,C.M.
+  TITLE     Genome sequence of Chlamydophila caviae (Chlamydia psittaci GPIC):
+            examining the role of niche-specific genes in the evolution of the
+            Chlamydiaceae
+  JOURNAL   Nucleic Acids Res. 31 (8), 2134-2147 (2003)
+   PUBMED   12682364
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=ATCC VR-813 / DSM 19441 / GPIC
+COMMENT     [FUNCTION] The beta subunit is responsible for the synthesis of
+            L-tryptophan from indole and L-serine. {ECO:0000250}.
+            [CATALYTIC ACTIVITY] Reaction=(1S,2R)-1-C-(indol-3-yl)glycerol
+            3-phosphate + L-serine = D-glyceraldehyde 3-phosphate + H2O +
+            L-tryptophan; Xref=Rhea:RHEA:10532, ChEBI:CHEBI:15377,
+            ChEBI:CHEBI:33384, ChEBI:CHEBI:57912, ChEBI:CHEBI:58866,
+            ChEBI:CHEBI:59776; EC=4.2.1.20.
+            [COFACTOR] Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+            Evidence={ECO:0000250}.
+            [PATHWAY] Amino-acid biosynthesis; L-tryptophan biosynthesis;
+            L-tryptophan from chorismate: step 5/5.
+            [SUBUNIT] Tetramer of two alpha and two beta chains. {ECO:0000250}.
+            [SIMILARITY] Belongs to the TrpB family. {ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..391
+                     /organism="Chlamydia caviae GPIC"
+                     /db_xref="taxon:227941"
+     gene            1..391
+                     /gene="trpB2"
+                     /locus_tag="CCA_00566"
+                     /gene_synonym="trpB-2"
+     Protein         1..391
+                     /product="Tryptophan synthase beta chain 2"
+                     /EC_number="4.2.1.20"
+                     /UniProtKB_evidence="Inferred from homology"
+     Region          1..391
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Tryptophan synthase beta chain 2.
+                     /FTId=PRO_0000098939."
+     Region          1..381
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Region          47..372
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(82..83,110,186,227..231,345,371)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            83
+                     /site_type="modified"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-(pyridoxal phosphate)lysine. {ECO:0000250}."
+     Site            83
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+ORIGIN      
+        1 mkhpypfggq fmpeilmapv qdlsnswksl qnhsdfknel dsvlknyagr ptplteiknf
+       61 akaihgprif lkredllhtg ahkinnalgq cllakhlgkt riiaetgagq hgvatatacg
+      121 clglecviym gakdierqkp nvdkmnllga evisvnqgaq tlkdavneal rdwsknyest
+      181 hyclgsalgp spypemvrnf qsvislevks qlqeigfspd lliacvgggs naigffhhfi
+      241 pdtrvklvgv eagglgiesg hhaarfatgr pgvlhgfysy llqdnegqvl pthsisagld
+      301 ypavgpdhav lyesgrasyt vatdkaalea ffllsrlegi ipalesshal aeliniaptl
+      361 pkesvvvvnl sgrgdkdleq itnlikagnn e
+//
+

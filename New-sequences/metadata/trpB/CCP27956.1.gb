@@ -1,0 +1,71 @@
+LOCUS       CCP27956                 392 aa            linear   BCT 27-FEB-2015
+DEFINITION  tryptophan synthase beta chain [Chlamydia trachomatis IU824].
+ACCESSION   CCP27956
+VERSION     CCP27956.1
+DBLINK      BioProject: PRJEB223
+            BioSample: SAMEA2272106
+DBSOURCE    embl accession HF562298.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis IU824
+  ORGANISM  Chlamydia trachomatis IU824
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   O'Neill,C.E., Seth-Smith,H.M., Van Der Pol,B., Harris,S.R.,
+            Thomson,N.R., Cutcliffe,L.T. and Clarke,I.N.
+  TITLE     Chlamydia trachomatis clinical isolates identified as tetracycline
+            resistant do not exhibit resistance in vitro: whole-genome
+            sequencing reveals a mutation in porB but no evidence for
+            tetracycline resistance genes
+  JOURNAL   Microbiology (Reading, Engl.) 159 (PT 4), 748-756 (2013)
+   PUBMED   23378575
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   O'Neill,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-NOV-2012) Molecular Microbiology, University of
+            Southampton, Southampton General Hospital, MP814, SO16 6YD, UNITED
+            KINGDOM
+COMMENT     Data release policy http://www.sanger.ac.uk/legal/#t_2.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis IU824"
+                     /strain="IU824"
+                     /db_xref="taxon:1260222"
+     Protein         1..392
+                     /product="tryptophan synthase beta chain"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="BN197_1691"
+                     /coded_by="HF562298.1:193657..194835"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:BN197_1691"
+                     /db_xref="EnsemblGenomes-Tr:CCP27956"
+                     /db_xref="GOA:M5D910"
+                     /db_xref="InterPro:IPR001926"
+                     /db_xref="InterPro:IPR006653"
+                     /db_xref="InterPro:IPR006654"
+                     /db_xref="InterPro:IPR023026"
+                     /db_xref="UniProtKB/TrEMBL:M5D910"
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

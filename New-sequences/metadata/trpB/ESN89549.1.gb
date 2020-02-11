@@ -1,0 +1,78 @@
+LOCUS       ESN89549                 392 aa            linear   BCT 31-OCT-2013
+DEFINITION  tryptophan synthase, beta subunit [Chlamydia suis MD56].
+ACCESSION   ESN89549
+VERSION     ESN89549.1
+DBLINK      BioProject: PRJNA221336
+            BioSample: SAMN02388129
+DBSOURCE    accession AYKJ01000011.1
+KEYWORDS    .
+SOURCE      Chlamydia suis MD56
+  ORGANISM  Chlamydia suis MD56
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Donati,M., Huot-Creasy,H., Humphrys,M., Di Paolo,M., Di
+            Francesco,A. and Myers,G.S.
+  TITLE     Genome Sequence of Chlamydia suis MD56, Isolated from the
+            Conjunctiva of a Weaned Piglet
+  JOURNAL   Genome Announc 2 (3), e00425-14 (2014)
+   PUBMED   24812227
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Donati,M., Huot-Creasy,H., Humphrys,M., Di Francesco,A., Di
+            Paolo,M. and Myers,G.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-OCT-2013) Institute for Genome Sciences, University
+            of Maryland, Baltimore, MD 21201, USA
+COMMENT     Bacteria available from Manuela Donati, University di Bologna,
+            Bologna, Italy.
+            Source DNA available from Garry Myers, Institute for Genome
+            Sciences, University of Maryland, Baltimore MD 21201, USA.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.1
+            Assembly Name         :: suis
+            Genome Coverage       :: 160x
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia suis MD56"
+                     /strain="MD56"
+                     /db_xref="taxon:1405296"
+     Protein         1..392
+                     /product="tryptophan synthase, beta subunit"
+                     /EC_number="4.2.1.20"
+     Region          7..389
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Region          48..374
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="Q499_0185"
+                     /coded_by="AYKJ01000011.1:404..1582"
+                     /transl_table=11
+ORIGIN      
+        1 msqhqypfgg aflpeellap iqalkieweq mktqqsflae lssilknyag ratpltevkn
+       61 faraihgprv flkredllht gahkinnalg qcllakylgk nrvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvaqgs cglkdavnqa lqdwakthas
+      181 thyclgsalg pepypdivrf fqsvisaevk eqihaatgrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgiv sgkhaarfat grpgifhgfy syllqdsegq vlqthsisag
+      301 ldypsvgpdh aamhesgraf ytsatdeeal qafflltrne giipalessh alahlvsiap
+      361 slpkdhiviv nlsgrgdkdl pqiikrnggm ye
+//
+

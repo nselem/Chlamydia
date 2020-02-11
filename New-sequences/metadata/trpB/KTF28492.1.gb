@@ -1,0 +1,77 @@
+LOCUS       KTF28492                 392 aa            linear   BCT 18-DEC-2015
+DEFINITION  tryptophan synthase, beta subunit [Chlamydia pecorum].
+ACCESSION   KTF28492
+VERSION     KTF28492.1
+DBLINK      BioProject: PRJNA288201
+            BioSample: SAMN03796073
+DBSOURCE    accession LFRH01000005.1
+KEYWORDS    .
+SOURCE      Chlamydia pecorum
+  ORGANISM  Chlamydia pecorum
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Jelocnik,M., Bachmann,N.L., Kaltenboeck,B., Waugh,C., Woolford,L.,
+            Speight,N., Gillett,A., Higgins,D., Flanagan,C., Myers,G., Timms,P.
+            and Polkinghorne,A.
+  TITLE     More than comparative genomics: Whole genome sequencing reveals
+            elusive C. pecorum plasmid and re-evaluates genetic differences and
+            phylogenetic relationships between C. pecorum from pig, cattle,
+            sheep and koala hosts
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Jelocnik,M., Bachmann,N.L., Kaltenboeck,B., Waugh,C., Woolford,L.,
+            Speight,N., Gillett,A., Higgins,D., Flanagan,C., Myers,G., Timms,P.
+            and Polkinghorne,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUN-2015) University of the Sunshine Coast, 90 Sippy
+            Downs Drive, Sippy Downs, QLD 4556, Australia
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC NGS Cell v. 7.5.1
+            Genome Coverage       :: 2569.0x
+            Sequencing Technology :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia pecorum"
+                     /strain="L1"
+                     /isolation_source="lung"
+                     /host="Sus"
+                     /db_xref="taxon:85991"
+                     /country="Austria"
+                     /collection_date="1969"
+     Protein         1..392
+                     /product="tryptophan synthase, beta subunit"
+     Region          1..387
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Region          47..373
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(82..83,110,186,228..232,346,372)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            83
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="cpL1_0934"
+                     /coded_by="complement(LFRH01000005.1:132988..134166)"
+                     /transl_table=11
+ORIGIN      
+        1 mkhpyafggq fipeilmgpi qelsnswetl kedrgfkeef dsilkhyagr ptpltevknf
+       61 akaidgprvf lkredllhtg ahkinnvigq cllakylgkt rviaetgagq hgvatataca
+      121 yfgleceiym geedikrqrp nvdkmevlga tvisvtqgsa slkeavneal rswaesfest
+      181 hyclgsalgp spypdivqsf qsvisfevka qlqeytersp dvliacvggg snaigffhhf
+      241 ipdervklig veagglgiet gkhaarfakg rpgvfhgfys yllqdeegqi lnthsisagm
+      301 nyssvgpvha efyesgrasy ttatdkeale afsllsrveg iipalessha laclirmapk
+      361 lpkesivivn lsgrgdkdll hiknlmesgy ya
+//
+

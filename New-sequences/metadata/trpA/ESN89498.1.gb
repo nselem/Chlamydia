@@ -1,0 +1,77 @@
+LOCUS       ESN89498                 250 aa            linear   BCT 31-OCT-2013
+DEFINITION  tryptophan synthase, alpha subunit [Chlamydia suis MD56].
+ACCESSION   ESN89498
+VERSION     ESN89498.1
+DBLINK      BioProject: PRJNA221336
+            BioSample: SAMN02388129
+DBSOURCE    accession AYKJ01000011.1
+KEYWORDS    .
+SOURCE      Chlamydia suis MD56
+  ORGANISM  Chlamydia suis MD56
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 250)
+  AUTHORS   Donati,M., Huot-Creasy,H., Humphrys,M., Di Paolo,M., Di
+            Francesco,A. and Myers,G.S.
+  TITLE     Genome Sequence of Chlamydia suis MD56, Isolated from the
+            Conjunctiva of a Weaned Piglet
+  JOURNAL   Genome Announc 2 (3), e00425-14 (2014)
+   PUBMED   24812227
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 250)
+  AUTHORS   Donati,M., Huot-Creasy,H., Humphrys,M., Di Francesco,A., Di
+            Paolo,M. and Myers,G.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-OCT-2013) Institute for Genome Sciences, University
+            of Maryland, Baltimore, MD 21201, USA
+COMMENT     Bacteria available from Manuela Donati, University di Bologna,
+            Bologna, Italy.
+            Source DNA available from Garry Myers, Institute for Genome
+            Sciences, University of Maryland, Baltimore MD 21201, USA.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.1
+            Assembly Name         :: suis
+            Genome Coverage       :: 160x
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Chlamydia suis MD56"
+                     /strain="MD56"
+                     /db_xref="taxon:1405296"
+     Protein         1..250
+                     /product="tryptophan synthase, alpha subunit"
+                     /EC_number="4.2.1.20"
+     Region          1..245
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     Site            order(44,55,59,173,203..204,224..225)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,97)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,99,102,123..124,126,133,153,
+                     155..157,160)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..250
+                     /gene="trpA"
+                     /locus_tag="Q499_0186"
+                     /coded_by="AYKJ01000011.1:1575..2327"
+                     /transl_table=11
+ORIGIN      
+        1 msklsqifqq tkpfigylta gdggidytld caqaliqggv hileigfpfs dpvadnpevq
+       61 lshdralaqn ltsttllkii egirefnrei plllysyynp llqrgldyly klkdagidgv
+      121 ciidlpvpqt isekdpffen lldvgldpil litaktsqer clltqryarg flyycpeeda
+      181 kenlaeqfkk areyfdipiv srkdvfdkee awrvldysdg fivktafirq itnnssmegl
+      241 vslarsidps
+//
+

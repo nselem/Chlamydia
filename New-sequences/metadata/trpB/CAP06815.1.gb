@@ -1,0 +1,72 @@
+LOCUS       CAP06815                 392 aa            linear   BCT 06-FEB-2015
+DEFINITION  tryptophan synthase beta chain [Chlamydia trachomatis
+            L2b/UCH-1/proctitis].
+ACCESSION   CAP06815
+VERSION     CAP06815.1
+DBLINK      BioProject: PRJNA28585
+            BioSample: SAMEA1705954
+DBSOURCE    embl accession AM884177.2
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis L2b/UCH-1/proctitis
+  ORGANISM  Chlamydia trachomatis L2b/UCH-1/proctitis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Thomson,N.R., Holden,M.T., Carder,C., Lennard,N., Lockey,S.J.,
+            Marsh,P., Skipp,P., O'Connor,C.D., Goodhead,I., Norbertzcak,H.,
+            Harris,B., Ormond,D., Rance,R., Quail,M.A., Parkhill,J.,
+            Stephens,R.S. and Clarke,I.N.
+  TITLE     Chlamydia trachomatis: genome sequence analysis of lymphogranuloma
+            venereum isolates
+  JOURNAL   Genome Res. 18 (1), 161-171 (2008)
+   PUBMED   18032721
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Thomson,N.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-AUG-2007) Thomson N.R., Pathogen Sequencing Unit, The
+            Wellcome Trust Sanger Institute, Genome Campus, Hinxton, Cambridge,
+            CB10 1SA, UNITED KINGDOM
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis L2b/UCH-1/proctitis"
+                     /strain="UCH-1"
+                     /serotype="L2"
+                     /db_xref="taxon:471473"
+     Protein         1..392
+                     /product="tryptophan synthase beta chain"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="CTLon_0417"
+                     /coded_by="AM884177.2:512076..513254"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:CTLon_0417"
+                     /db_xref="EnsemblGenomes-Tr:CAP06815"
+                     /db_xref="GOA:B0BBF1"
+                     /db_xref="InterPro:IPR001926"
+                     /db_xref="InterPro:IPR006653"
+                     /db_xref="InterPro:IPR006654"
+                     /db_xref="InterPro:IPR023026"
+                     /db_xref="UniProtKB/TrEMBL:B0BBF1"
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

@@ -1,0 +1,129 @@
+LOCUS       LN847148                2692 bp    DNA     linear   BCT 21-MAY-2015
+DEFINITION  Chlamydia pneumoniae genome assembly H12, chromosome : 1.
+ACCESSION   LN847148
+VERSION     LN847148.1
+DBLINK      BioProject: PRJEB8246
+            BioSample: SAMEA3212825
+KEYWORDS    .
+SOURCE      Chlamydia pneumoniae
+  ORGANISM  Chlamydia pneumoniae
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Rattei,Thomas.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2015) University of Vienna, CUBE, Division of
+            Computational Systems Biology, Althanstr. 14, 1090 Vienna, Austria
+FEATURES             Location/Qualifiers
+     source          1..2692
+                     /organism="Chlamydia pneumoniae"
+                     /mol_type="genomic DNA"
+                     /isolate="H12"
+                     /isolation_source="respiratory tract"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:83558"
+                     /chromosome="1"
+                     /country="Finland"
+     gene            complement(<3..761)
+                     /gene="metQ"
+                     /locus_tag="BN1224_H12_CO_00010"
+     CDS             complement(<3..761)
+                     /gene="metQ"
+                     /locus_tag="BN1224_H12_CO_00010"
+                     /note="Product derived from
+                     UniProtKB/Swiss-Prot:O32167;Gene name derived from
+                     UniProtKB/Swiss-Prot:O32167"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Methionine-binding lipoprotein MetQ"
+                     /protein_id="CRI43509.1"
+                     /translation="MKKKLSLLVGLIFVLSSCHKEDAQNKIRIVASPTPHAELLESLQ
+                     EEAKDLGIKLKILPVDDYRIPNRLLLDKQVDANYFQHQAFLDDECERYDCKGELVVIA
+                     KVHLEPQAIYSKKHSSLERLKSQKKLTIAIPVDRTNAQRALHLLEECGLIVCKGPANL
+                     NMTAKDVCGKENRSINILEVSAPLLVGSLPDVDAAVIPGNFAIAANLSPKKDSLCLED
+                     LSVSKYTNLVVIRSEDVGSPKMIKLQKLFQSPSVQ"
+     gene            complement(758..1423)
+                     /gene="metI"
+                     /locus_tag="BN1224_H12_CO_00020"
+     CDS             complement(758..1423)
+                     /gene="metI"
+                     /locus_tag="BN1224_H12_CO_00020"
+                     /note="Product derived from
+                     UniProtKB/Swiss-Prot:P31547;Gene name derived from
+                     UniProtKB/Swiss-Prot:P31547"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="D-methionine transport system permease protein
+                     MetI"
+                     /protein_id="CRI43510.1"
+                     /translation="MQSDLIQILLKETVNTLYMVSTAFFFSCAIGGMLGLGLFCTSPK
+                     SLNPKKSLYATISMILSFLTAIPFAILIVILFPITRWIVGTSLGPTASIVPLTIGAIP
+                     FVVTIVVDAFRNSALNYLESAVALGIPKRNILFGILLPESYPQLIFSLKSLVVHLISC
+                     STLAGFVGGGGLGQLLLQYGYYRFEWSVTTSVLVITLVLIESVRILGDFWGRRVLKYR
+                     GIL"
+     gene            complement(1433..2458)
+                     /locus_tag="BN1224_H12_CO_00030"
+     CDS             complement(1433..2458)
+                     /locus_tag="BN1224_H12_CO_00030"
+                     /EC_number="3.6.3.-"
+                     /note="Product derived from UniProtKB/Swiss-Prot:Q9Z8Q8;EC
+                     number derived from UniProtKB/Swiss-Prot:Q9Z8Q8"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Methionine import ATP-binding protein MetN"
+                     /protein_id="CRI43511.1"
+                     /translation="MSEQHSPIISVQDVSKKLGDHILLSKVSFSVYPGEVFGIVGHSG
+                     SGKTTLLRCLDFLDMPTSGSISVAGFDNSLPTQKFSRRNFSKKVAYISQNYGLFSSKT
+                     VFENIAYPLRIHHSEMSKSEVEEQVYDTLNFLNLYHRHDAYPGNLSGGQKQKVAIARA
+                     IVCQPEVVLCDEITSALDPKSTENIIERLLQLNQERGITLVLVSHEIDVVKKICSHVL
+                     VMHQGAVEELGTTEELFLNSENSITNELFHEDINIAALSSCYFAEDREEVLRLNFSKE
+                     LAIQGIISKVIQTGLVSINILSGNINLFRKSPMGFLIIVLEGEVEQRKKAKELLIELG
+                     VVIKEFY"
+ORIGIN      
+        1 ggttgtacag aaggagattg aaacagcttc tgtaatttta tcattttagg agaacctacg
+       61 tcttcagaac gaatgacaac aaggtttgta tacttagata ccgaaagatc ctctaaacaa
+      121 agactatctt tctttggaga aaggtttgct gctatagcaa aatttccagg aatgacagca
+      181 gcatcaacgt caggaagaga tccgacaaga agaggagctg acacctctaa tatgttgata
+      241 cttctatttt ctttcccaca gacatcttta gctgtcatat ttaaattagc aggccctttg
+      301 caaacaatga gtccgcactc ttctaacaag tgtagagcac gctgagcatt cgtacgatcc
+      361 acaggaatcg ctatagtcag tttcttctgg ctttttaagc gctctaaaga agaatgtttc
+      421 ttagaataaa ttgcttgagg ttccaaatga actttagcga taacaactaa ttcaccctta
+      481 caatcataac gctcgcattc gtcatcaaga aaagcttgat gttgaaagta atttgcatct
+      541 acttgtttat ccaaaagcaa acgattagga atacgataat catctactgg aagtattttc
+      601 agcttgattc caagatcttt agcctcttcc tgtaaactct ccaataattc cgcatgaggt
+      661 gtcggactgg ctacaatacg tattttattc tgagcatctt ccttatggca agaactcaaa
+      721 acaaaaatta aacctacaag taatgataat ttttttttca tagaatccct ctatacttta
+      781 atacacgacg cccccagaaa tctcctagaa tacgcactga ctcgataaga actaaagtga
+      841 tgacaagtac tgatgttgtg acagaccatt caaaacggta gtaaccatac tgcaataata
+      901 actgtcctag ccctccgcct ccaacaaatc ctgcaagagt cgaacatgaa atgagatgaa
+      961 caacaagaga cttaagagaa aatatgagct gtggatagct ttcaggtaga agtataccaa
+     1021 aaagaatatt ccttttagga attcccaaag caacggcaga ttcaagatag ttaagggctg
+     1081 aattacgaaa agcatcaacc actatagtaa caacaaaagg aatggctccg atagtgagag
+     1141 gaacaataga agccgtaggg cctaaagaag tccctacaat ccatcgcgtg atcggaaaaa
+     1201 gaataacaat aagaatcgca aatggaatcg cggtaagaaa acttagaatc attgagattg
+     1261 ttgcgtaaag gcttttctta ggattaagac tcttaggcga cgtgcagaaa agccccaaac
+     1321 ctagcatccc tccaatagca caagagaaga aaaaagcagt cgacaccata taaagtgtat
+     1381 tgactgtttc ttttaataaa atctgaataa gatcggattg cataatcttt ttctaataaa
+     1441 attctttaat aacgacgcct agctcaatta aaagctcttt tgctttttta cgttgctcaa
+     1501 cttccccttc caaaacaata attagaaatc ccattgggga ttttctaaat aaattaatgt
+     1561 tgccggaaag aatattgata gagaccagtc cagtctgaat caccttacta atgatccctt
+     1621 gtatagcgag ttctttggaa aaatttaatc taagaacttc ttccctgtct tctgcaaaat
+     1681 aacacgaact caaagcagca atatttatat cttcatggaa caattcattt gtaattgagt
+     1741 tctcagaatt taaaaaaagt tcttctgtag ttcctagttc ttcgacagca ccttgatgca
+     1801 ttaccaaaac atgagagcat atttttttta ctacatcgat ctcatgcgac actaaaacta
+     1861 aagtaattcc cctttcctga ttcaattgaa gcagcctttc aataatattt tcagtagatt
+     1921 taggatccaa agcagaggta atctcatcac aaagcacaac ttcaggttga cacacaattg
+     1981 ccctggcaat ggcaactttt tgtttctgac caccacttaa atttcctgga taggcgtcat
+     2041 gtctatgata gaggtttaaa aaattaagag tatcgtatac ctgttcctca acttcactct
+     2101 tagacatttc tgaatgatga atacgcaaag gataggctat gttttcaaat acggttttcg
+     2161 aagaaaacaa cccataattt tgagaaatat aggcaacttt tttagaaaaa ttacgacgtg
+     2221 aaaacttctg tgttggcaaa gagttatcaa acccagctac acttatagag ccagatgtcg
+     2281 gcatgtcaag aaagtctaaa caacgcaaaa gcgttgtttt cccagaaccg ctatgaccaa
+     2341 ctataccaaa aacctctcca ggatagacag aaaaggagac tttggagaga agaatatggt
+     2401 cgcctaactt cttactaaca tcttgaacgg aaatgatagg agaatgttgt tctgacacaa
+     2461 gccacgcctc tccttttatt tatgaatata aaatagaata caaagaatct tgaagattcg
+     2521 ttaaccatta aactataata ctatatattt ctgcaagcaa gtttactgct cttaaaattt
+     2581 tgttatcaaa ctatctaata taaacaaaaa gagggttgaa tagatgtaag ttctatttca
+     2641 aacgacacaa catttgatct actatacaac aagatttcat cgaaagcatt tt
+//
+

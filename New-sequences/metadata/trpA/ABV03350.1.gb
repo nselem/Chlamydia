@@ -1,0 +1,50 @@
+LOCUS       ABV03350                 184 aa            linear   BCT 26-JUL-2016
+DEFINITION  TrpA, partial [Chlamydia trachomatis].
+ACCESSION   ABV03350
+VERSION     ABV03350.1
+DBSOURCE    accession EU105146.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 184)
+  AUTHORS   DeMars,R. and Weinfurter,J.
+  TITLE     Interstrain gene transfer in Chlamydia trachomatis in vitro:
+            mechanism and significance
+  JOURNAL   J. Bacteriol. 190 (5), 1605-1614 (2008)
+   PUBMED   18083799
+REFERENCE   2  (residues 1 to 184)
+  AUTHORS   DeMars,R.I. and Weinfurter,J.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2007) Laboratory of Genetics and Department of
+            Pathology and Laboratory Medicine, University of Wisconsin, 555
+            Science Dr., Madison, WI 53711, USA
+FEATURES             Location/Qualifiers
+     source          1..184
+                     /organism="Chlamydia trachomatis"
+                     /db_xref="taxon:813"
+                     /clone="C9-3"
+     Protein         <1..>184
+                     /product="TrpA"
+     Region          <1..184
+                     /region_name="TIM_phosphate_binding"
+                     /note="TIM barrel proteins share a structurally conserved
+                     phosphate binding motif and in general share an eight
+                     beta/alpha closed barrel structure. Specific for this
+                     family is the conserved phosphate binding site at the
+                     edges of strands 7 and 8. The phosphate...; cl21457"
+                     /db_xref="CDD:304361"
+     CDS             1..184
+                     /gene="trpA"
+                     /locus_tag="CT171"
+                     /coded_by="EU105146.1:<1..>554"
+                     /codon_start=3
+                     /transl_table=11
+ORIGIN      
+        1 vadnpeiqvs hdralaenlt setlleiveg irafnqevpl ilysyynpll qrdldylrrl
+       61 kdagingvcv idlpaplshg ekspffedll avgldpilli sagttperms liqeyargfl
+      121 yyipyeatrd sevgikeefr kvrehfdlpi vdrrdicdkk eaahvlnysd gfivktafvh
+      181 qttm
+//
+

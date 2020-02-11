@@ -1,0 +1,63 @@
+LOCUS       CCP60417                 253 aa            linear   BCT 27-FEB-2015
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia trachomatis E/Bour].
+ACCESSION   CCP60417
+VERSION     CCP60417.1
+DBLINK      BioProject: PRJEA71077
+            BioSample: SAMEA2272184
+            Sequence Read Archive: ERR008578
+DBSOURCE    embl accession HE601870.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis E/Bour
+  ORGANISM  Chlamydia trachomatis E/Bour
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Harris,S.R., Clarke,I.N., Seth-Smith,H.M.B., Solomon,A.W.,
+            Cutcliffe,L.T., Marsh,P., Skilton,R.J., Holland,M.J., Mabey,D.,
+            Peeling,R.W., Lewis,D.A., Spratt,B.G., Unemo,M., Persson,K.,
+            Bjartling,C., Brunham,R., De Vries,H.J.C., Morre,S.A.,
+            Speksnijder,A., Bebear,C.M., Clerc,M., De Barbeyrac,B., Parkhill,J.
+            and Thomson,N.R.
+  TITLE     Comprehensive whole genome analysis of Chlamydia trachomatis
+            reveals the underlying relationships masked by current clinical
+            typing
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Seth-Smith,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-OCT-2011) Wellcome Trust Sanger Institute, Pathogen
+            Genomics, Wellcome Trust Genome Campus, Hinxton, CB10 1SA, UNITED
+            KINGDOM
+COMMENT     Data release policy http://www.sanger.ac.uk/legal/#t_2.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis E/Bour"
+                     /strain="E/Bour"
+                     /db_xref="taxon:596777"
+     Protein         1..253
+                     /product="tryptophan synthase subunit alpha"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /locus_tag="BOUR_00177"
+                     /coded_by="HE601870.1:194474..195235"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:BOUR_00177"
+                     /db_xref="EnsemblGenomes-Tr:CCP60417"
+                     /db_xref="GOA:L0UFV4"
+                     /db_xref="InterPro:IPR002028"
+                     /db_xref="InterPro:IPR011060"
+                     /db_xref="InterPro:IPR013785"
+                     /db_xref="InterPro:IPR018204"
+                     /db_xref="UniProtKB/TrEMBL:L0UFV4"
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

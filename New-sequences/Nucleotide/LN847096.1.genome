@@ -1,0 +1,74 @@
+LOCUS       LN847096                 863 bp    DNA     linear   BCT 21-MAY-2015
+DEFINITION  Chlamydia pneumoniae genome assembly H12, scaffold contig5.
+ACCESSION   LN847096
+VERSION     LN847096.1
+DBLINK      BioProject: PRJEB8246
+            BioSample: SAMEA3212825
+KEYWORDS    .
+SOURCE      Chlamydia pneumoniae
+  ORGANISM  Chlamydia pneumoniae
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Rattei,Thomas.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2015) University of Vienna, CUBE, Division of
+            Computational Systems Biology, Althanstr. 14, 1090 Vienna, Austria
+FEATURES             Location/Qualifiers
+     source          1..863
+                     /organism="Chlamydia pneumoniae"
+                     /mol_type="genomic DNA"
+                     /isolate="H12"
+                     /isolation_source="respiratory tract"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:83558"
+                     /country="Finland"
+     gene            <1..246
+                     /locus_tag="BN1224_H12_AE_00010"
+     CDS             <1..246
+                     /locus_tag="BN1224_H12_AE_00010"
+                     /note="Product derived from UniProtKB/Trembl:Q7VQ92"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Uncharacterized protein"
+                     /protein_id="CRK63256.1"
+                     /translation="LLYCIVSDLRVHSRGTPTQTHSEICDAHPTNRFLKKHPTLDLCM
+                     RIVSTIVSVFMILADIVLLLGSLLLLPLLIVLLWESS"
+     gene            360..593
+                     /locus_tag="BN1224_H12_AE_00020"
+     CDS             360..593
+                     /locus_tag="BN1224_H12_AE_00020"
+                     /note="Product derived from UniProtKB/Trembl:Q9Z9B7"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Uncharacterized protein"
+                     /protein_id="CRK63257.1"
+                     /translation="MTKIQCSAQYYRSRPAERAQTPPQPFLARDRADFWERHPRFSAC
+                     CRVLLLVAWVVLALLFLFVMLLPLAAGSYLLAF"
+     gene            complement(730..>861)
+                     /locus_tag="BN1224_H12_AE_00030"
+     CDS             complement(730..>861)
+                     /locus_tag="BN1224_H12_AE_00030"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CRK63258.1"
+                     /translation="KILIIKKLLENKTFIFKHEYLRSTTPESNSSSTGSTYEEVGLR"
+ORIGIN      
+        1 ttattatatt gcatcgtgtc agatttgcgt gttcattcta ggggaacacc gacccagact
+       61 catagtgaga tctgtgatgc ccatcctacc aacagatttt tgaaaaaaca ccctacactt
+      121 gacctatgta tgcgaattgt aagcacaatt gtctctgtct ttatgatttt agcagacatc
+      181 gttctcctcc tgggctccct cttactttta cccctcctta tagttttact ttgggaatct
+      241 tcttaggaag atgcctttct acgtctaata ttgttttatt ataattttaa aaatgattat
+      301 aatttcttat taacttcatg aatatttaca tttaataaaa gtataatgta taattagtta
+      361 tgactaaaat tcaatgtagt gctcagtatt atagatctcg accggccgag agggcccaaa
+      421 ctcctccgca acctttcctt gctagggatc gcgcggattt ttgggagaga catcctagat
+      481 tcagtgcatg ttgtcgtgtc ttattactcg ttgcttgggt ggttctcgct ctactgtttc
+      541 tctttgttat gcttcttcct ctagccgctg ggtcgtattt acttgctttt taaggtattc
+      601 ttcacctaaa aacttgtgtt ttgggtgcct gtagctattt caaaggcatg tttttatcga
+      661 tcggagcttc tctttgtttg ggcgagtccg ttcgtatctt tgtaattctt ctacgattta
+      721 gttttatcct tatcttagac caacctcttc ataggtggat cctgtagagg aactattcga
+      781 ctcaggagtc gtagacctaa ggtattcgtg tttaaagata aaagttttat tttctaagag
+      841 ttttttaatt attaagattt tta
+//
+

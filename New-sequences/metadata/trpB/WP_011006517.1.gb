@@ -1,0 +1,53 @@
+LOCUS       WP_011006517             412 aa            linear   BCT 18-JUN-2019
+DEFINITION  tryptophan synthase subunit beta [Chlamydia caviae].
+ACCESSION   WP_011006517
+VERSION     WP_011006517.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia caviae
+  ORGANISM  Chlamydia caviae
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00263.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00263
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..412
+                     /organism="Chlamydia caviae"
+                     /db_xref="taxon:83557"
+     gene            1..412
+                     /gene="trpB"
+     Protein         1..412
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=45079
+     Region          12..411
+                     /region_name="PRK13028"
+                     /note="tryptophan synthase subunit beta; Provisional"
+                     /db_xref="CDD:183851"
+     Site            order(102..103,130,206,248..252,366,392)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            103
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+ORIGIN      
+        1 mytcdtceed ldlsldlget yeeletyggq yvplelvkpl edldrsyeql kkdpqfretf
+       61 hhilknyagr ptpltevknf sraingprif lkredllhtg ahkinnvlgq cliakfqgkt
+      121 rvvaetgagq hgvalaaaaa ylgmecvifm getdinrqkp nvdrirvlga evvsvkrgns
+      181 glkeavdaai edfifkhdht hfcigsalgp ypypkivrdf qsvislevks qikeytdrdp
+      241 diliacvggg snaigffhhf ipntkvklvg veggglgves gkhaarfatg kpgvvhgfhs
+      301 yvlqdedgnc adtysisagl dyvsvgptha emhesgraqy tyatddeale afrllskteg
+      361 iipalessha lahmikiaps ldkdtiaivn lsgrgdkdls qiidldkrkk hs
+//
+

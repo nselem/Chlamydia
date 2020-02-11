@@ -1,0 +1,43 @@
+LOCUS       NC_000922            1230230 bp    DNA     circular CON 03-AUG-2016
+DEFINITION  Chlamydophila pneumoniae CWL029 chromosome, complete genome.
+ACCESSION   NC_000922
+VERSION     NC_000922.1
+DBLINK      BioProject: PRJNA57811
+            Assembly: GCF_000008745.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia pneumoniae CWL029
+  ORGANISM  Chlamydia pneumoniae CWL029
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (bases 1 to 1230230)
+  AUTHORS   Kalman,S., Mitchell,W., Marathe,R., Lammel,C., Fan,J., Hyman,R.W.,
+            Olinger,L., Grimwood,J., Davis,R.W. and Stephens,R.S.
+  TITLE     Comparative genomes of Chlamydia pneumoniae and C. trachomatis
+  JOURNAL   Nat. Genet. 21 (4), 385-389 (1999)
+   PUBMED   10192388
+REFERENCE   2  (bases 1 to 1230230)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-SEP-2001) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1230230)
+  AUTHORS   Kalman,S., Mitchell,W., Marathe,R., Lammel,C., Fan,J., Olinger,L.,
+            Grimwood,J., Davis,R.W. and Stephens,R.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-DEC-1998) Program in Infectious Diseases, University
+            of California, 235 Earl Warren Hall, Berkeley, CA 94720, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AE001363.
+            RefSeq Category: Reference Genome
+                        CLI: Clinical Isolate
+                        MOD: Model Organism
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1230230
+                     /organism="Chlamydia pneumoniae CWL029"
+                     /mol_type="genomic DNA"
+                     /strain="CWL029"
+                     /db_xref="taxon:115713"
+CONTIG      join(AE001363.1:1..1230230)
+//
+

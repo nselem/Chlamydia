@@ -1,0 +1,89 @@
+LOCUS       LN847130                1653 bp    DNA     linear   BCT 21-MAY-2015
+DEFINITION  Chlamydia pneumoniae genome assembly H12, chromosome : 1.
+ACCESSION   LN847130
+VERSION     LN847130.1
+DBLINK      BioProject: PRJEB8246
+            BioSample: SAMEA3212825
+KEYWORDS    .
+SOURCE      Chlamydia pneumoniae
+  ORGANISM  Chlamydia pneumoniae
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Rattei,Thomas.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2015) University of Vienna, CUBE, Division of
+            Computational Systems Biology, Althanstr. 14, 1090 Vienna, Austria
+FEATURES             Location/Qualifiers
+     source          1..1653
+                     /organism="Chlamydia pneumoniae"
+                     /mol_type="genomic DNA"
+                     /isolate="H12"
+                     /isolation_source="respiratory tract"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:83558"
+                     /chromosome="1"
+                     /country="Finland"
+     gene            complement(<3..203)
+                     /locus_tag="BN1224_H12_BQ_00010"
+     CDS             complement(<3..203)
+                     /locus_tag="BN1224_H12_BQ_00010"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CRI43454.1"
+                     /translation="MGIFCFKKINLFKTFILMNNNVYLFCFLIFLSKKVFFESYEDFA
+                     NVASSWPKSLRALVQGRYFVDSE"
+     gene            412..1530
+                     /gene="tgt"
+                     /locus_tag="BN1224_H12_BQ_00020"
+     CDS             412..1530
+                     /gene="tgt"
+                     /locus_tag="BN1224_H12_BQ_00020"
+                     /EC_number="2.4.2.29"
+                     /note="Product derived from
+                     UniProtKB/Swiss-Prot:Q9Z8W5;Gene name derived from
+                     UniProtKB/Swiss-Prot:Q9Z8W5;EC number derived from
+                     UniProtKB/Swiss-Prot:Q9Z8W5"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Queuine tRNA-ribosyltransferase"
+                     /protein_id="CRI43455.1"
+                     /translation="MALKFHLIHQSKKSQARVGQIETSHGVIDTPAFVPVATHGALKG
+                     VIDHSDIPLLFCNTYHLLLHPGPEAVAKLGGLHQFMGRQAPIITDSGGFQIFSLAYGS
+                     VAEEIKSCGKKKGMSSLVKITDEGAWFKSYRDGRKLFLSPELSVQAQKDLGADIIIPL
+                     DELLPFHTDQEYFLTSCSRTYVWEKRSLEYHRKDPRHQSMYGVIHGGLDPEQRRIGVR
+                     FVEDEPFDGSAIGGSLGRNLQEMSEVVKITTSFLSKERPVHLLGIGDLPSIYAMVGFG
+                     IDSFDSSYPTKAARHGLILSKAGPIKIGQQKYSQDSSTIDPSCSCLTCLSGISRAYLR
+                     HLFKVREPNAAIWASIHNLHHMQQVMKEIREAILKDEI"
+ORIGIN      
+        1 agttctgaat caacaaaata ccttccctgg accaaagctc ttaaagactt aggccaggag
+       61 gaagctacat ttgcaaaatc ttcataagat tcgaaaaaca cttttttaga caaaaaaatt
+      121 aaaaaacaaa acaaatatac attattattc attaaaataa aagttttaaa aagattaatt
+      181 ttcttaaaac aaaatatccc caataaaata ttgtacctac cagcgcctat ccgtattaag
+      241 acccaggaat tcagaaagct cctttggagt aaaagaccct actttaaatc taagaaatcc
+      301 caagctaggg tcagataaaa caaaccctat ttacttaaaa attttgtcat tgtaaacttc
+      361 ctcttcccta aaagacacat ccaccttgtt ctttatagtt aaggatctag tttggcactc
+      421 aaattccatc tcatccatca atctaagaaa tcccaagcta gggtcggaca aatagagacc
+      481 agccatggag tgatcgatac acccgcattt gtccccgtag caactcacgg agctttaaaa
+      541 ggagtgattg atcacagcga tattcctctg ctcttctgta atacctacca ccttcttctt
+      601 catccaggcc cagaagcagt agctaaactt ggggggctgc accagtttat gggacgtcaa
+      661 gcaccaatca ttacagattc cgggggattt caaattttta gcctagccta tggttctgta
+      721 gctgaagaaa tcaaaagttg tggcaaaaaa aaaggcatgt cctctctagt taaaattact
+      781 gatgaaggtg catggttcaa atcctataga gacgggagaa agctattcct ctctccagaa
+      841 ctctcagtac aagcccaaaa agatctcgga gctgatatta ttatccctct agacgagctt
+      901 ctccccttcc atacagacca agaatacttc ttaacttcgt gttcccgtac gtatgtctgg
+      961 gaaaaacgtt ctttagaata tcatcgaaag gatcctagac accaatccat gtatggggta
+     1021 atccacggag gcctcgatcc agaacaacgt cgtattggcg ttcgttttgt tgaggatgag
+     1081 ccattcgatg gctctgctat cggaggcagc ctaggaagaa accttcaaga aatgtctgaa
+     1141 gtggttaaaa tcaccacttc atttctatca aaagaacgtc ccgtacacct attaggaatc
+     1201 ggcgatcttc cctccatata cgctatggtc ggctttggca tagactcttt cgacagttct
+     1261 tacccgacta aagctgcccg tcatggtctt atcttatcaa aagcaggacc catcaaaatc
+     1321 ggtcagcaaa aatatagtca ggactcttcc actatagacc cctcgtgctc ttgtttgacc
+     1381 tgcttgtcag gaatctctag ggcatacctg agacaccttt ttaaagtaag agaacctaac
+     1441 gctgctatct gggcttctat acataatcta catcacatgc aacaagtgat gaaagagatt
+     1501 cgtgaagcca tcttaaaaga tgaaatctaa gtctcctttc taaagattcc acatctaaaa
+     1561 aactctaatt tttccattta ttttcaaaaa aatctgtaaa gatttcttta tttagatcac
+     1621 aaaacactct cttatttata agaataaaaa aaa
+//
+

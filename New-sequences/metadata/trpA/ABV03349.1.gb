@@ -1,0 +1,60 @@
+LOCUS       ABV03349                 220 aa            linear   BCT 26-JUL-2016
+DEFINITION  TrpA, partial [Chlamydia trachomatis].
+ACCESSION   ABV03349
+VERSION     ABV03349.1
+DBSOURCE    accession EU105145.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 220)
+  AUTHORS   DeMars,R. and Weinfurter,J.
+  TITLE     Interstrain gene transfer in Chlamydia trachomatis in vitro:
+            mechanism and significance
+  JOURNAL   J. Bacteriol. 190 (5), 1605-1614 (2008)
+   PUBMED   18083799
+REFERENCE   2  (residues 1 to 220)
+  AUTHORS   DeMars,R.I. and Weinfurter,J.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2007) Laboratory of Genetics and Department of
+            Pathology and Laboratory Medicine, University of Wisconsin, 555
+            Science Dr., Madison, WI 53711, USA
+FEATURES             Location/Qualifiers
+     source          1..220
+                     /organism="Chlamydia trachomatis"
+                     /db_xref="taxon:813"
+                     /clone="C9-15"
+     Protein         <1..>220
+                     /product="TrpA"
+     Region          1..219
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     Site            order(12,23,27,141,174..175,195..196)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(12,23,65)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(17..20,22,25,28..29,67,70,91..92,94,101,121,
+                     123..125,128)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..220
+                     /gene="trpA"
+                     /locus_tag="CT171"
+                     /coded_by="EU105145.1:<1..>662"
+                     /codon_start=2
+                     /transl_table=11
+ORIGIN      
+        1 kaliqggvdi lelgfpfsdp vadnpeiqvs hdralaenlt setlleiveg irafnqevpl
+       61 ilysyynpll qrdldylrrl kdagingvcv idlpaplshg ekspffedll avgldpilli
+      121 sagttperms liqeyargfl yyipyeatrd sevgikeefr kvrehfdlpi vdrrdicdkk
+      181 eaahvlnysd gfivktafvh qttmdssvet ltalaqtvip
+//
+

@@ -1,0 +1,61 @@
+LOCUS       AAM19174                 392 aa            linear   BCT 24-JUN-2005
+DEFINITION  tryptophan synthase beta chain [Chlamydia trachomatis].
+ACCESSION   AAM19174
+VERSION     AAM19174.1
+DBSOURCE    accession AY096808.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Fehlner-Gardiner,C., Roshick,C., Carlson,J.H., Hughes,S.,
+            Belland,R.J., Caldwell,H.D. and McClarty,G.
+  TITLE     Molecular basis defining human Chlamydia trachomatis tissue
+            tropism. A possible role for tryptophan synthase
+  JOURNAL   J. Biol. Chem. 277 (30), 26893-26903 (2002)
+   PUBMED   12011099
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Fehlner-Gardiner,C., Roshick,C., Carlson,J.H., Hughes,S.,
+            Belland,R.J., Caldwell,H.D. and McClarty,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2002) Laboratory of Intracellular Parasites,
+            Rocky Mountain Laboratories, NIAID-NIH, 903 S. 4th St., Hamilton,
+            MT 59840, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis"
+                     /serotype="D"
+                     /db_xref="taxon:813"
+                     /clone="UW-3"
+     Protein         1..392
+                     /product="tryptophan synthase beta chain"
+                     /name="TrpB"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /coded_by="AY096808.1:718..1896"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

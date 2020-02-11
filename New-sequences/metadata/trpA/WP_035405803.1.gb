@@ -1,0 +1,56 @@
+LOCUS       WP_035405803             250 aa            linear   BCT 28-SEP-2019
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia suis].
+ACCESSION   WP_035405803
+VERSION     WP_035405803.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia suis
+  ORGANISM  Chlamydia suis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00262.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00262
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Chlamydia suis"
+                     /db_xref="taxon:83559"
+     gene            1..250
+                     /gene="trpA"
+     Protein         1..250
+                     /product="tryptophan synthase subunit alpha"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=28172
+     Region          1..245
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     Site            order(44,55,59,173,203..204,224..225)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,97)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,99,102,123..124,126,133,153,
+                     155..157,160)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+ORIGIN      
+        1 msklsqifqq tkpfigylta gdggidytld caqaliqggv hileigfpfs dpvadnpevq
+       61 lshdralaqn ltsttllkii egirefnrei plllysyynp llqrgldyly klkdagidgv
+      121 ciidlpvpqt isekdpffen lldvgldpil litaktsqer clltqryarg flyycpeeda
+      181 kenlaeqfkk areyfdipiv srkdvfdkee awrvldysdg fivktafirq itnnssmegl
+      241 vslarsidps
+//
+

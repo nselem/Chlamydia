@@ -1,0 +1,61 @@
+LOCUS       CAB63649                 183 aa            linear   BCT 15-APR-2005
+DEFINITION  tryptophan synthase alpha chain [Chlamydia trachomatis].
+ACCESSION   CAB63649
+VERSION     CAB63649.1
+DBSOURCE    embl accession AJ249639.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Shaw,A.C., Christiansen,G., Roepstorff,P. and Birkelund,S.
+  TITLE     Genetic differences in the Chlamydia trachomatis tryptophan
+            synthase alpha-subunit can explain variations in serovar
+            pathogenesis
+  JOURNAL   Microbes Infect. 2 (6), 581-592 (2000)
+   PUBMED   10884608
+REFERENCE   2  (residues 1 to 183)
+  AUTHORS   Shaw,A.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-1999) Shaw A.C., Department of Medical
+            Microbiology and Immunology, University of Aarhus, The Bartholin
+            Building, 8000 Aarhus C, DENMARK
+FEATURES             Location/Qualifiers
+     source          1..183
+                     /organism="Chlamydia trachomatis"
+                     /strain="C/TW-3"
+                     /db_xref="taxon:813"
+     Protein         1..183
+                     /product="tryptophan synthase alpha chain"
+     Region          1..>176
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     Site            order(44,55,97)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,99,102,123..124,126,133,152,
+                     154..156,159)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..183
+                     /gene="trpA"
+                     /coded_by="AJ249639.1:1..552"
+                     /transl_table=11
+                     /db_xref="GOA:Q9REC5"
+                     /db_xref="HSSP:P42390"
+                     /db_xref="InterPro:IPR000834"
+                     /db_xref="InterPro:IPR002028"
+                     /db_xref="InterPro:IPR011060"
+                     /db_xref="UniProtKB/TrEMBL:Q9REC5"
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspfedl lavgldpill isagttperm sliqehargl lyyipyklre
+      181 ilk
+//
+

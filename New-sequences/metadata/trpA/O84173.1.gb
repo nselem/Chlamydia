@@ -1,0 +1,94 @@
+LOCUS       TRPA_CHLTR               253 aa            linear   BCT 16-OCT-2019
+DEFINITION  RecName: Full=Tryptophan synthase alpha chain.
+ACCESSION   O84173
+VERSION     O84173.1
+DBSOURCE    UniProtKB: locus TRPA_CHLTR, accession O84173;
+            class: standard.
+            created: May 30, 2000.
+            sequence updated: Nov 1, 1998.
+            annotation updated: Oct 16, 2019.
+            xrefs: AE001273.1, AAC67762.1, B71547, NP_219674.1, WP_010725110.1
+            xrefs (non-sequence databases): SMR:O84173,
+            EnsemblBacteria:AAC67762, EnsemblBacteria:AAC67762,
+            EnsemblBacteria:CT_171, GeneID:884962, KEGG:ctr:CT_171,
+            PATRIC:fig|272561.5.peg.184, eggNOG:COG0159, InParanoid:O84173,
+            KO:K01695, OMA:DYPPEEC, BioCyc:CTRA272561:G1G18-178-MONOMER,
+            UniPathway:UPA00035, Proteomes:UP000000431, GO:0004834,
+            CDD:cd04724, Gene3D:3.20.20.70, InterPro:IPR013785,
+            InterPro:IPR011060, InterPro:IPR018204, InterPro:IPR002028,
+            Pfam:PF00290, SUPFAM:SSF51366, TIGRFAMs:TIGR00262, PROSITE:PS00167
+KEYWORDS    Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Complete
+            proteome; Lyase; Reference proteome; Tryptophan biosynthesis.
+SOURCE      Chlamydia trachomatis D/UW-3/CX
+  ORGANISM  Chlamydia trachomatis D/UW-3/CX
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 253)
+  AUTHORS   Stephens,R.S., Kalman,S., Lammel,C., Fan,J., Marathe,R.,
+            Aravind,L., Mitchell,W., Olinger,L., Tatusov,R.L., Zhao,Q.,
+            Koonin,E.V. and Davis,R.W.
+  TITLE     Genome sequence of an obligate intracellular pathogen of humans:
+            Chlamydia trachomatis
+  JOURNAL   Science 282 (5389), 754-759 (1998)
+   PUBMED   9784136
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=D/UW-3/Cx
+COMMENT     On Mar 21, 2006 this sequence version replaced gi:7436995.
+            [FUNCTION] The alpha subunit is responsible for the aldol cleavage
+            of indoleglycerol phosphate to indole and glyceraldehyde
+            3-phosphate. {ECO:0000250}.
+            [CATALYTIC ACTIVITY] Reaction=(1S,2R)-1-C-(indol-3-yl)glycerol
+            3-phosphate + L-serine = D-glyceraldehyde 3-phosphate + H2O +
+            L-tryptophan; Xref=Rhea:RHEA:10532, ChEBI:CHEBI:15377,
+            ChEBI:CHEBI:33384, ChEBI:CHEBI:57912, ChEBI:CHEBI:58866,
+            ChEBI:CHEBI:59776; EC=4.2.1.20.
+            [PATHWAY] Amino-acid biosynthesis; L-tryptophan biosynthesis;
+            L-tryptophan from chorismate: step 5/5.
+            [SUBUNIT] Tetramer of two alpha and two beta chains. {ECO:0000250}.
+            [SIMILARITY] Belongs to the TrpA family. {ECO:0000305}.
+            [CAUTION] This TrpA is highly divergent compared to other bacterial
+            TrpA. As C.trachomatis seems to have lost part of the trp
+            biosynthetic operon, it is possible that this protein is not
+            active. {ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis D/UW-3/CX"
+                     /db_xref="taxon:272561"
+     gene            1..253
+                     /gene="trpA"
+                     /locus_tag="CT_171"
+     Protein         1..253
+                     /product="Tryptophan synthase alpha chain"
+                     /EC_number="4.2.1.20"
+                     /UniProtKB_evidence="Inferred from homology"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     Region          1..253
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Tryptophan synthase alpha chain.
+                     /FTId=PRO_0000098768."
+     Site            44
+                     /site_type="active"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Proton acceptor.
+                     {ECO:0000255|PROSITE-ProRule:PRU10120}."
+     Site            55
+                     /site_type="active"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Proton acceptor.
+                     {ECO:0000255|PROSITE-ProRule:PRU10120}."
+ORIGIN      
+        1 mskltqvfkq tklcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipcqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

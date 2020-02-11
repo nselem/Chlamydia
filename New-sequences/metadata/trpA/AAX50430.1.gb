@@ -1,0 +1,61 @@
+LOCUS       AAX50430                 183 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase alpha chain [Chlamydia trachomatis A/HAR-13].
+ACCESSION   AAX50430
+VERSION     AAX50430.1
+DBLINK      BioProject: PRJNA13885
+            BioSample: SAMN02603498
+DBSOURCE    accession CP000051.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis A/HAR-13
+  ORGANISM  Chlamydia trachomatis A/HAR-13
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 183)
+  AUTHORS   Carlson,J.H., Porcella,S.F., McClarty,G. and Caldwell,H.D.
+  TITLE     Comparative Genomic Analysis of Chlamydia trachomatis Oculotropic
+            and Genitotropic Strains
+  JOURNAL   Infect. Immun. 73 (10), 6407-6418 (2005)
+   PUBMED   16177312
+REFERENCE   2  (residues 1 to 183)
+  AUTHORS   Carlson,J.H., Porcella,S.F., McClarty,G. and Caldwell,H.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-FEB-2005) Laboratory of Intracellular Parasites,
+            Rocky Mountain Laboratories, National Institutes of Allergy and
+            Infectious Disease, National Institutes of Health, 903 South 4th
+            Street, Hamilton, MT 59840, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..183
+                     /organism="Chlamydia trachomatis A/HAR-13"
+                     /strain="A/HAR-13"
+                     /db_xref="taxon:315277"
+     Protein         1..183
+                     /product="tryptophan synthase alpha chain"
+                     /EC_number="4.2.1.20"
+     Region          1..>176
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     Site            order(44,55,97)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,99,102,123..124,126,133,152,
+                     154..156,159)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..183
+                     /gene="trpA"
+                     /locus_tag="CTA_0186"
+                     /old_locus_tag="CTA0186"
+                     /coded_by="CP000051.1:196345..196896"
+                     /transl_table=11
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspfedl lavgldpill isagttperm sliqehargl lyyipyklre
+      181 ilk
+//
+

@@ -1,0 +1,65 @@
+LOCUS       CRH60555                 269 aa            linear   BCT 14-JUN-2015
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia trachomatis].
+ACCESSION   CRH60555
+VERSION     CRH60555.1
+DBLINK      BioProject: PRJEB2035
+            BioSample: SAMEA1483364
+DBSOURCE    embl accession CVOA01000006.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Informatics,Pathogen.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2015) SC, Wellcome Trust Sanger Institute, CB10
+            1SA, United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..269
+                     /organism="Chlamydia trachomatis"
+                     /strain="H1IMS"
+                     /serovar="L2b"
+                     /isolation_source="rectal"
+                     /db_xref="taxon:813"
+                     /country="United Kingdom:London"
+                     /collection_date="2005-02-28"
+     Protein         1..269
+                     /product="tryptophan synthase subunit alpha"
+                     /EC_number="4.2.1.20"
+     Region          9..266
+                     /region_name="trpA"
+                     /note="tryptophan synthase subunit alpha; Provisional;
+                     PRK13111"
+                     /db_xref="CDD:237285"
+     Site            order(52,63,67,176,184..185,213..214,234..235)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(52,63,103,184)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(52,63,103)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(57..60,62,65,68..69,105,108,130..131,133,136,156,
+                     158..160,163)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..269
+                     /gene="trpA_1"
+                     /locus_tag="ERS133246_00241"
+                     /coded_by="complement(CVOA01000006.1:685..1494)"
+                     /inference="ab initio prediction:Prodigal:2.60"
+                     /inference="similar to AA sequence:RefSeq:YP_005811223.1"
+                     /transl_table=11
+ORIGIN      
+        1 mskelkagrr ideahsrgda aligylpvgf psvdssirag kvladcgldv lelgfpysdp
+       61 gmdgptiqka tvaalergth ledlfravee ltsyglttav mtywnpveww gverfardfa
+      121 taggsglitp dlppeegaqw easaekygle rtylvapssp rhrlelisah segwvyaast
+      181 mgvtgarasv gehvkdlver trdagaqrvc vglgvsngqq akeigayadg vivgsalvkt
+      241 lfnepidrgl rlleecaqdl vsgvkgvrl
+//
+

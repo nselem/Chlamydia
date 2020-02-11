@@ -1,0 +1,59 @@
+LOCUS       AFA51596                 392 aa            linear   BCT 30-SEP-2016
+DEFINITION  tryptophan synthase beta subunit [Chlamydia trachomatis].
+ACCESSION   AFA51596
+VERSION     AFA51596.1
+DBSOURCE    accession JN795320.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Srinivasan,T., Bruno,W.J., Wan,R., Yen,A., Duong,J. and Dean,D.
+  TITLE     In Vitro Recombinants of Antibiotic-Resistant Chlamydia trachomatis
+            Strains Have Statistically More Breakpoints than Clinical
+            Recombinants for the Same Sequenced Loci and Exhibit Selection at
+            Unexpected Loci
+  JOURNAL   J. Bacteriol. 194 (3), 617-626 (2012)
+   PUBMED   22123249
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Srinivasan,T., Bruno,W.J., Wan,R., Yen,A., Duong,J. and Dean,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-SEP-2011) Center for Immunology and Vaccine
+            Development, Childrens' Hospital Oakland Research Institute, 5700
+            Martin Luther King Jr. Way, Oakland, CA 94609, USA
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis"
+                     /serovar="L2"
+                     /db_xref="taxon:813"
+     Protein         1..392
+                     /product="tryptophan synthase beta subunit"
+                     /name="trpB"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /coded_by="JN795320.1:1..1179"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

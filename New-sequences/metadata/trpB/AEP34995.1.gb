@@ -1,0 +1,69 @@
+LOCUS       AEP34995                 392 aa            linear   BCT 31-JAN-2014
+DEFINITION  Tryptophan synthase beta chain [Chlamydia trachomatis A2497].
+ACCESSION   AEP34995
+VERSION     AEP34995.1
+DBLINK      BioProject: PRJNA53575
+            BioSample: SAMN02603770
+DBSOURCE    accession CP002401.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis A2497
+  ORGANISM  Chlamydia trachomatis A2497
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Kari,L., Whitmire,W.M., Olivares-Zavaleta,N., Goheen,M.M.,
+            Taylor,L.D., Carlson,J.H., Sturdevant,G.L., Lu,C., Bakios,L.E.,
+            Randall,L.B., Parnell,M.J., Zhong,G. and Caldwell,H.D.
+  TITLE     A live-attenuated chlamydial vaccine protects against trachoma in
+            nonhuman primates
+  JOURNAL   J. Exp. Med. 208 (11), 2217-2223 (2011)
+   PUBMED   21987657
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Kari,L., Whitmire,W.M., Olivares-Zavaleta,N., Goheen,M.M.,
+            Bakios,L.E. and Caldwell,H.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-DEC-2010) Laboratory of Intracellular Parasites,
+            Rocky Mountain Laboratories, 903 South 4th Street, Hamilton, MT
+            59840, USA
+COMMENT     Contact for biological materials: Dr. Harlan D. Caldwell,
+            Laboratory of Intracellular Pathogens, Rocky Mountain Laboratories,
+            903 South 4th Street, Hamilton, MT 59840 (hcaldwell@niaid.nih.gov).
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis A2497"
+                     /strain="A2497"
+                     /db_xref="taxon:580047"
+     Protein         1..392
+                     /product="Tryptophan synthase beta chain"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Region          48..374
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="CTO_0184"
+                     /coded_by="CP002401.1:195048..196226"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh temhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl sqiirrnrgi ye
+//
+

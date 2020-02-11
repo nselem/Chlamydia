@@ -1,0 +1,72 @@
+LOCUS       ADI51857                 392 aa            linear   BCT 11-DEC-2013
+DEFINITION  Tryptophan synthase beta chain [Chlamydia trachomatis D-LC].
+ACCESSION   ADI51857
+VERSION     ADI51857.1
+DBLINK      BioProject: PRJNA48089
+            BioSample: SAMN00014120
+DBSOURCE    accession CP002054.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis D-LC
+  ORGANISM  Chlamydia trachomatis D-LC
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Sturdevant,G.L., Kari,L., Gardner,D.J., Olivares-Zavaleta,N.,
+            Randall,L.B., Whitmire,W.M., Carlson,J.H., Goheen,M.M.,
+            Selleck,E.M., Martens,C. and Caldwell,H.D.
+  TITLE     Frameshift Mutations in a Single Novel Virulence Factor Alter the
+            In Vivo Pathogenicity of Chlamydia trachomatis for the Female
+            Murine Genital Tract
+  JOURNAL   Infect. Immun. 78 (9), 3660-3668 (2010)
+   PUBMED   20547745
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Sturdevant,G.L., Kari,L., Gardner,D.J., Olivares-Zavaleta,N.,
+            Randall,L.B., Whitmire,W.M., Carlson,J.H., Goheen,M.M.,
+            Selleck,E.M., Martens,C. and Caldwell,H.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-MAY-2010) Research Technologies Branch of the Rocky
+            Mountain Laboratories, National Institute of Allergy and Infectious
+            Diseases, National Institutes of Health, 903 South 4th Street,
+            Hamilton, MT 59840, USA
+COMMENT     Sequencing Center: Integrated Genomics, Inc., 2355 S. Arlington
+            Heights Road, Suite 270, Arlington Heights, IL 60005, USA
+            
+            Source DNA and bacteria available from Harlan D. Caldwell at
+            hcaldwell@niaid.nih.gov<mailto:hcaldwell@niaid.nih.gov>.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis D-LC"
+                     /strain="D-LC"
+                     /db_xref="taxon:759364"
+     Protein         1..392
+                     /product="Tryptophan synthase beta chain"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="CTDLC_0170"
+                     /coded_by="CP002054.1:192911..194089"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

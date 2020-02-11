@@ -1,0 +1,53 @@
+LOCUS       WP_080141671             392 aa            linear   BCT 01-JUN-2019
+DEFINITION  tryptophan synthase subunit beta [Chlamydia suis].
+ACCESSION   WP_080141671
+VERSION     WP_080141671.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia suis
+  ORGANISM  Chlamydia suis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00263.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00263
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia suis"
+                     /db_xref="taxon:83559"
+     gene            1..392
+                     /gene="trpB"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=42118
+     Region          7..389
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+ORIGIN      
+        1 msqhqypfgg aflpeelqap iqalkiewek mktqqsflae lssilknyag ratpltevkn
+       61 faraihgprv flkredllht gahkinnalg qcllakylgk nrvvaetgag qhgvatatac
+      121 aylgldcavy mgakdverqk pnvekmrflg aevvsvaqgs cglkdavnqa lqdwakthas
+      181 thyclgsalg pepypdivrf fqsiisaevk eqihaatgrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgiv sgkhaarfat grpgifhgfy syllqdsdgq vlqthsisag
+      301 ldypsvgpdh aamhesgraf ytsatdeeal qafflltrne giipalessh alahlvsiap
+      361 slskehiviv nlsgrgdkdl pqiikrnggm ye
+//
+

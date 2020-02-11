@@ -1,0 +1,108 @@
+LOCUS       LN847220                2523 bp    DNA     linear   BCT 21-MAY-2015
+DEFINITION  Chlamydia pneumoniae genome assembly H12, chromosome : 1.
+ACCESSION   LN847220
+VERSION     LN847220.1
+DBLINK      BioProject: PRJEB8246
+            BioSample: SAMEA3212825
+KEYWORDS    .
+SOURCE      Chlamydia pneumoniae
+  ORGANISM  Chlamydia pneumoniae
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Rattei,Thomas.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2015) University of Vienna, CUBE, Division of
+            Computational Systems Biology, Althanstr. 14, 1090 Vienna, Austria
+FEATURES             Location/Qualifiers
+     source          1..2523
+                     /organism="Chlamydia pneumoniae"
+                     /mol_type="genomic DNA"
+                     /isolate="H12"
+                     /isolation_source="respiratory tract"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:83558"
+                     /chromosome="1"
+                     /country="Finland"
+     gene            262..1131
+                     /locus_tag="BN1224_H12_FQ_00010"
+     CDS             262..1131
+                     /locus_tag="BN1224_H12_FQ_00010"
+                     /note="Product derived from UniProtKB/Trembl:Q9Z6I7"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative outer membrane protein"
+                     /protein_id="CRI44333.1"
+                     /translation="MLKIQKKRMCVSVVITVGAIVGFFNSADAAPKKKKIPIQILYSF
+                     TKVSSYLKNEDASTIFCVDVDRGLLQHRYLGSPGWQETRRRQLFKSLENQSYGNERLG
+                     EETLAIDIFRNKECLESEIPEQMEAILANSSALVLGISSFGITGIPATLHSLLRQNLS
+                     FQKRSIASESFLLKIDSAPSDASVFYKGVLFRGETAIVDALSQLFAQLDLSPKKIIFL
+                     GEDPEVVQAVGSACIGWGMNFLGLVYYPAQESLFSYVHPYSTATELQEAQGLQVISDE
+                     VAQLTLNALPKMN"
+     gene            1304..2128
+                     /locus_tag="BN1224_H12_FQ_00020"
+     CDS             1304..2128
+                     /locus_tag="BN1224_H12_FQ_00020"
+                     /note="Product derived from UniProtKB/Swiss-Prot:Q9Z6I6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative outer membrane protein
+                     CPn_1073/CP_0776/CPj1073/CpB1118"
+                     /protein_id="CRI44334.1"
+                     /translation="MRRYLFMVLALCLYRAAPLEAVVIKITDAQAVLKFAREKTLVCF
+                     NIEDTVVFPKQMVGQSAWLYNRELDLKTTLSEEQAREQAFLEWMGISFLVDYELVSAN
+                     LRNVLTGLSLKRSWVLGISQRPVHLIKNTLRILRSFNIDFTSCPAICEDGWLSHPTKD
+                     TTFDQAMAIEKNILFVGSLKNGQPMDAALEVLLSGISSPPSQIIYVDQDAERLRSIGA
+                     FCKKANIYFIGMLYTPAKQRVESYNPKLTAIQWSQIRKNLSDEYYESLLSYVKSKG"
+     gene            complement(2235..2321)
+                     /locus_tag="BN1224_H12_FQ_t0010"
+     tRNA            complement(2235..2321)
+                     /locus_tag="BN1224_H12_FQ_t0010"
+                     /product="tRNA-Ser"
+                     /note="tRNA-(CGA)"
+ORIGIN      
+        1 gagtcgtaga agtgcaaact cactagaaat ttcctgaatt tgagaaggag tttaaaatag
+       61 gtattcttga aaagatcaat gcacgtgtag tggaaagaaa ggcgtaacct acactggaag
+      121 gagtttcttt tagaagaagg tttctttttt cgttgttaat gacaaaaact ctctaagaac
+      181 atcgtgtcaa ccgtttttat tgttgtgttt atttaaaaaa aagattatat ccttcatgca
+      241 aattggtgct gttggaaaca aatgttgaaa atccagaaaa aaagaatgtg tgtcagcgta
+      301 gtcatcacgg taggcgccat agtggggttt ttcaattctg cagacgcagc accaaagaaa
+      361 aagaagatcc ctatacagat tctctactcc tttactaaag tctcttccta tttaaaaaac
+      421 gaagacgcaa gtactatatt ttgcgtcgat gtggatcgtg gacttctcca gcatcggtat
+      481 ttaggtagtc caggatggca ggaaaccaga cgtcggcagt tatttaaatc cttagaaaat
+      541 caatcatacg gcaacgaacg tttaggagaa gaaactcttg ctattgatat tttcaggaac
+      601 aaagagtgct tggagagcga gatcccagag cagatggaag ctatccttgc aaattcctcg
+      661 gccttggtct taggcatctc ttcttttggg atcacaggaa ttcctgcgac tttgcatagt
+      721 ttgcttcgac agaatctatc tttccaaaaa cgctctatag catcggagag cttcctttta
+      781 aagatcgata gtgccccctc agatgcctct gttttttata aaggcgtgct tttccgcgga
+      841 gagactgcga tcgtggatgc gttaagccaa ttatttgccc agctcgatct ttctcctaaa
+      901 aaaattatct ttctaggaga agaccctgag gtcgttcaag ctgttgggtc tgcttgtata
+      961 ggttggggca tgaacttttt aggcctggta tactatcctg ctcaagaaag ccttttttct
+     1021 tatgttcatc cttactctac agcaacggag ctccaagaag cacagggttt acaagtaatt
+     1081 tcagatgaag tcgcacagct tactttaaac gctcttccga aaatgaatta acatgatgtt
+     1141 agaacaacaa gccctacgta ttctctttcc ccctgagggt gcttagggcc ctttttatct
+     1201 agcatgagcg gagatttagg ttttagtgag atttttggta aatatgaaaa tattttctta
+     1261 aaaagatcat gaaacagtca tacttttgca ttgaaggatc tttatgagac gttatctttt
+     1321 catggttcta gctttatgcc tatatagagc agcccctctc gaagcagtgg tcattaaaat
+     1381 tactgatgcg caggcagttc ttaagtttgc tagagagaaa actttagtat gtttcaatat
+     1441 tgaagatact gtggtatttc ctaaacagat ggtcggccag tctgcatggc tctacaatag
+     1501 agagctcgat cttaagacta cactctccga agaacaagcc agagagcagg cgtttctgga
+     1561 gtggatgggg atttcttttc ttgtcgatta tgaattggtg agcgcgaact taaggaatgt
+     1621 actcacaggc ttatctttga aacgatcttg ggtactcggg atttctcaaa gacctgtgca
+     1681 tttgataaaa aatactcttc gcattctgcg ttctttcaac atagacttca cctcgtgtcc
+     1741 agctatttgt gaagatggtt ggctctctca tcctacaaag gacacaacat tcgatcaggc
+     1801 catggctata gaaaaaaaca ttttgtttgt tggctctctc aaaaacggtc agcccatgga
+     1861 cgcagccctt gaagttcttc tctctgggat ctcttctcct cctagccaaa tcatctatgt
+     1921 ggatcaggat gcagaacgtt tgcgttctat cggtgctttt tgtaaaaaag caaacattta
+     1981 ttttataggg atgctctaca ccccagccaa gcagcgtgta gaaagttaca atcctaaact
+     2041 tactgcgatc caatggtcgc agattcgtaa gaatctttcc gatgaatatt atgaatccct
+     2101 cttgagctat gtaaagagca aagggtagtg tcagcaaatc gatgtgggaa tggtatcctg
+     2161 tggatggcat agacacgcaa ggcgtttttt atgccgtttt tagatccttg taggtgcaga
+     2221 aaaactaaaa agatcggaag agaagggatt cgaacccctg gttcctgtaa gagaacttct
+     2281 gatttcgaat cagacgcatt cgaccactct gccactcttc cgtaatgctt caatagttta
+     2341 gagaatctac actcagattg tctacatgta ttgcacaatg tttttcataa atttatgaaa
+     2401 tcataatgaa gattagagaa gatggccgag tagtgaagac gaattcttag agaaaaatta
+     2461 gagtgttttc ttgcgtatct aggcagaaaa ctaccctcaa gaagaggctt gagggtgaag
+     2521 cat
+//
+

@@ -1,0 +1,92 @@
+LOCUS       LN847182                1991 bp    DNA     linear   BCT 21-MAY-2015
+DEFINITION  Chlamydia pneumoniae genome assembly H12, chromosome : 1.
+ACCESSION   LN847182
+VERSION     LN847182.1
+DBLINK      BioProject: PRJEB8246
+            BioSample: SAMEA3212825
+KEYWORDS    .
+SOURCE      Chlamydia pneumoniae
+  ORGANISM  Chlamydia pneumoniae
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Rattei,Thomas.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2015) University of Vienna, CUBE, Division of
+            Computational Systems Biology, Althanstr. 14, 1090 Vienna, Austria
+FEATURES             Location/Qualifiers
+     source          1..1991
+                     /organism="Chlamydia pneumoniae"
+                     /mol_type="genomic DNA"
+                     /isolate="H12"
+                     /isolation_source="respiratory tract"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:83558"
+                     /chromosome="1"
+                     /country="Finland"
+     gene            79..273
+                     /locus_tag="BN1224_H12_EB_00010"
+     CDS             79..273
+                     /locus_tag="BN1224_H12_EB_00010"
+                     /note="Product derived from UniProtKB/Trembl:Q9Z866"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Uncharacterized protein"
+                     /protein_id="CRI43732.1"
+                     /translation="MIKQACKFYLLQCLLCALYWLLKYCRKLLKGTLHHSEETLYQAL
+                     LSSLIDLLYQLKQLPAPTNE"
+     gene            complement(443..1825)
+                     /locus_tag="BN1224_H12_EB_00020"
+     CDS             complement(443..1825)
+                     /locus_tag="BN1224_H12_EB_00020"
+                     /note="Product derived from UniProtKB/Trembl:Q9Z865"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical proline permease"
+                     /protein_id="CRI43733.1"
+                     /translation="MLKGNIFHLGCGVLYFMNFSLFLFFLIAIQGICLYVGRRGSKKV
+                     EDRESYFLAGRSLKIFPLMMTFIATQIGGGVLLGAAEEAFCYGYGGILYPLGVALGLI
+                     FLGMGPGKRLAEGSLTTVVSIFEVFYGSKKLRKIAFLLSAGSLFFILVAQVIALDRLF
+                     SSFPFGKYVTVAFWIVLASYTSTGGFRGVVRTDVIQAGFLLIAVLVCGVSVWLSVPKS
+                     LSVLDPFQSLPCAKLSNWIFMPMLFMLVEQDMVQRCVAASSPKRLQWAAVGAGLVLLL
+                     FNFIPLFLGSLGAKAGLKAGCPLIDTIAYFCNPSLAAVMAAAIGVAILSTADSLMNAV
+                     SQLIAEEYPTLKAPYYRYLVLGLAVAAPLVAIGFTNIVDVLILSYSLSVCCLSVPVGF
+                     YLLAPKGRRVSGAAAWAGVLVGALGYGWVQIVSLGMFGELLAWVGSLVAFSFVGFIEI
+                     TWKNKVKTQT"
+ORIGIN      
+        1 tattgaatag taaatactat tttcactatc taacagccaa ttggaagaac gccaacacgc
+       61 gtctttcttt ggaggtttat gataaaacaa gcgtgtaaat tttacctttt acagtgttta
+      121 ctttgcgctc tgtattggct attaaagtat tgcagaaagc ttcttaaggg cactcttcac
+      181 cattctgaag agacgctcta tcaagccctg ctctcctctc ttatcgacct gctctatcag
+      241 ttaaaacagc ttcccgcccc tacgaatgaa taataaaaaa taaaacgaac ccctcttctt
+      301 cttggaaaag aaggagaggt atcagattct aaacacaact taaaaaactg acgatctctt
+      361 actaagcgca acctatcaga tctaagagaa acctaaacaa ctcaggatct attttagtta
+      421 tatcttctca tgcagtggtt atctaagttt gcgttttgac tttgtttttc caagtgatct
+      481 caataaatcc tacaaaggaa aaggcgacta gagaacctac ccaagccaat agctccccaa
+      541 acatccccaa agagactatc tgaacccatc catagcccag agcaccaacg agcactcctg
+      601 cccaagcagc agctccgctc acacggcgac ctttaggagc tagaagatag aaacccacag
+      661 ggactgaaag acaacacact gacaggctat agcttaaaat caagacatct acgatgtttg
+      721 taaaaccaat agcaacaaga ggagctgcaa ccgccaaacc caatactaaa taacgataat
+      781 aaggggcttt caacgtaggg tattcttcag cgattagctg gcttacagca ttcataagag
+      841 agtccgcggt agagagaatc gcaacgccga tggcagcagc catcacagct gctagtgagg
+      901 gattgcaaaa atatgcaatg gtatcaatca gagggcatcc tgctttaagg cctgctttag
+      961 ctcctaaaga acctaaaaat aaagggataa agttaaaaag aagaagaaca aggcctgcgc
+     1021 ctacagccgc ccattgcaag cgttttggag aggaggcagc cacacacctt tgcaccatat
+     1081 cctgctcaac aagcataaag agcataggca tgaatatcca attggaaagc ttcgcacaag
+     1141 gaagtgattg gaaaggatcc aacacagaca aggatttagg gacagagagc catacagaaa
+     1201 caccacagac gagcaccgca ataagaagaa atcctgcttg gatcacatca gtacgtacga
+     1261 ccccgcgaaa ccctcctgtt gaggtatagg atgctaagac aatccaaaat gctacggtta
+     1321 cgtacttgcc aaaagggaag ctgctaaaca accgatctaa agcaatcacc tgagcgacca
+     1381 ggatgaaaaa taaggaacct gcggataata aaaatgcgat cttacggagc tttttagaac
+     1441 cataaaacac ttcaaagata gagactacgg tcgttaacga tccctctgcc aaccgcttcc
+     1501 cgggccccat tcctaagaaa atcaacccta aagcgactcc taaaggataa agaatccccc
+     1561 cataaccata acagaaggcc tcttcagcag ccccaagaag tacaccgcca ccgatttggg
+     1621 tggcaatgaa tgtcatcatc aaaggaaaga tttttaaact ccttcctgca agaaaatagc
+     1681 tctcgcgatc ttctaccttt ttgctaccac gacgtcccac gtacaagcag attccctgaa
+     1741 tagctatcag gaaaaataaa aataatgaaa aattcataaa ataaagaact ccacaaccta
+     1801 aatgaaaaat atttccttta agcaagctac ggtgctgagc ttaaagatag aaatgctagg
+     1861 aaaattagga gtggtgatgg agataacgtc cagaataacg aaatcttaac gagaatagag
+     1921 attcaaaaaa caaatctgat tttatataca ggttgtgcat gacatacagg ctctgagctt
+     1981 acgctcttca t
+//
+

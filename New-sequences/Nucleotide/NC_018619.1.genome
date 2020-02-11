@@ -1,0 +1,80 @@
+LOCUS       NC_018619            1172064 bp    DNA     circular CON 26-AUG-2019
+DEFINITION  Chlamydia psittaci 84/55, complete genome.
+ACCESSION   NC_018619
+VERSION     NC_018619.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02604206
+            Assembly: GCF_000298375.2
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia psittaci 84/55
+  ORGANISM  Chlamydia psittaci 84/55
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (bases 1 to 1172064)
+  AUTHORS   Van Lent,S., Piet,J.R., Beeckman,D., van der Ende,A., Van
+            Nieuwerburgh,F., Bavoil,P., Myers,G., Vanrompay,D. and Pannekoek,Y.
+  TITLE     Full genome sequences of all nine Chlamydia psittaci genotype
+            reference strains
+  JOURNAL   J. Bacteriol. 194 (24), 6930-6931 (2012)
+   PUBMED   23209198
+REFERENCE   2  (bases 1 to 1172064)
+  AUTHORS   Van Lent,S., Piet,J.R., Beeckman,D., Van Der Ende,A., Van
+            Nieuwerburgh,F., Bavoil,P., Myers,G., Vanrompay,D. and Pannekoek,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-AUG-2012) Institute for Genome Sciences, University
+            of Maryland, School of Medicine, 801 W. Baltimore Street,
+            Baltimore, MD 21201, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP003790.
+            The source of bacteria and DNA is the Deparment Molecular
+            Biotechnology, Coupure links 653, 9000 Ghent, Belgium.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: Newbler v. 2.6
+            Genome Coverage       :: 16x
+            Sequencing Technology :: Roche 454-Titanium
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 08/26/2019 08:02:56
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.9
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 1,048
+            CDSs (total)                      :: 1,004
+            Genes (coding)                    :: 888
+            CDSs (with protein)               :: 888
+            Genes (RNA)                       :: 44
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 38
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 116
+            CDSs (without protein)            :: 116
+            Pseudo Genes (ambiguous residues) :: 0 of 116
+            Pseudo Genes (frameshifted)       :: 114 of 116
+            Pseudo Genes (incomplete)         :: 2 of 116
+            Pseudo Genes (internal stop)      :: 1 of 116
+            Pseudo Genes (multiple problems)  :: 1 of 116
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1172064
+                     /organism="Chlamydia psittaci 84/55"
+                     /mol_type="genomic DNA"
+                     /strain="84/55"
+                     /isolation_source="lungs of a diseased parakeet"
+                     /host="Amazona sp."
+                     /db_xref="taxon:1218176"
+                     /country="Germany"
+CONTIG      join(CP003790.1:1..1172064)
+//
+

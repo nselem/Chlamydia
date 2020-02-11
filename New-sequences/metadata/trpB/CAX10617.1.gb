@@ -1,0 +1,76 @@
+LOCUS       CAX10617                 392 aa            linear   BCT 27-FEB-2015
+DEFINITION  tryptophan synthase beta chain [Chlamydia trachomatis B/Jali20/OT].
+ACCESSION   CAX10617
+VERSION     CAX10617.1
+DBLINK      BioProject: PRJEA32655
+            BioSample: SAMEA2272641
+DBSOURCE    embl accession FM872308.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis B/Jali20/OT
+  ORGANISM  Chlamydia trachomatis B/Jali20/OT
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Seth-Smith,H.M., Harris,S.R., Persson,K., Marsh,P., Barron,A.,
+            Bignell,A., Bjartling,C., Clark,L., Cutcliffe,L.T., Lambden,P.R.,
+            Lennard,N., Lockey,S.J., Quail,M.A., Salim,O., Skilton,R.J.,
+            Wang,Y., Holland,M.J., Parkhill,J., Thomson,N.R. and Clarke,I.N.
+  TITLE     Co-evolution of genomes and plasmids within Chlamydia trachomatis
+            and the emergence in Sweden of a new variant strain
+  JOURNAL   BMC Genomics 10, 239 (2009)
+   PUBMED   19460133
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Seth-Smith,H.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2008) Seth-Smith H.M., Pathogen Genomics,
+            Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus,
+            Hinxton, CB10 1SA, UNITED KINGDOM
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis B/Jali20/OT"
+                     /strain="Jali20"
+                     /serovar="B"
+                     /db_xref="taxon:580049"
+     Protein         1..392
+                     /product="tryptophan synthase beta chain"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Region          48..374
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="JALI_1641"
+                     /coded_by="FM872308.1:195097..196275"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:JALI_1641"
+                     /db_xref="EnsemblGenomes-Tr:CAX10617"
+                     /db_xref="GOA:C4PPH6"
+                     /db_xref="InterPro:IPR001926"
+                     /db_xref="InterPro:IPR006653"
+                     /db_xref="InterPro:IPR006654"
+                     /db_xref="InterPro:IPR023026"
+                     /db_xref="UniProtKB/TrEMBL:C4PPH6"
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdedal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

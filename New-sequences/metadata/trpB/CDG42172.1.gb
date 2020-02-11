@@ -1,0 +1,65 @@
+LOCUS       CDG42172                 392 aa            linear   BCT 03-NOV-2016
+DEFINITION  tryptophan synthase beta chain [Chlamydia trachomatis F/SWFPminus].
+ACCESSION   CDG42172
+VERSION     CDG42172.1
+DBLINK      BioProject: PRJEA74571
+            BioSample: SAMEA4532335
+            Sequence Read Archive: ERR008598
+DBSOURCE    embl accession HE605380.2
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis F/SWFPminus
+  ORGANISM  Chlamydia trachomatis F/SWFPminus
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Sigar,I.M., Schripsema,J.H., Wang,Y., Clarke,I.N., Cutcliffe,L.T.,
+            Seth-Smith,H.M., Thomson,N.R., Bjartling,C., Unemo,M., Persson,K.
+            and Ramsey,K.H.
+  TITLE     Plasmid deficiency in urogenital isolates of Chlamydia trachomatis
+            reduces infectivity and virulence in a mouse model
+  JOURNAL   Pathog Dis 70 (1), 61-69 (2014)
+   PUBMED   24022847
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Seth-Smith,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2011) Wellcome Trust Sanger Institute, Pathogen
+            Genomics, Wellcome Trust Genome Campus, Hinxton, CB10 1SA, UNITED
+            KINGDOM
+COMMENT     Data release policy http://www.sanger.ac.uk/legal/#t_2.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis F/SWFPminus"
+                     /strain="F/SWFPminus"
+                     /db_xref="taxon:1100833"
+     Protein         1..392
+                     /product="tryptophan synthase beta chain"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="SWFP_1781"
+                     /coded_by="HE605380.2:193536..194714"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:SWFP_1781"
+                     /db_xref="EnsemblGenomes-Tr:CDG42172"
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

@@ -1,0 +1,56 @@
+LOCUS       ANF04042                 253 aa            linear   ENV 22-MAY-2016
+DEFINITION  tryptophan synthase A subunit [Chlamydia trachomatis].
+ACCESSION   ANF04042
+VERSION     ANF04042.1
+DBSOURCE    accession KM369957.1
+KEYWORDS    ENV.
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 253)
+  AUTHORS   Somboonna,N., Choopara,I., Sukhonpan,K. and Sayasathid,J.
+  TITLE     Sexually transmitted diseases in symptomatic and asymptomatic Thai
+            women and girls: a study from Bangkok and nearby
+  JOURNAL   Asian Biomed (Res Rev News) 9 (3), 299-311 (2015)
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Somboonna,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-AUG-2014) Microbiology, Chulalongkorn University,
+            Phyathai Road, Pathumwan, Bangkok 10330, Thailand
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis"
+                     /serovar="H"
+                     /isolate="H/L23bf"
+                     /isolation_source="cervical swab"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:813"
+                     /clone="L23bf"
+                     /environmental_sample
+                     /country="Thailand"
+                     /collection_date="2012"
+                     /note="amplified with species-specific primers"
+     Protein         1..253
+                     /product="tryptophan synthase A subunit"
+                     /name="TrpA"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /gene="trpA"
+                     /coded_by="KM369957.1:1..762"
+                     /transl_table=11
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakalirggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdvgingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

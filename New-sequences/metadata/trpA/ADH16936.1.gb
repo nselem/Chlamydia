@@ -1,0 +1,59 @@
+LOCUS       ADH16936                 253 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase subunit alpha [Chlamydia trachomatis E/150].
+ACCESSION   ADH16936
+VERSION     ADH16936.1
+DBLINK      BioProject: PRJNA43143
+            BioSample: SAMN02603692
+DBSOURCE    accession CP001886.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis E/150
+  ORGANISM  Chlamydia trachomatis E/150
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 253)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Quinn,K.L., Davidson,J.R., Stamm,W.E.
+            and Rockey,D.D.
+  TITLE     Genome sequencing of recent clinical Chlamydia trachomatis strains
+            identifies loci associated with tissue tropism and regions of
+            apparent recombination
+  JOURNAL   Infect. Immun. 78 (6), 2544-2553 (2010)
+   PUBMED   20308297
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Quinn,K.L., Davidson,J.R., Stamm,W.E.
+            and Rockey,D.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JAN-2010) Biomedical Sciences, Oregon State
+            University, 105 Magruder Hall, Corvallis, OR 97331, USA
+COMMENT     Annotation was added by the NCBI Prokaryotic Genomes Automatic
+            Annotation Pipeline Group. Information about the Pipeline can be
+            found here:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            Please be aware that the annotation is done automatically with
+            little or no manual curation.
+            Bacteria from the University of Washington Chlamydia Repository.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis E/150"
+                     /strain="E/150"
+                     /db_xref="taxon:707184"
+     Protein         1..253
+                     /product="tryptophan synthase subunit alpha"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /locus_tag="E150_00900"
+                     /coded_by="CP001886.1:194197..194958"
+                     /note="COG0159 Tryptophan synthase alpha chain"
+                     /transl_table=11
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

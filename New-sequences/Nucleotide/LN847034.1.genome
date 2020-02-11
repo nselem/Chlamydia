@@ -1,0 +1,170 @@
+LOCUS       LN847034                3481 bp    DNA     linear   BCT 09-MAY-2015
+DEFINITION  Chlamydia pneumoniae genome assembly DC9, chromosome : 1.
+ACCESSION   LN847034
+VERSION     LN847034.1
+DBLINK      BioProject: PRJEB8246
+            BioSample: SAMEA3212823
+KEYWORDS    .
+SOURCE      Chlamydia pneumoniae
+  ORGANISM  Chlamydia pneumoniae
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Rattei,Thomas.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2015) University of Vienna, CUBE, Division of
+            Computational Systems Biology, Althanstr. 14, 1090 Vienna, Austria
+FEATURES             Location/Qualifiers
+     source          1..3481
+                     /organism="Chlamydia pneumoniae"
+                     /mol_type="genomic DNA"
+                     /isolate="DC9"
+                     /isolation_source="liver"
+                     /host="Anura sp."
+                     /db_xref="taxon:83558"
+                     /chromosome="1"
+                     /country="Central African Republic"
+     gene            complement(125..1489)
+                     /gene="accC1"
+                     /locus_tag="BN1224_DC9_BB_00010"
+     CDS             complement(125..1489)
+                     /gene="accC1"
+                     /locus_tag="BN1224_DC9_BB_00010"
+                     /EC_number="6.3.4.14"
+                     /EC_number="6.4.1.2"
+                     /note="Product derived from
+                     UniProtKB/Swiss-Prot:P49787;Gene name derived from
+                     UniProtKB/Swiss-Prot:P49787;EC number derived from
+                     UniProtKB/Swiss-Prot:P49787"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Biotin carboxylase 1"
+                     /protein_id="CRI42307.1"
+                     /translation="MKKVLIANRGEIAVRIIRACHDLGLSTVAVYSLADQEALHVLLA
+                     DEAVCIGEPQAAKSYLKISNILAACEITGADAVHPGYGFLSENANFASICESCGLTFI
+                     GPSSESIAMMGDKIAAKSLAKKIKCPVIPGSEGIIEDESEGLKIAEKIGFPIVIKAVA
+                     GGGGRGIRIVKEKDEFYRAFSAARAEAEAGFNNPNVYIEKFIENPRHLEIQVIGDTHG
+                     NYVHLGERDCTIQRRRQKLIEETPSPILNAEIRAKVGKVAVDLARSAGYFSVGTVEFL
+                     LDKDKKFYFMEMNTRIQVEHTITEEVTGIDLVKEQIHVAMGNKLPWKQKNIEFSGHII
+                     QCRINAEDPTNNFSPSPGRLDYYLPPAGPSIRVDGACYSGYAIPPYYDSMIAKVIAKG
+                     KNREEAIAIMKRALKEFHIGGVQSTIPFHQFMLDNPKFLESNYDINYIDNLLAQGNSF
+                     FKEF"
+     gene            complement(1486..1989)
+                     /gene="accB"
+                     /locus_tag="BN1224_DC9_BB_00020"
+     CDS             complement(1486..1989)
+                     /gene="accB"
+                     /locus_tag="BN1224_DC9_BB_00020"
+                     /EC_number="6.4.1.2"
+                     /note="Product derived from
+                     UniProtKB/Swiss-Prot:Q9Z901;Gene name derived from
+                     UniProtKB/Swiss-Prot:Q9Z901;EC number derived from
+                     UniProtKB/Trembl:D0ZYB2"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Biotin carboxyl carrier protein of acetyl-CoA
+                     carboxylase"
+                     /protein_id="CRI42308.1"
+                     /translation="MDLKQIEKLMIAMGRNGMKRFAIKREGLELELERDTGEGNRQEP
+                     VFYDSRLFSGFSQERPIPTDPKKDTIKETTTENSETSTTTSSGDFISSPLVGTFYGSP
+                     APDSPSFVKPGDIVSEDTIVCIVEAMKVMNEVKAGMSGRVLEVLITNGDPVQFGSKLF
+                     RIAKDAS"
+     gene            complement(2012..2569)
+                     /gene="efp1"
+                     /locus_tag="BN1224_DC9_BB_00030"
+     CDS             complement(2012..2569)
+                     /gene="efp1"
+                     /locus_tag="BN1224_DC9_BB_00030"
+                     /note="Product derived from
+                     UniProtKB/Swiss-Prot:Q9Z900;Gene name derived from
+                     UniProtKB/Swiss-Prot:Q9Z900"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Elongation factor P 1"
+                     /protein_id="CRI42309.1"
+                     /translation="MVLSSQLSVGMFISTKDGLYKVTSVSKVAGPKGESFIKVALQAA
+                     DSDVVIERNFKATQEVKEAQFETRTLEYLYLEDESYLFLDLGNYEKLFIPQEIMKDNF
+                     LFLKAGVTVSAMVYDNVVFSVELPHFLELMVSKTDFPGDSLSLSGGVKKALLETGIEV
+                     MVPPFVEIGDVIKIDTRTCEYIQRV"
+     gene            complement(2556..3245)
+                     /gene="rpe"
+                     /locus_tag="BN1224_DC9_BB_00040"
+     CDS             complement(2556..3245)
+                     /gene="rpe"
+                     /locus_tag="BN1224_DC9_BB_00040"
+                     /EC_number="5.1.3.1"
+                     /note="Product derived from
+                     UniProtKB/Swiss-Prot:Q9Z8Z9;Gene name derived from
+                     UniProtKB/Swiss-Prot:Q9Z8Z9;EC number derived from
+                     UniProtKB/Swiss-Prot:Q9Z8Z9"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Ribulose-phosphate 3-epimerase"
+                     /protein_id="CRI42310.1"
+                     /translation="MKKQESVLVGPSIMGADLTCLGLEAKKLEQAGSDFIHIDIMDGH
+                     FVPNLTFGPGIIAAINRSTDLFLEVHAMIYNPFEFIESFVRSGADRIIVHFEASEDIK
+                     ELLSYIKKCGVQAGLAFSPDTSIEFLPSFLPFCDVVVLMSVYPGFTGQSFLPNTIEKI
+                     AFARHAIKTLGLKDSCLIEVDGGIDQQSAPLCRDAGADILVTASYLFEADSLAMEDKI
+                     LLLRGENYGVK"
+ORIGIN      
+        1 ataataaatt taaaaatatc tttttataaa gaaatattta tataaaaata attcttagac
+       61 cattgtaaat ttaattagaa aagcctccga gcttcaagaa ccctaaggaa gattcttaaa
+      121 ttatttagaa ttctttaaaa aaagaatttc cttgagcaag taggttatcg atatagttaa
+      181 tatcgtaatt agattctaga aacttcggat tatccagcat aaactggtgg aaaggtattg
+      241 tagactgcac accaccgata tgaaactctt tcaaagcacg tttcatgata gctatagctt
+      301 cttctcggtt tttgccctta gcaattacct ttgctatcat agaatcataa taaggaggga
+      361 ttgcatagcc gctataacaa gctccatcta cacgaattga aggacctgca ggaggaagat
+      421 aataatctaa acgacctgga gatggtgaga aattattggt aggatcctca gcgttaatgc
+      481 gacattggat gatatgaccc gagaactcaa tgttcttttg tttccaaggc agcttatttc
+      541 ccatggctac atgaatctgt tcttttacaa gatctatacc tgtgacttct tcagtaatgg
+      601 tatgctctac ctgaattcgg gtattcattt ccataaagta gaattttttg tctttatcta
+      661 ataagaattc gactgttcca acagaaaaat atccggcgct tcttgctaga tctacagcaa
+      721 cttttcctac tttggctcgg atttccgcat tgagaatggg actaggagtc tcttcaatca
+      781 acttttgacg tcgccgttga atggtgcagt ctctttctcc taaatgcaca taatttccat
+      841 gggtatcccc aatgacttgg atttctaaat gccgtggatt ttctataaac ttttcaatat
+      901 aaacattggg gttattaaaa ccggcttcgg cttctgcacg tgcggcagaa aacgctctat
+      961 agaattcgtc cttttcttta acaatacgaa ttcctcttcc cccacctcca gcaacggctt
+     1021 taataacaat agggaaacct attttttcag ctatttttaa accttcgctc tcgtcttcaa
+     1081 taatgccttc agaacctgga ataacaggac atttgatttt ctttgccagg gacttcgcag
+     1141 caatcttatc ccccatcata gcaatagact ctgaactcgg ccctataaag gttaagccac
+     1201 agctctcgca tattgaagca aagtttgcgt tttcacttaa aaacccatat ccaggatgca
+     1261 cagcatcagc tcctgtgatc tcacaggcag ccaagatatt ggatatcttt aaataagact
+     1321 ttgctgcttg aggctctcca atacaaacag cctcgtcagc aagaagtacg tggagagcct
+     1381 cttgatctgc taaagaatat acagccactg tcgacaatcc taaatcatga caggcacgta
+     1441 taattctaac agcaatttcc cctctattag cgattaagac ttttttcatg atgcatcttt
+     1501 agctatacga aacaacttag acccaaattg gacaggatcc ccattggtaa tcaatacttc
+     1561 aagaacacgc ccactcattc ctgctttcac ttcattcatt actttcatag cctcaacgat
+     1621 acaaacaata gtatcttccg aaacaatatc gccaggtttt acaaaagaag gagaatctgg
+     1681 ggctggagaa ccatagaaag ttcccactaa aggagaactt ataaagtctc cagaacttgt
+     1741 tgtagtagaa gtttctgaat tttctgtagt agtctcttta attgtatctt ttttagggtc
+     1801 cgttgggata ggtcgttctt gagaaaatcc actaaataac ctgctgtcat aaaacacagg
+     1861 ctcttgtcta ttcccctccc cagtatctct ttccaactcc aattcaagcc cttcacgttt
+     1921 tatagcaaaa cgcttcatac cattgcgtcc catagcaatc atgagctttt ctatttgttt
+     1981 taagtccata ccaagtcttc tttaattgaa attagacgcg ttgaatatac tcacaagtcc
+     2041 gcgtatctat ttttataaca tcaccaattt ctacaaaagg tgggaccata acttcaattc
+     2101 ctgtttccag caaagctttc ttaactcctc cggaaagaga gagagaatct ccaggaaagt
+     2161 ctgtttttga taccataagc tctagaaaat gaggcagctc tacagaaaaa accacattgt
+     2221 catagaccat tgcagagaca gtcacacctg cctttaaaaa caaaaagtta tccttcatga
+     2281 tttcttgtgg aatgaataac ttttcataat ttcctaaatc taaaaaaaga taactttcat
+     2341 cttcaagata taaatattct aaagtgcggg tttcaaattg agcctctttt acctcttgag
+     2401 ttgctttgaa atttctctca ataacaacat cagaatccgc agcctgcaaa gcgactttaa
+     2461 tgaaggattc gcctttgggc cctgccacct tagacactga ggttacttta taaagaccgt
+     2521 cctttgtaga aataaacatc cctacggata attggctact taacaccata attttctcct
+     2581 cgcagcaaca aaattttatc ttccattgct aatgaatctg cttcgaataa gtaagaagct
+     2641 gtgactaaaa tatctgctcc tgcatctcga cataacggcg cagattgctg atctatgcct
+     2701 ccatctactt ctattaaaca agaatccttt aaacctaaag tctttatcgc atgacgtgca
+     2761 aaagcaatct tttctattgt atttggtaaa aagctctgtc ctgtaaatcc cggataaact
+     2821 gacattagca caacgacatc acaaaacgga aggaaagaag gaagaaattc gattgaagta
+     2881 tcgggagaaa aagctagacc cgcttgaacc ccacattttt ttatataaga tagaagctct
+     2941 tttatatcct ctgaagcttc aaagtgtact ataattctat ccgcaccaga acgaacgaaa
+     3001 ctttctataa attcaaaagg attgtaaatc atagcgtgga cttctaaaaa tagatccgta
+     3061 gatctattaa tggcagcaat gatccctgga ccaaaagtaa ggttcggaac aaagtggcca
+     3121 tccatgatat ctatgtgtat aaaatcactt cctgcctgct ctagtttttt tgcttctaaa
+     3181 cccaaacagg taagatctgc ccccataatc gaagggccaa ctaatacgga ttcctgtttc
+     3241 ttcacctcag cctatctcaa cttcactacg ctaaatttaa agtagagtga gctttaactt
+     3301 tctactattt atatttactg gttgatgtat tcatgaactc ctactcattg tatgaataga
+     3361 aaatgaatac ggactactac cataatacag aacgaatata tttcaaagaa ccattgaaca
+     3421 tttcttatta aaaattcttt tcttttttac aaaaatccca agattaatct ttctgtttca
+     3481 c
+//
+

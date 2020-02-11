@@ -1,0 +1,106 @@
+LOCUS       RLD11443                 400 aa            linear   ENV 15-OCT-2018
+DEFINITION  tryptophan synthase subunit beta [Chlamydiae bacterium].
+ACCESSION   RLD11443
+VERSION     RLD11443.1
+DBLINK      BioProject: PRJNA362212
+            BioSample: SAMN09215200
+DBSOURCE    accession QMOL01000043.1
+KEYWORDS    ENV.
+SOURCE      Chlamydiae bacterium (marine sediment metagenome)
+  ORGANISM  Chlamydiae bacterium
+            Bacteria; Chlamydiae.
+REFERENCE   1  (residues 1 to 400)
+  AUTHORS   Dombrowski,N., Teske,A. and Baker,B.J.
+  TITLE     Extensive metabolic versatility and redundancy in microbially
+            diverse, dynamic hydrothermal sediments
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 400)
+  AUTHORS   Dombrowski,N., Teske,A., Baker,B.J. and Seitz,K.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUN-2018) Marine Science Institute, The University of
+            Texas at Austin, 750 Channel View Dr, Port Aransas, TX 78373, USA
+COMMENT     Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: APR-2017
+            Assembly Method        :: megahit v. 1.0.6
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 21.2217573221757x
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 06/30/2018 02:30:03
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.5
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 2,077
+            CDS (total)                       :: 2,047
+            Genes (coding)                    :: 2,030
+            CDS (coding)                      :: 2,030
+            Genes (RNA)                       :: 30
+            tRNAs                             :: 28
+            ncRNAs                            :: 2
+            Pseudo Genes (total)              :: 17
+            Pseudo Genes (ambiguous residues) :: 0 of 17
+            Pseudo Genes (frameshifted)       :: 2 of 17
+            Pseudo Genes (incomplete)         :: 10 of 17
+            Pseudo Genes (internal stop)      :: 5 of 17
+            CRISPR Arrays                     :: 1
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..400
+                     /organism="Chlamydiae bacterium"
+                     /isolate="B51_G9"
+                     /isolation_source="deep-sea hydrothermal vent sediments
+                     from dive 4571_4 depth 0-3 cm"
+                     /db_xref="taxon:2081524"
+                     /environmental_sample
+                     /country="Mexico: Guaymas Basin, Gulf of California"
+                     /lat_lon="29.52416667 N 113.57000000 W"
+                     /collection_date="02-Dec-2009"
+                     /metagenome_source="marine sediment metagenome"
+                     /note="metagenomic"
+     Protein         1..400
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+     Region          10..395
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Site            order(91..92,119,195,237..241,355,381)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            92
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..400
+                     /gene="trpB"
+                     /locus_tag="DRI44_03590"
+                     /coded_by="complement(QMOL01000043.1:8875..10077)"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008098333.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /transl_table=11
+ORIGIN      
+        1 mniennkign gkfgqfggqf vpetlmvale eveeafnsyf ptpefqkeln nlfidyvgrp
+       61 tslyfaeqlt nhiggpkiyl kredlahtga hkinntvgqi llakkmgkkr iiaetgagqh
+      121 gvatatvaal aglecvvymg eedmvrqain vfrmrllgae vrpvtsgskt lkdamsealr
+      181 dwvtnvrnth yilgtvggph pypiivrefq rvigreakkq ilekegrlpd ilvacvgggs
+      241 nsiglfyefm gnkeirkigv eagglgiesg khaarfatgk igvfqgaksy llqddagqin
+      301 lthsvsagld yagvgpqhsf fydnkdveyt yatddetlha fkllsrlegi ipalesahav
+      361 aevikngvsw gkdkiviini sgrgdkdidq arkylpelng
+//
+

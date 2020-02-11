@@ -1,0 +1,51 @@
+LOCUS       CDG43062                 253 aa            linear   BCT 03-NOV-2016
+DEFINITION  Tryptophan synthase alpha chain [Chlamydia trachomatis E/C599].
+ACCESSION   CDG43062
+VERSION     CDG43062.1
+DBLINK      BioProject: PRJEA74569
+            BioSample: SAMEA4532334
+            Sequence Read Archive: ERR027326
+DBSOURCE    embl accession HE605379.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis E/C599
+  ORGANISM  Chlamydia trachomatis E/C599
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Seth-Smith,H.M.B., Harris,S.R., Clarke,I.N. and Thomson,N.R.
+  TITLE     Chlamydia trachomatis plasmid free strains
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Seth-Smith,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2011) Wellcome Trust Sanger Institute, Pathogen
+            Genomics, Wellcome Trust Genome Campus, Hinxton, CB10 1SA, UNITED
+            KINGDOM
+COMMENT     Data release policy http://www.sanger.ac.uk/legal/#t_2.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis E/C599"
+                     /strain="E/C599"
+                     /db_xref="taxon:1100832"
+     Protein         1..253
+                     /product="Tryptophan synthase alpha chain"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /gene="trpA"
+                     /locus_tag="EC599_1741"
+                     /coded_by="HE605379.1:194797..195558"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:EC599_1741"
+                     /db_xref="EnsemblGenomes-Tr:CDG43062"
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyqat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

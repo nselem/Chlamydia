@@ -1,0 +1,102 @@
+LOCUS       TRPB_CHLTR               392 aa            linear   BCT 13-NOV-2019
+DEFINITION  RecName: Full=Tryptophan synthase beta chain.
+ACCESSION   O84172
+VERSION     O84172.1
+DBSOURCE    UniProtKB: locus TRPB_CHLTR, accession O84172;
+            class: standard.
+            created: May 30, 2000.
+            sequence updated: Nov 1, 1998.
+            annotation updated: Nov 13, 2019.
+            xrefs: AE001273.1, AAC67761.1, A71547, NP_219673.1, WP_009873061.1
+            xrefs (non-sequence databases): SMR:O84172,
+            EnsemblBacteria:AAC67761, EnsemblBacteria:AAC67761,
+            EnsemblBacteria:CT_170, GeneID:884961, KEGG:ctr:CT_170,
+            PATRIC:fig|272561.5.peg.183, eggNOG:ENOG4105CG0, eggNOG:COG0133,
+            InParanoid:O84172, KO:K01696, OMA:PEMLYPN,
+            BioCyc:CTRA272561:G1G18-177-MONOMER, UniPathway:UPA00035,
+            Proteomes:UP000000431, GO:0005737, GO:0004834, GO:0000162,
+            CDD:cd06446, Gene3D:3.40.50.1100, HAMAP:MF_00133,
+            InterPro:IPR001926, InterPro:IPR006653, InterPro:IPR006654,
+            InterPro:IPR023026, InterPro:IPR036052, PANTHER:PTHR42882,
+            Pfam:PF00291, PIRSF:PIRSF001413, SUPFAM:SSF53686,
+            TIGRFAMs:TIGR00263, PROSITE:PS00168
+KEYWORDS    Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Complete
+            proteome; Lyase; Pyridoxal phosphate; Reference proteome;
+            Tryptophan biosynthesis.
+SOURCE      Chlamydia trachomatis D/UW-3/CX
+  ORGANISM  Chlamydia trachomatis D/UW-3/CX
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Stephens,R.S., Kalman,S., Lammel,C., Fan,J., Marathe,R.,
+            Aravind,L., Mitchell,W., Olinger,L., Tatusov,R.L., Zhao,Q.,
+            Koonin,E.V. and Davis,R.W.
+  TITLE     Genome sequence of an obligate intracellular pathogen of humans:
+            Chlamydia trachomatis
+  JOURNAL   Science 282 (5389), 754-759 (1998)
+   PUBMED   9784136
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=D/UW-3/Cx
+COMMENT     On Apr 14, 2006 this sequence version replaced gi:7437000.
+            [FUNCTION] The beta subunit is responsible for the synthesis of
+            L-tryptophan from indole and L-serine. {ECO:0000250}.
+            [CATALYTIC ACTIVITY] Reaction=(1S,2R)-1-C-(indol-3-yl)glycerol
+            3-phosphate + L-serine = D-glyceraldehyde 3-phosphate + H2O +
+            L-tryptophan; Xref=Rhea:RHEA:10532, ChEBI:CHEBI:15377,
+            ChEBI:CHEBI:33384, ChEBI:CHEBI:57912, ChEBI:CHEBI:58866,
+            ChEBI:CHEBI:59776; EC=4.2.1.20.
+            [COFACTOR] Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+            Evidence={ECO:0000250}.
+            [PATHWAY] Amino-acid biosynthesis; L-tryptophan biosynthesis;
+            L-tryptophan from chorismate: step 5/5.
+            [SUBUNIT] Tetramer of two alpha and two beta chains. {ECO:0000250}.
+            [SIMILARITY] Belongs to the TrpB family. {ECO:0000305}.
+            [CAUTION] This TrpB is highly divergent compared to other bacterial
+            TrpB. As C.trachomatis seems to have lost part of the Trp
+            biosynthetic operon, it is possible that this protein is not
+            active. {ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis D/UW-3/CX"
+                     /db_xref="taxon:272561"
+     gene            1..392
+                     /gene="trpB"
+                     /locus_tag="CT_170"
+     Protein         1..392
+                     /product="Tryptophan synthase beta chain"
+                     /EC_number="4.2.1.20"
+                     /UniProtKB_evidence="Inferred from homology"
+     Region          1..392
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Tryptophan synthase beta chain.
+                     /FTId=PRO_0000098941."
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="modified"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-(pyridoxal phosphate)lysine. {ECO:0000250}."
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

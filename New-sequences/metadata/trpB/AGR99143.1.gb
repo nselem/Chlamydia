@@ -1,0 +1,72 @@
+LOCUS       AGR99143                 392 aa            linear   BCT 31-JAN-2014
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis
+            RC-F(s)/342].
+ACCESSION   AGR99143
+VERSION     AGR99143.1
+DBLINK      BioProject: PRJNA53857
+            BioSample: SAMN02603703
+DBSOURCE    accession CP002677.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis RC-F(s)/342
+  ORGANISM  Chlamydia trachomatis RC-F(s)/342
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J., Eriksen,S.G., Sandoz,K.M. and
+            Rockey,D.D.
+  TITLE     Genomic and phenotypic characterization of in vitro-generated
+            Chlamydia trachomatis recombinants
+  JOURNAL   BMC Microbiol. 13, 142 (2013)
+   PUBMED   23786423
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Jeffrey,B.M., Suchland,R.J. and Rockey,D.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-APR-2011) Biomedical Sciences, Oregon State
+            University, 105 Magruder Hall, Corvallis, OR 97331, USA
+COMMENT     Annotation was added by the NCBI Prokaryotic Genomes Automatic
+            Annotation Pipeline Group. Information about the Pipeline can be
+            found here:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be
+            aware that the annotation is done automatically with little or no
+            manual curation.
+            Source DNA is available from the University of Washington Chlamydia
+            Repository. Contact: Robert Suchland.  Email:
+            badbob@u.washington.edu.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis RC-F(s)/342"
+                     /strain="RC-F(s)/342"
+                     /db_xref="taxon:907269"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="CTRC342_00915"
+                     /coded_by="CP002677.1:196188..197366"
+                     /note="COG0133 Tryptophan synthase beta chain"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeelltp iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgpkv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnka lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

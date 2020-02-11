@@ -1,0 +1,69 @@
+LOCUS       SIU03191                 392 aa            linear   BCT 18-MAR-2017
+DEFINITION  tryptophan synthase subunit beta,Tryptophan synthase beta
+            chain,bifunctional phosphoribosylanthranilate isomerase/tryptophan
+            synthase subunit beta,Phosphoribosylanthranilate
+            isomerase,tryptophan synthase, beta subunit,Pyridoxal-phosphate
+            dependent enzyme [Chlamydia suis].
+ACCESSION   SIU03191
+VERSION     SIU03191.1
+DBLINK      BioProject: PRJEB17986
+            BioSample: SAMEA4555934
+DBSOURCE    embl accession FTQU01000001.1
+KEYWORDS    .
+SOURCE      Chlamydia suis
+  ORGANISM  Chlamydia suis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Seth-Smith MB,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2016) Functional Genomics Genter Zurich,
+            University of Zurich, Winterthurerstrasse 190, 8057, 8057,
+            Switzerland
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia suis"
+                     /isolate="8-29b"
+                     /isolation_source="porcine rectal swab"
+                     /db_xref="taxon:83559"
+                     /note="contig: 8-29b"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta,Tryptophan
+                     synthase beta chain,bifunctional
+                     phosphoribosylanthranilate isomerase/tryptophan synthase
+                     subunit beta,Phosphoribosylanthranilate
+                     isomerase,tryptophan synthase, beta
+                     subunit,Pyridoxal-phosphate dependent enzyme"
+     Region          7..389
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="CS829B_1750"
+                     /coded_by="FTQU01000001.1:212419..213597"
+                     /inference="ab initio prediction:Prodigal:2.60,similar to
+                     AA sequence:RefSeq:YP_001654499.1,similar to AA
+                     sequence:UniProtKB:P66984,protein
+                     motif:CLUSTERS:PRK13803,protein motif:Cdd:COG0135,protein
+                     motif:TIGRFAMs:TIGR00263,protein motif:Pfam:PF00291.19"
+                     /transl_table=11
+ORIGIN      
+        1 msqhqypfgg aflpeellap iqalkieweq mktqqsflae lssilknyag ratpltevkn
+       61 faraihgprv flkredllht gahkinnalg qcllakylgk nrvvaetgag qhgvatatac
+      121 aylgldcavy mgakdverqk pnvekmrflg aevvsvaqgs cglkdavnqa lqdwakthas
+      181 thyclgsalg pepypdivrf fqsvisaevk eqihaatgrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgiv sgkhaarfat grpgifhgfy syllqdsegq vlqthsisag
+      301 ldypsvgpdh aamhesgraf ytsatdeeal qafflltrne giipalessh alahlvsiap
+      361 slpkdhiviv nlsgrgdkdl pqiikrnggm ye
+//
+

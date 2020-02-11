@@ -1,0 +1,74 @@
+LOCUS       NZ_CP014639          1113233 bp    DNA     circular CON 13-DEC-2019
+DEFINITION  Chlamydia sp. 2742-308 genome.
+ACCESSION   NZ_CP014639
+VERSION     NZ_CP014639.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN04510831
+            Assembly: GCF_001653975.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia sp. 2742-308
+  ORGANISM  Chlamydia sp. 2742-308
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia; unclassified Chlamydia.
+REFERENCE   1  (bases 1 to 1113233)
+  AUTHORS   Taylor-Brown,A., Bachmann,N.L., Borel,N. and Polkinghorne,A.
+  TITLE     Culture-independent genomics supports pathogen discovery for
+            uncultivable bacteria within the genus Chlamydia
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1113233)
+  AUTHORS   Taylor-Brown,A., Bachmann,N.L., Borel,N. and Polkinghorne,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAR-2016) Faculty of Science, Health, Education and
+            Engineering, University of the Sunshine Coast, 90 Sippy Downs
+            Drive, Sippy Downs, Queensland 4556, Australia
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP014639.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.1.1
+            Genome Coverage       :: 6.0
+            Sequencing Technology :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 12/13/2019 10:00:37
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 984
+            CDSs (total)                      :: 940
+            Genes (coding)                    :: 932
+            CDSs (with protein)               :: 932
+            Genes (RNA)                       :: 44
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 38
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 8
+            CDSs (without protein)            :: 8
+            Pseudo Genes (ambiguous residues) :: 0 of 8
+            Pseudo Genes (frameshifted)       :: 3 of 8
+            Pseudo Genes (incomplete)         :: 5 of 8
+            Pseudo Genes (internal stop)      :: 0 of 8
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1113233
+                     /organism="Chlamydia sp. 2742-308"
+                     /mol_type="genomic DNA"
+                     /strain="2742-308"
+                     /isolation_source="choana"
+                     /host="Sanzinia madagascariensis volontany"
+                     /db_xref="taxon:1806891"
+                     /country="Switzerland: Perrefitte"
+                     /collection_date="Nov-2013"
+CONTIG      join(CP014639.1:1..1113233)
+//
+

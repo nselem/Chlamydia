@@ -1,0 +1,82 @@
+LOCUS       KTF28491                 255 aa            linear   BCT 18-DEC-2015
+DEFINITION  tryptophan synthase, alpha subunit [Chlamydia pecorum].
+ACCESSION   KTF28491
+VERSION     KTF28491.1
+DBLINK      BioProject: PRJNA288201
+            BioSample: SAMN03796073
+DBSOURCE    accession LFRH01000005.1
+KEYWORDS    .
+SOURCE      Chlamydia pecorum
+  ORGANISM  Chlamydia pecorum
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 255)
+  AUTHORS   Jelocnik,M., Bachmann,N.L., Kaltenboeck,B., Waugh,C., Woolford,L.,
+            Speight,N., Gillett,A., Higgins,D., Flanagan,C., Myers,G., Timms,P.
+            and Polkinghorne,A.
+  TITLE     More than comparative genomics: Whole genome sequencing reveals
+            elusive C. pecorum plasmid and re-evaluates genetic differences and
+            phylogenetic relationships between C. pecorum from pig, cattle,
+            sheep and koala hosts
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 255)
+  AUTHORS   Jelocnik,M., Bachmann,N.L., Kaltenboeck,B., Waugh,C., Woolford,L.,
+            Speight,N., Gillett,A., Higgins,D., Flanagan,C., Myers,G., Timms,P.
+            and Polkinghorne,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUN-2015) University of the Sunshine Coast, 90 Sippy
+            Downs Drive, Sippy Downs, QLD 4556, Australia
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC NGS Cell v. 7.5.1
+            Genome Coverage       :: 2569.0x
+            Sequencing Technology :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..255
+                     /organism="Chlamydia pecorum"
+                     /strain="L1"
+                     /isolation_source="lung"
+                     /host="Sus"
+                     /db_xref="taxon:85991"
+                     /country="Austria"
+                     /collection_date="1969"
+     Protein         1..255
+                     /product="tryptophan synthase, alpha subunit"
+     Region          14..252
+                     /region_name="Tryptophan_synthase_alpha"
+                     /note="Ttryptophan synthase (TRPS) alpha subunit (TSA).
+                     TPRS is a bifunctional tetrameric enzyme (2 alpha and 2
+                     beta subunits) that catalyzes the last two steps of
+                     L-tryptophan biosynthesis. Alpha and beta subunit catalyze
+                     two distinct reactions which are both...; cd04724"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,59,171,179..180,208..209,229..230)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96,179)
+                     /site_type="active"
+                     /db_xref="CDD:240075"
+     Site            order(44,55,96)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:240075"
+     Site            order(49..52,54,57,60..61,98,101,122..123,125,131,151,
+                     153..155,158)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:240075"
+     CDS             1..255
+                     /gene="trpA"
+                     /locus_tag="cpL1_0933"
+                     /coded_by="complement(LFRH01000005.1:132228..132995)"
+                     /transl_table=11
+ORIGIN      
+        1 mhridetfkn kkpfigyltg gdggldysva caqalirggv dileigfpfs dpvadgpviq
+       61 kaheralenr anstmileia rriressevp lvlfsyfnpl lqlgkeylqq lktvgydavl
+      121 ivdlpipfhn eidpfllevl niglapilla tpsssdqrls qistyargfl yyvshkgttg
+      181 vranlaedfa tqisrmrqhf pipivsgfgi gdresakeal ecadgfvvgs afvekigekt
+      241 pleeltlfar sidpr
+//
+

@@ -1,0 +1,82 @@
+LOCUS       NZ_CP035484          1054567 bp    DNA     circular CON 29-APR-2019
+DEFINITION  Chlamydia trachomatis strain tet9 chromosome, complete genome.
+ACCESSION   NZ_CP035484
+VERSION     NZ_CP035484.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN10822114
+            Assembly: GCF_004135145.1
+KEYWORDS    RefSeq.
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (bases 1 to 1054567)
+  AUTHORS   Suchland,R.J., Carrell,S.J., Wang,Y., Hybiske,K., Kim,D.B.,
+            Dimond,Z.E., Hefty,P.S. and Rockey,D.
+  TITLE     Chromosomal recombination targets in Chlamydia interspecies lateral
+            gene transfer
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1054567)
+  AUTHORS   Carrell,S.J., Suchland,R.J. and Rockey,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JAN-2019) Biomedical Sciences, Oregon State
+            University, 430 SW 30th St, Corvallis, OR 97331, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP035484.
+            Bacteria and source DNA available from University of Washington
+            Chlamydia Lab. University of Washington Seattle WA. 98195.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 23-JUN-2017
+            Assembly Method        :: Geneious v. R7.1
+            Assembly Name          :: Chlamydia trachomatis L2_tet9
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 3000.0x
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 04/27/2019 16:52:43
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.8
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 983
+            CDSs (total)                      :: 937
+            Genes (coding)                    :: 920
+            CDSs (with protein)               :: 920
+            Genes (RNA)                       :: 46
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 37
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 17
+            CDSs (without protein)            :: 17
+            Pseudo Genes (ambiguous residues) :: 0 of 17
+            Pseudo Genes (frameshifted)       :: 14 of 17
+            Pseudo Genes (incomplete)         :: 2 of 17
+            Pseudo Genes (internal stop)      :: 3 of 17
+            Pseudo Genes (multiple problems)  :: 2 of 17
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1054567
+                     /organism="Chlamydia trachomatis"
+                     /mol_type="genomic DNA"
+                     /strain="tet9"
+                     /serovar="L2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:813"
+                     /country="USA: Washington"
+                     /collection_date="13-Sep-2016"
+CONTIG      join(CP035484.1:1..1054567)
+//
+

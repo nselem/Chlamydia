@@ -1,0 +1,96 @@
+LOCUS       ATW09963                 392 aa            linear   BCT 16-NOV-2017
+DEFINITION  tryptophan synthase subunit beta [Chlamydia trachomatis].
+ACCESSION   ATW09963
+VERSION     ATW09963.1
+DBLINK      BioProject: PRJNA338746
+            BioSample: SAMN05870237
+DBSOURCE    accession CP017734.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Dimond,Z.E., Putman,T.E., Suchland,R.J. and Rockey,D.
+  TITLE     Same-Patient genomic Sequencing Analysis
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Dimond,Z.E., Putman,T.E., Suchland,R.J. and Rockey,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2016) Biomedical Sciences, Oregon State
+            University, Dryden Hall, Corvallis, OR 97330, USA
+COMMENT     Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Source bacteria available from Robert Suchland, University of
+            Washington.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 10/20/2016 14:32:33
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 3.3
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 959
+            CDS (total)                       :: 913
+            Genes (coding)                    :: 904
+            CDS (coding)                      :: 904
+            Genes (RNA)                       :: 46
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 37
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 9
+            Pseudo Genes (ambiguous residues) :: 5 of 9
+            Pseudo Genes (frameshifted)       :: 3 of 9
+            Pseudo Genes (incomplete)         :: 2 of 9
+            Pseudo Genes (internal stop)      :: 0 of 9
+            Pseudo Genes (multiple problems)  :: 1 of 9
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis"
+                     /strain="SQ06"
+                     /serovar="Ia"
+                     /isolation_source="epithelial cells"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:813"
+                     /country="USA: Seattle, WA"
+                     /collection_date="Apr-1995"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /locus_tag="BKB94_00900"
+                     /coded_by="CP017734.1:193432..194610"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:SwissProt:O84172.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqnflse ldcilknyag rqtpltevkn
+       61 faraidgpkv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

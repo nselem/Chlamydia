@@ -1,0 +1,66 @@
+LOCUS       AEJ77650                 392 aa            linear   BCT 11-DEC-2013
+DEFINITION  tryptophan synthase, beta subunit [Chlamydia trachomatis L2c].
+ACCESSION   AEJ77650
+VERSION     AEJ77650.1
+DBLINK      BioProject: PRJNA47581
+            BioSample: SAMN00011086
+DBSOURCE    accession CP002024.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis L2c
+  ORGANISM  Chlamydia trachomatis L2c
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Somboonna,N., Wan,R., Ojcius,D.M., Pettengill,M.A., Joseph,S.J.,
+            Chang,A., Hsu,R., Read,T.D. and Dean,D.
+  TITLE     Hypervirulent Chlamydia trachomatis Clinical Strain Is a
+            Recombinant between Lymphogranuloma Venereum (L2) and D Lineages
+  JOURNAL   MBio 2 (3), e00045-11 (2011)
+   PUBMED   21540364
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Somboonna,N., Wan,R., Ojcius,D., Pettengill,M., Joseph,S.J.,
+            Chang,A., Hsu,R., Read,T.D. and Dean,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-APR-2010) Department of Medicine, Division of
+            Infectious Diseases, Emory University School of Medicine, 615
+            Michael Street, Atlanta, GA 30322, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis L2c"
+                     /strain="L2c"
+                     /isolation_source="man with severe proctitis"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:887712"
+     Protein         1..392
+                     /product="tryptophan synthase, beta subunit"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="CTL2C_731"
+                     /coded_by="CP002024.1:511749..512927"
+                     /note="[E] COG1171 Threonine dehydratase"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqsflse ldcilknyag rqtpltevkn
+       61 faraidgprv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

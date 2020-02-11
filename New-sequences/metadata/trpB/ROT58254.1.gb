@@ -1,0 +1,71 @@
+LOCUS       ROT58254                 392 aa            linear   BCT 16-NOV-2018
+DEFINITION  tryptophan synthase, beta subunit [Chlamydia trachomatis].
+ACCESSION   ROT58254
+VERSION     ROT58254.1
+DBLINK      BioProject: PRJNA244639
+            BioSample: SAMN02808317
+DBSOURCE    accession JPNK01000001.1
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis
+  ORGANISM  Chlamydia trachomatis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Myers,G.S., Humphrys,M., Creasy,H.H., Neuendorf,E., Collinetti,E.,
+            Terplan,M., Shou,H., Bavoil,P. and Ravel,J.
+  TITLE     Cultivation-independent whole-genome sequencing of Chlamydia
+            trachomatis from clinical samples by hybridization capture
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Myers,G.S., Humphrys,M., Creasy,H.H., Neuendorf,E., Collinetti,E.,
+            Terplan,M., Shou,H., Bavoil,P. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUL-2014) Institute for Genome Sciences, 801 West
+            Baltimore St, Baltimore, MD 21201, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC Assembly Cell v. 4.2.2
+            Assembly Name         :: ct022V1
+            Genome Coverage       :: 3287x
+            Sequencing Technology :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia trachomatis"
+                     /strain="022V1"
+                     /isolation_source="vaginal swab"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:813"
+                     /country="USA: Baltimore, MD"
+                     /collected_by="Patrik Bavoil"
+     Protein         1..392
+                     /product="tryptophan synthase, beta subunit"
+                     /EC_number="4.2.1.20"
+     Region          7..387
+                     /region_name="trpB"
+                     /note="tryptophan synthase, beta subunit; TIGR00263"
+                     /db_xref="CDD:272987"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="DU07_0175"
+                     /coded_by="JPNK01000001.1:192874..194052"
+                     /transl_table=11
+ORIGIN      
+        1 mfkhkhpfgg aflpeellap iqnlkaewei lktqqnflse ldcilknyag rqtpltevkn
+       61 faraidgpkv flkredllht gahklnnalg qcllakylgk trvvaetgag qhgvatatac
+      121 aylgldcvvy mgakdverqk pnvekmrflg aevvsvtkgs cglkdavnqa lqdwatthsf
+      181 thyclgsalg plpypdivrf fqsvisaevk eqihavagrd pdiliacigg gsnaigffhh
+      241 fipnpkvqli gveggglgis sgkhaarfat grpgvfhgfy syllqdddgq vlqthsisag
+      301 ldypsvgpdh aemhesgraf ytlatdeeal rafflltrne giipalessh alahlvsiap
+      361 slpkeqiviv nlsgrgdkdl pqiirrnrgi ye
+//
+

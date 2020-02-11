@@ -1,0 +1,77 @@
+LOCUS       ETF37732                 392 aa            linear   BCT 12-DEC-2013
+DEFINITION  tryptophan synthase subunit beta [Chlamydia pecorum VR629].
+ACCESSION   ETF37732
+VERSION     ETF37732.1
+DBLINK      BioProject: PRJNA229200
+            BioSample: SAMN02470822
+DBSOURCE    accession AZBD01000005.1
+KEYWORDS    .
+SOURCE      Chlamydia pecorum VR629
+  ORGANISM  Chlamydia pecorum VR629
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Bachmann,N.L., Fraser,T.A., Bertelli,C., Jelocnik,M., Gillett,A.,
+            Funnell,O., Flanagan,C., Myers,G.S., Timms,P. and Polkinghorne,A.
+  TITLE     Comparative genomics of koala, cattle and sheep strains of
+            Chlamydia pecorum
+  JOURNAL   BMC Genomics 15, 667 (2014)
+   PUBMED   25106440
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Bachmann,N.L., Jelocnik,M., Bertelli,C., Myers,G., Timms,P. and
+            Polkinghorne,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2013) Institute of Health and Biomedical
+            Innovation, Queensland University of Technology, 60 Musk Avenue,
+            Kelvin Grove, Brisbane, Queensland 4059, Australia
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: SOAPdenovo v. 1.6
+            Assembly Name         :: CpecVR6291.0
+            Long Assembly Name    :: C pecorum VR629 1.0
+            Genome Coverage       :: 200.0x
+            Sequencing Technology :: Illumina
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Chlamydia pecorum VR629"
+                     /strain="VR629"
+                     /host="Ovis aries"
+                     /db_xref="taxon:1427371"
+                     /country="USA"
+                     /collection_date="1968"
+     Protein         1..392
+                     /product="tryptophan synthase subunit beta"
+     Region          1..387
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Region          47..373
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(82..83,110,186,228..232,346,372)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            83
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+     CDS             1..392
+                     /gene="trpB"
+                     /locus_tag="CpecS_0931"
+                     /coded_by="complement(AZBD01000005.1:447334..448512)"
+                     /transl_table=11
+ORIGIN      
+        1 mkhpyafggq fvpeilmapi qelsnswetl kedrgfkeef dsilkhyagr ptpltevknf
+       61 akaidgprvf lkredllhtg ahkinnvigq cllakylgkt rviaetgagq hgvatataca
+      121 yfgleceiym geedikrqrp nvdkmevlga tvisvtqgsa slkeavneal rnwaesfest
+      181 hyclgsalgp spypdivqsf qsvisfevka qlqeytersp dvliacvggg snaigffhhf
+      241 ipdervklig veagglgiet gkhaarfakg rpgvfhgfys yllqdkegqi lnthsisagm
+      301 nyssvgpvha efyesgrasy ttatdkeale afsllsrseg iipalessha laclirmapk
+      361 lpkesivivn lsgrgdkdll hvknlmesgy ya
+//
+

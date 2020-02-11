@@ -1,0 +1,62 @@
+LOCUS       CAP06816                 253 aa            linear   BCT 06-FEB-2015
+DEFINITION  Tryptophan synthase alpha chain [Chlamydia trachomatis
+            L2b/UCH-1/proctitis].
+ACCESSION   CAP06816
+VERSION     CAP06816.1
+DBLINK      BioProject: PRJNA28585
+            BioSample: SAMEA1705954
+DBSOURCE    embl accession AM884177.2
+KEYWORDS    .
+SOURCE      Chlamydia trachomatis L2b/UCH-1/proctitis
+  ORGANISM  Chlamydia trachomatis L2b/UCH-1/proctitis
+            Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+            Chlamydia/Chlamydophila group; Chlamydia.
+REFERENCE   1
+  AUTHORS   Thomson,N.R., Holden,M.T., Carder,C., Lennard,N., Lockey,S.J.,
+            Marsh,P., Skipp,P., O'Connor,C.D., Goodhead,I., Norbertzcak,H.,
+            Harris,B., Ormond,D., Rance,R., Quail,M.A., Parkhill,J.,
+            Stephens,R.S. and Clarke,I.N.
+  TITLE     Chlamydia trachomatis: genome sequence analysis of lymphogranuloma
+            venereum isolates
+  JOURNAL   Genome Res. 18 (1), 161-171 (2008)
+   PUBMED   18032721
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Thomson,N.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-AUG-2007) Thomson N.R., Pathogen Sequencing Unit, The
+            Wellcome Trust Sanger Institute, Genome Campus, Hinxton, Cambridge,
+            CB10 1SA, UNITED KINGDOM
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Chlamydia trachomatis L2b/UCH-1/proctitis"
+                     /strain="UCH-1"
+                     /serotype="L2"
+                     /db_xref="taxon:471473"
+     Protein         1..253
+                     /product="Tryptophan synthase alpha chain"
+     Region          1..253
+                     /region_name="TrpA"
+                     /note="Tryptophan synthase alpha chain [Amino acid
+                     transport and metabolism]; COG0159"
+                     /db_xref="CDD:223237"
+     CDS             1..253
+                     /gene="trpA"
+                     /locus_tag="CTLon_0418"
+                     /coded_by="AM884177.2:513247..514008"
+                     /transl_table=11
+                     /db_xref="EnsemblGenomes-Gn:CTLon_0418"
+                     /db_xref="EnsemblGenomes-Tr:CAP06816"
+                     /db_xref="GOA:B0BBF2"
+                     /db_xref="InterPro:IPR002028"
+                     /db_xref="InterPro:IPR011060"
+                     /db_xref="InterPro:IPR013785"
+                     /db_xref="InterPro:IPR018204"
+                     /db_xref="UniProtKB/TrEMBL:B0BBF2"
+ORIGIN      
+        1 mskltqvfkq tkpcigylta gdggtsytie aakaliqggv dilelgfpfs dpvadnpeiq
+       61 vshdralaen ltsetlleiv egirafnqev plilysyynp llqrdldylr rlkdagingv
+      121 cvidlpapls hgekspffed llavgldpil lisagttper msliqeyarg flyyipyeat
+      181 rdsevgikee frkvrehfdl pivdrrdicd kkeaahvlny sdgfivktaf vhqttmdssv
+      241 etltalaqtv ipg
+//
+

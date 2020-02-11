@@ -1,0 +1,56 @@
+LOCUS       WP_013943365             389 aa            linear   BCT 20-JUN-2019
+DEFINITION  tryptophan synthase subunit beta [Simkania negevensis].
+ACCESSION   WP_013943365
+VERSION     WP_013943365.1
+KEYWORDS    RefSeq.
+SOURCE      Simkania negevensis
+  ORGANISM  Simkania negevensis
+            Bacteria; Chlamydiae; Parachlamydiales; Simkaniaceae; Simkania.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00263.1
+            Evidence Source    :: JCVI
+            Source Identifier  :: TIGR00263
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..389
+                     /organism="Simkania negevensis"
+                     /db_xref="taxon:83561"
+     gene            1..389
+                     /gene="trpB"
+     Protein         1..389
+                     /product="tryptophan synthase subunit beta"
+                     /EC_number="4.2.1.20"
+                     /calculated_mol_wt=41931
+     Region          1..380
+                     /region_name="PRK04346"
+                     /note="tryptophan synthase subunit beta; Validated"
+                     /db_xref="CDD:235288"
+     Region          47..374
+                     /region_name="PALP"
+                     /note="Pyridoxal-phosphate dependent enzyme; pfam00291"
+                     /db_xref="CDD:278708"
+     Site            order(83..84,111,187,229..233,347,373)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107207"
+     Site            84
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107207"
+ORIGIN      
+        1 mkgrygtfgg ayipeifvtp mqdlkkmwet vqstpqflae lrhvlktyag rptalteinh
+       61 fakaiggpri flkredllht gahklnntlg qcliakkmgk trviaetgag qhgvatatac
+      121 afmgmkcvvy mgkkdvirqa pnvkkmkllg aevipvekgg qtlkdainea mrdwsqtyee
+      181 shyclgsalg phpypemvaf fqkvigeeak kqlleqekcl pdlvvacvgg gsnaigifap
+      241 fieeksvkli gveggghsnk lgehaarfsg gspgilhgth syvlqdengq iaptssisag
+      301 ldypgvgpeh ahlhetkraa yvsvtddeal eafkllskte giipalesah alayvmkvas
+      361 rypkdaiilv nlsgrgekdl pdlfdrgll
+//
+
